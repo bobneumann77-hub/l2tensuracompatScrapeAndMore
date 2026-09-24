@@ -1,0 +1,30 @@
+{
+  "parent": "tensura:master_skill",
+  "criteria": {
+    "skill": {
+      "trigger": "tensura:unique_skill_mastered"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.master_unique_skill.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "tensura:high_quality_magic_crystal"
+    },
+    "title": {
+      "translate": "tensura.advancements.master_unique_skill.title"
+    }
+  },
+  "requirements": [
+    [
+      "skill"
+    ]
+  ],
+  "rewards": {
+    "experience": 20
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:wither",
+  "abilities": [
+    "tensura:gravity_flight",
+    "tensura:corrosion",
+    "tensura:self_regeneration"
+  ],
+  "max_magicule": 15000,
+  "min_magicule": 15000,
+  "spiritualHealth": 4000
+}

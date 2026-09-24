@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:skeleton",
+  "max_magicule": 2000,
+  "min_magicule": 2000,
+  "spiritualHealth": 40
+}

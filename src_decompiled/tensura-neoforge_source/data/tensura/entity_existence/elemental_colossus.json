@@ -1,0 +1,9 @@
+{
+  "type": "tensura:elemental_colossus",
+  "abilities": [
+    "tensura:thermal_fluctuation_resistance"
+  ],
+  "max_magicule": 350000,
+  "min_magicule": 330000,
+  "spiritualHealth": 4500
+}

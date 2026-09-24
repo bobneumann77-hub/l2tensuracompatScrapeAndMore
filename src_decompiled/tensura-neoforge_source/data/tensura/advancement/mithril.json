@@ -1,0 +1,39 @@
+{
+  "parent": "tensura:high_magisteel",
+  "criteria": {
+    "mithril": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tensura:mithril_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.mithril.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "tensura:mithril_ingot"
+    },
+    "title": {
+      "translate": "tensura.advancements.mithril.title"
+    }
+  },
+  "requirements": [
+    [
+      "mithril"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "tensura:advancement_reward/mithril"
+    ]
+  },
+  "sends_telemetry_event": true
+}

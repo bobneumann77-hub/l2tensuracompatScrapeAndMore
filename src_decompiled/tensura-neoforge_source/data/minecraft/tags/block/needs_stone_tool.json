@@ -1,0 +1,25 @@
+{
+  "values": [
+    "tensura:silver_ore",
+    "tensura:silver_block",
+    "tensura:raw_silver_block",
+    "tensura:low_quality_magic_crystal_block",
+    "tensura:low_quality_magic_crystal_stairs",
+    "tensura:low_quality_magic_crystal_slab",
+    "tensura:low_quality_magic_crystal_bricks",
+    "tensura:low_quality_magic_crystal_brick_stairs",
+    "tensura:low_quality_magic_crystal_brick_slab",
+    "tensura:low_quality_magic_crystal_brick_wall",
+    "tensura:chiseled_low_quality_magic_crystal_bricks",
+    "tensura:sarasa_sandstone",
+    "tensura:sarasa_sandstone_stairs",
+    "tensura:sarasa_sandstone_slab",
+    "tensura:sarasa_sandstone_wall",
+    "tensura:cut_sarasa_sandstone",
+    "tensura:cut_sarasa_sandstone_slab",
+    "tensura:chiseled_sarasa_sandstone",
+    "tensura:smooth_sarasa_sandstone",
+    "tensura:smooth_sarasa_sandstone_slab",
+    "tensura:smooth_sarasa_sandstone_stairs"
+  ]
+}

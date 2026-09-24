@@ -1,0 +1,183 @@
+{
+  "parent": "tensura:build_body",
+  "criteria": {
+    "black": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "tensura:arch_daemon",
+              "type_specific": {
+                "type": "tensura:variant_predicate",
+                "variants": [
+                  "BLACK"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tame_animal"
+    },
+    "blue": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "tensura:arch_daemon",
+              "type_specific": {
+                "type": "tensura:variant_predicate",
+                "variants": [
+                  "BLUE"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tame_animal"
+    },
+    "green": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "tensura:arch_daemon",
+              "type_specific": {
+                "type": "tensura:variant_predicate",
+                "variants": [
+                  "GREEN"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tame_animal"
+    },
+    "purple": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "tensura:arch_daemon",
+              "type_specific": {
+                "type": "tensura:variant_predicate",
+                "variants": [
+                  "PURPLE"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tame_animal"
+    },
+    "red": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "tensura:arch_daemon",
+              "type_specific": {
+                "type": "tensura:variant_predicate",
+                "variants": [
+                  "RED"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tame_animal"
+    },
+    "white": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "tensura:arch_daemon",
+              "type_specific": {
+                "type": "tensura:variant_predicate",
+                "variants": [
+                  "WHITE"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tame_animal"
+    },
+    "yellow": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "tensura:arch_daemon",
+              "type_specific": {
+                "type": "tensura:variant_predicate",
+                "variants": [
+                  "YELLOW"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tame_animal"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.rainbow_in_hell.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "tensura:daemon_core"
+    },
+    "title": {
+      "translate": "tensura.advancements.rainbow_in_hell.title"
+    }
+  },
+  "requirements": [
+    [
+      "red"
+    ],
+    [
+      "white"
+    ],
+    [
+      "black"
+    ],
+    [
+      "green"
+    ],
+    [
+      "yellow"
+    ],
+    [
+      "purple"
+    ],
+    [
+      "blue"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,13 @@
+{
+  "values": [
+    "tensura:short_bow",
+    "tensura:long_bow",
+    "tensura:war_bow",
+    "tensura:spider_bow",
+    "tensura:short_spider_bow",
+    "tensura:long_spider_bow",
+    "tensura:war_spider_bow",
+    "tensura:kunai",
+    "tensura:pure_magisteel_kunai"
+  ]
+}

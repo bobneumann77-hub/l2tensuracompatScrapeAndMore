@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#tensura:pegasus_spawn",
+  "spawners": {
+    "type": "tensura:pegasus",
+    "maxCount": 3,
+    "minCount": 1,
+    "weight": 7
+  }
+}

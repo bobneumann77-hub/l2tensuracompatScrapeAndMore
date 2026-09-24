@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#tensura:army_wasp_spawn",
+  "spawners": {
+    "type": "tensura:army_wasp",
+    "maxCount": 2,
+    "minCount": 1,
+    "weight": 40
+  }
+}

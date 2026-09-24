@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_daemon_core": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tensura:daemon_core"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_hihiirokane_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tensura:pure_magisteel_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tensura:hihiirokane_bone_golem"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_daemon_core",
+      "has_hihiirokane_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tensura:hihiirokane_bone_golem"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "values": [
+    "tensura:monster_leather_leggings_d",
+    "tensura:monster_leather_leggings_c",
+    "tensura:monster_leather_leggings_b",
+    "tensura:monster_leather_leggings_a",
+    "tensura:monster_leather_leggings_special_a",
+    "tensura:silver_leggings",
+    "tensura:low_magisteel_leggings",
+    "tensura:high_magisteel_leggings",
+    "tensura:mithril_leggings",
+    "tensura:orichalcum_leggings",
+    "tensura:pure_magisteel_leggings",
+    "tensura:adamantite_leggings",
+    "tensura:hihiirokane_leggings",
+    "tensura:ant_carapace_leggings",
+    "tensura:serpent_scalemail_leggings",
+    "tensura:knight_spider_carapace_leggings",
+    "tensura:armorsaurus_leggings",
+    "tensura:armorsaurus_scalemail_leggings",
+    "tensura:charybdis_scalemail_leggings",
+    "tensura:holy_armaments_leggings",
+    "tensura:dark_leggings"
+  ]
+}

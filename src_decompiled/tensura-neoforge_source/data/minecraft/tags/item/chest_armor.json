@@ -1,0 +1,25 @@
+{
+  "values": [
+    "tensura:monster_leather_chestplate_d",
+    "tensura:monster_leather_chestplate_c",
+    "tensura:monster_leather_chestplate_b",
+    "tensura:monster_leather_chestplate_a",
+    "tensura:monster_leather_chestplate_special_a",
+    "tensura:silver_chestplate",
+    "tensura:low_magisteel_chestplate",
+    "tensura:high_magisteel_chestplate",
+    "tensura:mithril_chestplate",
+    "tensura:orichalcum_chestplate",
+    "tensura:pure_magisteel_chestplate",
+    "tensura:adamantite_chestplate",
+    "tensura:hihiirokane_chestplate",
+    "tensura:ant_carapace_chestplate",
+    "tensura:serpent_scalemail_chestplate",
+    "tensura:knight_spider_carapace_chestplate",
+    "tensura:armorsaurus_chestplate",
+    "tensura:armorsaurus_scalemail_chestplate",
+    "tensura:charybdis_scalemail_chestplate",
+    "tensura:holy_armaments_chestplate",
+    "tensura:dark_jacket"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "tensura:real_adventure",
+  "criteria": {
+    "giant_ant_carapace": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tensura:giant_ant_carapace"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.vigilant.description"
+    },
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "tensura:giant_ant_carapace"
+    },
+    "title": {
+      "translate": "tensura.advancements.vigilant.title"
+    }
+  },
+  "requirements": [
+    [
+      "giant_ant_carapace"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "tensura:advancement_reward/vigilant"
+    ]
+  },
+  "sends_telemetry_event": true
+}

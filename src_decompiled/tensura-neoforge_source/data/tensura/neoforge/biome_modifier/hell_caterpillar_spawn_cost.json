@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_spawn_costs",
+  "biomes": "#tensura:hell_caterpillar_spawn",
+  "entity_types": "tensura:hell_caterpillar",
+  "spawn_cost": {
+    "charge": 1.2,
+    "energy_budget": 4.0
+  }
+}

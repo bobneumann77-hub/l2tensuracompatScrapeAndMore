@@ -1,0 +1,14 @@
+{
+  "type": "tensura:smithing_bench",
+  "input1": {
+    "item": "minecraft:diamond"
+  },
+  "inputAmount1": 7,
+  "output": {
+    "count": 1,
+    "id": "minecraft:diamond_leggings"
+  },
+  "schematics": [
+    "tensura:diamond_gear_schematic"
+  ]
+}

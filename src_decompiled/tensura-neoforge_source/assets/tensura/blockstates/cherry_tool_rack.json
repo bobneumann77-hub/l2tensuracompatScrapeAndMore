@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "tensura:block/cherry_tool_rack",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "tensura:block/cherry_tool_rack"
+    },
+    "facing=south": {
+      "model": "tensura:block/cherry_tool_rack",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tensura:block/cherry_tool_rack",
+      "y": 270
+    }
+  }
+}

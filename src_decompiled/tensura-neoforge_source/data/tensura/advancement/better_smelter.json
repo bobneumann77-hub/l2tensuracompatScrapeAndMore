@@ -1,0 +1,33 @@
+{
+  "parent": "tensura:start_smithing",
+  "criteria": {
+    "kiln": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tensura:kiln"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.better_smelter.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "tensura:kiln"
+    },
+    "title": {
+      "translate": "tensura.advancements.better_smelter.title"
+    }
+  },
+  "requirements": [
+    [
+      "kiln"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

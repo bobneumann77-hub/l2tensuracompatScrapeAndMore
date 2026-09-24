@@ -1,0 +1,15 @@
+{
+  "modifiers": [
+    {
+      "mode": "MULTIPLY",
+      "value": 1.2
+    }
+  ],
+  "regen_modifiers": [
+    {
+      "mode": "MULTIPLY",
+      "value": 1.25
+    }
+  ],
+  "world": "minecraft:the_nether"
+}

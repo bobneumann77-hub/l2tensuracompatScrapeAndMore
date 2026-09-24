@@ -1,0 +1,11 @@
+{
+  "type": "tensura:armorsaurus",
+  "abilities": [
+    "tensura:body_armor"
+  ],
+  "max_aura": 3500,
+  "max_magicule": 2500,
+  "min_aura": 3000,
+  "min_magicule": 2000,
+  "spiritualHealth": 200
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "tensura:hiss_tory",
+  "criteria": {
+    "ifrit": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "tensura:ifrit",
+              "type_specific": {
+                "type": "tensura:tamed_predicate",
+                "tamed": false
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.conqueror_of_flames.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "tensura:anti_magic_mask"
+    },
+    "title": {
+      "translate": "tensura.advancements.conqueror_of_flames.title"
+    }
+  },
+  "requirements": [
+    [
+      "ifrit"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

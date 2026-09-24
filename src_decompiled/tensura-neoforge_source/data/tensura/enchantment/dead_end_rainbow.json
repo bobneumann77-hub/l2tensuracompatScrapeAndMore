@@ -1,0 +1,61 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "enchantment.tensura.dead_end_rainbow"
+  },
+  "effects": {
+    "minecraft:armor_effectiveness": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": -1.0,
+            "per_level_above_first": -1.0
+          }
+        }
+      }
+    ],
+    "tensura:after_attack": [
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "tensura:dead_end_rainbow",
+          "attack_number": 7,
+          "bonus_percentage": {
+            "type": "minecraft:linear",
+            "base": 0.1,
+            "per_level_above_first": 0.1
+          },
+          "cooldown": 20,
+          "max_amount": {
+            "type": "minecraft:linear",
+            "base": 500.0,
+            "per_level_above_first": 500.0
+          },
+          "min_amount": {
+            "type": "minecraft:linear",
+            "base": 10.0,
+            "per_level_above_first": 10.0
+          }
+        },
+        "enchanted": "attacker"
+      }
+    ]
+  },
+  "exclusive_set": "#tensura:engraving_exclusive",
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 50
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 50,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#tensura:handheld_enchantable",
+  "weight": 1
+}

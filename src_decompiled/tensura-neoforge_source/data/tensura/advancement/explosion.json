@@ -1,0 +1,34 @@
+{
+  "parent": "tensura:youre_a_wizard",
+  "criteria": {
+    "magic": {
+      "conditions": {
+        "skill": "tensura:explosion"
+      },
+      "trigger": "tensura:special_activation"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.explosion.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "components": {
+        "tensura:skill": "tensura:explosion"
+      },
+      "count": 1,
+      "id": "tensura:magic_tome"
+    },
+    "title": {
+      "translate": "tensura.advancements.explosion.title"
+    }
+  },
+  "requirements": [
+    [
+      "magic"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

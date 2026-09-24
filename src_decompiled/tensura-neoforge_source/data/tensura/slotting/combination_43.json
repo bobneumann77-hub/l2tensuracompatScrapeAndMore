@@ -1,0 +1,16 @@
+{
+  "combinationID": 43,
+  "durability": 2,
+  "fireCores": 1,
+  "fireMultiplier": 2.0,
+  "projectileCost": 6,
+  "slottingProjectile": {
+    "damage": 2.25,
+    "entity": "tensura:steam_ball",
+    "knockbackForce": 1.0,
+    "noGravity": true,
+    "speed": 2.75
+  },
+  "waterCores": 2,
+  "waterMultiplier": 3.0
+}

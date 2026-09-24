@@ -1,0 +1,21 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "enchantment.tensura.growth"
+  },
+  "exclusive_set": "#tensura:engraving_exclusive",
+  "max_cost": {
+    "base": 100,
+    "per_level_above_first": 100
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 100,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "any"
+  ],
+  "supported_items": "#minecraft:enchantable/durability",
+  "weight": 1
+}

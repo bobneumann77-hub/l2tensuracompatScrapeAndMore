@@ -1,0 +1,16 @@
+{
+  "name": "破魔",
+  "icon": "l2hostility:dispell",
+  "category": "l2hostility:traits",
+  "pages": [
+	{
+	  "type": "patchouli:spotlight",
+	  "item": "l2hostility:dispell",
+	  "text": "拥有此词条的怪物将无视目标的魔法保护, 并会在一段时间内会短暂消除你身上随机一件装备的附魔，除此之外怪物还将对魔法伤害有极高抗性。"
+	},
+	{
+	  "type": "patchouli:text",
+	  "text": "你需要盾牌来对抗这些残暴的家伙，否则你可能会一命呜呼。"
+	}
+  ]
+}

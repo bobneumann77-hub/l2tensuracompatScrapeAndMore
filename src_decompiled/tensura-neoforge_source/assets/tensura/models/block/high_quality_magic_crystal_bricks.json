@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "tensura:block/high_quality_magic_crystal_bricks"
+  }
+}

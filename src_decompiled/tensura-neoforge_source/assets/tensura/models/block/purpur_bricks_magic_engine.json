@@ -1,0 +1,7 @@
+{
+  "parent": "tensura:block/magic_engine",
+  "textures": {
+    "1": "minecraft:block/purpur_block",
+    "particle": "minecraft:block/purpur_block"
+  }
+}

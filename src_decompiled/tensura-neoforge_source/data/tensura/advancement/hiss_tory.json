@@ -1,0 +1,39 @@
+{
+  "parent": "tensura:shell_lizard",
+  "criteria": {
+    "serpent_scale": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tensura:serpent_scale"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.hiss_tory.description"
+    },
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "tensura:serpent_scale"
+    },
+    "title": {
+      "translate": "tensura.advancements.hiss_tory.title"
+    }
+  },
+  "requirements": [
+    [
+      "serpent_scale"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "tensura:advancement_reward/hiss_tory"
+    ]
+  },
+  "sends_telemetry_event": true
+}

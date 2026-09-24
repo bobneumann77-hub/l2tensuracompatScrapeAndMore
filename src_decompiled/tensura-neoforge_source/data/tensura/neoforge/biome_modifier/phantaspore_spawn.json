@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#tensura:phantaspore_spawn",
+  "spawners": {
+    "type": "tensura:phantaspore",
+    "maxCount": 1,
+    "minCount": 1,
+    "weight": 5
+  }
+}

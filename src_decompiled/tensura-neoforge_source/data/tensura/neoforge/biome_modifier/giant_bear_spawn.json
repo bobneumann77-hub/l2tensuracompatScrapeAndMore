@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#tensura:giant_bear_spawn",
+  "spawners": {
+    "type": "tensura:giant_bear",
+    "maxCount": 1,
+    "minCount": 1,
+    "weight": 10
+  }
+}

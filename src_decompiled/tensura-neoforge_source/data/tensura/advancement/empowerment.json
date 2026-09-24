@@ -1,0 +1,45 @@
+{
+  "parent": "tensura:reincarnated",
+  "criteria": {
+    "ep": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "tensura:existence_point_predicate",
+                "EP": 1.0,
+                "affectedByGamerule": true,
+                "blackListSpawnType": [
+                  "MOB_SUMMONED",
+                  "TRIGGERED"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.empowerment.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "tensura:slime_chunk"
+    },
+    "title": {
+      "translate": "tensura.advancements.empowerment.title"
+    }
+  },
+  "requirements": [
+    [
+      "ep"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

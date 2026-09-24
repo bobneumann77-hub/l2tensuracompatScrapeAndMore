@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:zombie",
+  "max_magicule": 1400,
+  "min_magicule": 1400,
+  "spiritualHealth": 40
+}

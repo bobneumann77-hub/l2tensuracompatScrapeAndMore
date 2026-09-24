@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#tensura:tempest_serpent_spawn",
+  "spawners": {
+    "type": "tensura:tempest_serpent",
+    "maxCount": 1,
+    "minCount": 1,
+    "weight": 40
+  }
+}

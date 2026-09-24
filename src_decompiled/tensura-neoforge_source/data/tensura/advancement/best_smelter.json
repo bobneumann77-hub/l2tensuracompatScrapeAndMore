@@ -1,0 +1,35 @@
+{
+  "parent": "tensura:even_better_smelter",
+  "criteria": {
+    "kiln": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tensura:kiln_orichalcum"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.best_smelter.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "tensura:kiln_orichalcum"
+    },
+    "title": {
+      "translate": "tensura.advancements.best_smelter.title"
+    }
+  },
+  "requirements": [
+    [
+      "kiln"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

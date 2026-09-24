@@ -1,0 +1,40 @@
+{
+  "parent": "tensura:adamantite",
+  "criteria": {
+    "items": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#tensura:hihiirokane_items"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.hihiirokane.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "tensura:hihiirokane_ingot"
+    },
+    "title": {
+      "translate": "tensura.advancements.hihiirokane.title"
+    }
+  },
+  "requirements": [
+    [
+      "items"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "tensura:advancement_reward/hihiirokane"
+    ]
+  },
+  "sends_telemetry_event": true
+}

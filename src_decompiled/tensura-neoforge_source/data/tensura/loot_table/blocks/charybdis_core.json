@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:copy_components",
+              "include": [
+                "tensura:existence_durability"
+              ],
+              "source": "block_entity"
+            },
+            {
+              "block": "tensura:charybdis_core",
+              "function": "minecraft:copy_state",
+              "properties": [
+                "sculk_sensor_phase"
+              ]
+            }
+          ],
+          "name": "tensura:charybdis_core"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "tensura:blocks/charybdis_core"
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:iron_golem",
+  "abilities": [
+    "tensura:strength"
+  ],
+  "max_magicule": 5400,
+  "min_magicule": 5400,
+  "spiritualHealth": 200
+}

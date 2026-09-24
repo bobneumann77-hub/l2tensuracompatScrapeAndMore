@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "tensura:block/tatami_carpet",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "tensura:block/tatami_carpet"
+    },
+    "facing=south": {
+      "model": "tensura:block/tatami_carpet",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tensura:block/tatami_carpet",
+      "y": 270
+    }
+  }
+}

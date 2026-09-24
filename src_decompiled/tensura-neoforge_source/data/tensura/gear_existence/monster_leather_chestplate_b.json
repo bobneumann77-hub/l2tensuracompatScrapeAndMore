@@ -1,0 +1,7 @@
+{
+  "type": "tensura:monster_leather_chestplate_b",
+  "epGain": 0.01,
+  "evolution": "tensura:monster_leather_chestplate_a",
+  "maxEP": 8000,
+  "minEP": 5000
+}

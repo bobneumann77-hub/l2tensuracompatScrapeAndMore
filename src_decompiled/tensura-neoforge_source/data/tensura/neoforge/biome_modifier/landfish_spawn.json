@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#tensura:landfish_spawn",
+  "spawners": {
+    "type": "tensura:landfish",
+    "maxCount": 3,
+    "minCount": 1,
+    "weight": 1
+  }
+}

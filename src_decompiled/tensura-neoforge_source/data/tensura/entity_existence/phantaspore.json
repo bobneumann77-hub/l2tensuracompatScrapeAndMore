@@ -1,0 +1,12 @@
+{
+  "type": "tensura:phantaspore",
+  "abilities": [
+    "tensura:poison",
+    "tensura:poison_resistance"
+  ],
+  "max_aura": 1000,
+  "max_magicule": 5000,
+  "min_aura": 500,
+  "min_magicule": 2500,
+  "spiritualHealth": 80
+}

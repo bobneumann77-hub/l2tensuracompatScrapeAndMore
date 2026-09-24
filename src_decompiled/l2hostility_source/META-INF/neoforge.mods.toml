@@ -1,0 +1,54 @@
+modLoader = "javafml" #mandatory
+loaderVersion = "[2,)" #mandatory
+license = "LGPL-2.1"
+[[mods]] #mandatory
+modId = "l2hostility" #mandatory
+version = "3.0.18" #mandatory
+displayName = "L2Hostility" #mandatory
+authors = "lcy0x1" #optional
+description = '''Mob enhancements'''
+logoFile="logo.png"
+[[mixins]]
+config="l2hostility.mixins.json"
+[[dependencies.l2hostility]] #optional
+modId = "neoforge" #mandatory
+type = "required" #mandatory
+versionRange = "[21.1.61,)" #mandatory
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.l2hostility]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.l2hostility]]
+modId = "l2library"
+type = "required"
+versionRange = "[3.0.3,)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.l2hostility]]
+modId = "l2complements"
+type = "required"
+versionRange = "[3.1.2,)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.l2hostility]]
+modId = "curios"
+type = "required"
+versionRange = "[5,)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.l2hostility]]
+modId = "patchouli"
+type = "required"
+versionRange = "[0,)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.l2hostility]]
+modId = "cataclysm"
+type = "optional"
+versionRange = "[3.23,)"
+ordering = "NONE"
+side = "BOTH"

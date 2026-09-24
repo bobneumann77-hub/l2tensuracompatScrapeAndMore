@@ -1,0 +1,79 @@
+package io.github.manasmods.tensura.race.demon;
+
+import io.github.manasmods.manascore.config.ConfigRegistry;
+import io.github.manasmods.manascore.race.api.ManasRace;
+import io.github.manasmods.manascore.race.api.ManasRaceInstance;
+import io.github.manasmods.manascore.race.api.ManasRace.Difficulty;
+import io.github.manasmods.manascore.skill.api.ManasSkill;
+import io.github.manasmods.manascore.skill.api.SkillAPI;
+import io.github.manasmods.tensura.ability.TensuraSkill;
+import io.github.manasmods.tensura.config.race.DaemonConfig;
+import io.github.manasmods.tensura.config.race.RaceConfig;
+import io.github.manasmods.tensura.race.template.EvolutionRequirement;
+import io.github.manasmods.tensura.registry.race.TensuraRaces;
+import java.util.List;
+import java.util.Map;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.entity.LivingEntity;
+import org.jetbrains.annotations.Nullable;
+
+public class DaemonLordRace extends ArchDaemonRace {
+   public DaemonLordRace(Difficulty difficulty) {
+      super(difficulty);
+   }
+
+   public DaemonLordRace() {
+      super(Difficulty.EASY);
+      this.applyDefaultAttributeModifiers();
+   }
+
+   @Override
+   public RaceConfig.Default getDefaultConfig() {
+      return ((DaemonConfig)ConfigRegistry.getConfig(DaemonConfig.class)).DaemonLord;
+   }
+
+   @Override
+   public ManasRace getDefaultEvolution(ManasRaceInstance instance, LivingEntity entity) {
+      return (ManasRace)TensuraRaces.DEVIL_LORD.get();
+   }
+
+   @Nullable
+   @Override
+   public ManasRace getAwakeningEvolution(ManasRaceInstance instance, LivingEntity entity) {
+      return null;
+   }
+
+   @Override
+   public List<ManasRace> getNextEvolutions(ManasRaceInstance instance, LivingEntity entity) {
+      return List.of((ManasRace)TensuraRaces.DEVIL_LORD.get());
+   }
+
+   @Override
+   public List<ManasRace> getPreviousEvolutions(ManasRaceInstance instance, LivingEntity entity) {
+      return List.of((ManasRace)TensuraRaces.ARCH_DAEMON.get());
+   }
+
+   @Override
+   public Map<EvolutionRequirement, Float> getEvolutionRequirements(ManasRaceInstance previous, LivingEntity entity) {
+      return Map.of(
+         new EvolutionRequirement.AwakenRequirement(),
+         50.0F,
+         new EvolutionRequirement.NamedRequirement(),
+         50.0F,
+         new EvolutionRequirement.PhysicalBodyRequirement(),
+         50.0F
+      );
+   }
+
+   @Override
+   public List<TensuraSkill> getIntrinsicLearnable(ManasRaceInstance instance, LivingEntity entity) {
+      return ((DaemonConfig)ConfigRegistry.getConfig(DaemonConfig.class))
+         .DaemonLord
+         .learnableMagics
+         .stream()
+         .map(id -> (ManasSkill)SkillAPI.getSkillRegistry().get(ResourceLocation.parse(id)))
+         .filter(skill -> skill instanceof TensuraSkill)
+         .map(skill -> (TensuraSkill)skill)
+         .toList();
+   }
+}

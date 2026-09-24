@@ -1,0 +1,16 @@
+{
+  "name": "杀戮光环",
+  "icon": "l2hostility:killer_aura",
+  "category": "l2hostility:traits",
+  "pages": [
+	{
+	  "type": "patchouli:spotlight",
+	  "item": "l2hostility:killer_aura",
+	  "text": "持有这个词条的怪物会对周围的玩家造成魔法伤害，并且即使你免疫这伤害，其他攻击词条效果也会对你生。$(br2)只在非常高等级的怪物身上出现，前期不需要担心"
+	},
+	{
+	  "type": "patchouli:text",
+	  "text": "对付持有这个词条的怪物最好使用远程武器，或者准备好抵消伤害和效果的装备硬闯"
+	}
+  ]
+}

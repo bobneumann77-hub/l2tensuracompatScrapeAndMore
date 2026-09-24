@@ -1,0 +1,61 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.warp_portal",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 6,
+				"visible_bounds_height": 7,
+				"visible_bounds_offset": [0, 1.5, 0]
+			},
+			"bones": [
+				{
+					"name": "All",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "front",
+					"parent": "All",
+					"pivot": [0, 0, -0.1],
+					"cubes": [
+						{"origin": [-20, -20, -0.1], "size": [40, 40, 0], "inflate": 0.01, "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "middle_front",
+					"parent": "All",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-20, -20, 0], "size": [40, 40, 0], "inflate": 0.01, "uv": [0, 40]}
+					]
+				},
+				{
+					"name": "center",
+					"parent": "All",
+					"pivot": [0, 0, 0.2],
+					"cubes": [
+						{"origin": [-20, -20, 0.2], "size": [40, 40, 0], "inflate": 0.01, "uv": [0, 80]}
+					]
+				},
+				{
+					"name": "middle_back",
+					"parent": "All",
+					"pivot": [0, 0, 0.3],
+					"cubes": [
+						{"origin": [-20, -20, 0.3], "size": [40, 40, 0], "inflate": 0.01, "uv": [0, 40]}
+					]
+				},
+				{
+					"name": "back",
+					"parent": "All",
+					"pivot": [0, 0, 0.6],
+					"cubes": [
+						{"origin": [-20, -20, 0.6], "size": [40, 40, 0], "inflate": 0.01, "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

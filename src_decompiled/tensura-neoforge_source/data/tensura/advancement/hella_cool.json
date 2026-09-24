@@ -1,0 +1,38 @@
+{
+  "parent": "tensura:hell",
+  "criteria": {
+    "daemons": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "#tensura:daemons"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tame_animal"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.hella_cool.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "tensura:lesser_daemon_spawn_egg"
+    },
+    "title": {
+      "translate": "tensura.advancements.hella_cool.title"
+    }
+  },
+  "requirements": [
+    [
+      "daemons"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

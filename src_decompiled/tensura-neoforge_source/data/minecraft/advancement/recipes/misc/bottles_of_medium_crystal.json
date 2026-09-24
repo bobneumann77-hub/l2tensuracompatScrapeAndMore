@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_medium_crystal": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tensura:medium_quality_magic_crystal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:bottles_of_medium_crystal"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_medium_crystal"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:bottles_of_medium_crystal"
+    ]
+  }
+}

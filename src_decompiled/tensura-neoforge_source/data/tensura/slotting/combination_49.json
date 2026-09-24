@@ -1,0 +1,18 @@
+{
+  "combinationID": 49,
+  "durability": 3,
+  "projectileCost": 7,
+  "slottingProjectile": {
+    "damage": 2.0,
+    "effect": {
+      "effectID": "tensura:fatal_poison",
+      "ticks": 100
+    },
+    "entity": "tensura:space_cut_projectile",
+    "speed": 1.75
+  },
+  "spaceCores": 1,
+  "spaceMultiplier": 1.0,
+  "waterCores": 2,
+  "waterMultiplier": 2.0
+}

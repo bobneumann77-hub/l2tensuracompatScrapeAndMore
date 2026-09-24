@@ -1,0 +1,37 @@
+{
+  "parent": "tensura:real_adventure",
+  "criteria": {
+    "monster": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "#tensura:monster"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tame_animal"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.monster_tamer.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "tensura:monster_leather_b"
+    },
+    "title": {
+      "translate": "tensura.advancements.monster_tamer.title"
+    }
+  },
+  "requirements": [
+    [
+      "monster"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

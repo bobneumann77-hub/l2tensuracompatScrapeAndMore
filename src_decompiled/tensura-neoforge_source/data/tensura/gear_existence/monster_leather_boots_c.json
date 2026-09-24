@@ -1,0 +1,7 @@
+{
+  "type": "tensura:monster_leather_boots_c",
+  "epGain": 0.005,
+  "evolution": "tensura:monster_leather_boots_b",
+  "maxEP": 5000,
+  "minEP": 2500
+}

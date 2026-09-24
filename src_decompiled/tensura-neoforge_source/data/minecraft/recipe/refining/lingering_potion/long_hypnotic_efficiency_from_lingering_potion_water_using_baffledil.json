@@ -1,0 +1,33 @@
+{
+  "type": "tensura:refining",
+  "input": {
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:water"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:lingering_potion"
+  },
+  "input1": {
+    "item": "tensura:baffledil"
+  },
+  "input2": {
+    "item": "minecraft:nether_wart"
+  },
+  "input3": {
+    "item": "minecraft:redstone"
+  },
+  "input4": {
+    "item": "minecraft:fermented_spider_eye"
+  },
+  "output": {
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "tensura:long_hypnotic_efficiency"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:lingering_potion"
+  }
+}

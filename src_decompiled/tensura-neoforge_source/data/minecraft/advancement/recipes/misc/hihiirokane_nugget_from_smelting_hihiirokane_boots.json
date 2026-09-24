@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_hihiirokane_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tensura:hihiirokane_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:hihiirokane_nugget_from_smelting_hihiirokane_boots"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_hihiirokane_boots"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:hihiirokane_nugget_from_smelting_hihiirokane_boots"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "tensura:high_quality_magic_crystal_block"
+  },
+  "result": {
+    "count": 1,
+    "id": "tensura:high_quality_magic_crystal_stairs"
+  }
+}

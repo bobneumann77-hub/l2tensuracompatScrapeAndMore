@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#tensura:orc_spawn",
+  "spawners": {
+    "type": "tensura:orc",
+    "maxCount": 4,
+    "minCount": 1,
+    "weight": 80
+  }
+}

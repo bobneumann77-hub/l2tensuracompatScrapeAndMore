@@ -1,0 +1,34 @@
+{
+  "parent": "tensura:s_rank",
+  "criteria": {
+    "ep": {
+      "conditions": {
+        "ep": 800000.0
+      },
+      "trigger": "tensura:existence_gain"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.ss_rank.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "tensura:hihiirokane_nugget"
+    },
+    "title": {
+      "translate": "tensura.advancements.ss_rank.title"
+    }
+  },
+  "requirements": [
+    [
+      "ep"
+    ]
+  ],
+  "rewards": {
+    "experience": 30
+  },
+  "sends_telemetry_event": true
+}

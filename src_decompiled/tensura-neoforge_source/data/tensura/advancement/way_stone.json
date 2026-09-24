@@ -1,0 +1,34 @@
+{
+  "parent": "tensura:no_no_square",
+  "criteria": {
+    "block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#tensura:warp_pads"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.way_stone.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "tensura:stone_warp_pad"
+    },
+    "title": {
+      "translate": "tensura.advancements.way_stone.title"
+    }
+  },
+  "requirements": [
+    [
+      "block"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

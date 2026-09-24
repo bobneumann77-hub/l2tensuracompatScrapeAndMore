@@ -1,0 +1,9 @@
+{
+  "type": "tensura:army_wasp",
+  "abilities": [
+    "tensura:poison"
+  ],
+  "max_magicule": 15000,
+  "min_magicule": 10000,
+  "spiritualHealth": 160
+}

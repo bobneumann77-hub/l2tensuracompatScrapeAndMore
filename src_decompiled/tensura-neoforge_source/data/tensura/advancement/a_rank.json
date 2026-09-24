@@ -1,0 +1,30 @@
+{
+  "parent": "tensura:b_rank",
+  "criteria": {
+    "ep": {
+      "conditions": {
+        "ep": 10000.0
+      },
+      "trigger": "tensura:existence_gain"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.a_rank.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "tensura:orichalcum_nugget"
+    },
+    "title": {
+      "translate": "tensura.advancements.a_rank.title"
+    }
+  },
+  "requirements": [
+    [
+      "ep"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "tensura:block/kiln_bottom",
+  "textures": {
+    "0": "tensura:block/kiln_orichalcum_bottom_lit",
+    "particle": "minecraft:block/obsidian"
+  }
+}

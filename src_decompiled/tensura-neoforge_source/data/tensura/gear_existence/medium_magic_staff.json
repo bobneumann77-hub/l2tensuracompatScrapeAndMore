@@ -1,0 +1,7 @@
+{
+  "type": "tensura:medium_magic_staff",
+  "epGain": 0.02,
+  "evolution": "tensura:high_magic_staff",
+  "maxEP": 52000,
+  "minEP": 18000
+}

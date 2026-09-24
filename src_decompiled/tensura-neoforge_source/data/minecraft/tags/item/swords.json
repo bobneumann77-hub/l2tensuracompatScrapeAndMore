@@ -1,0 +1,21 @@
+{
+  "values": [
+    "#tensura:daggers",
+    "#tensura:short_swords",
+    "#tensura:long_swords",
+    "#tensura:great_swords",
+    "#tensura:katanas",
+    "#tensura:kodachis",
+    "#tensura:tachis",
+    "#tensura:odachis",
+    "tensura:silver_sword",
+    "tensura:low_magisteel_sword",
+    "tensura:high_magisteel_sword",
+    "tensura:mithril_sword",
+    "tensura:orichalcum_sword",
+    "tensura:pure_magisteel_sword",
+    "tensura:adamantite_sword",
+    "tensura:hihiirokane_sword",
+    "tensura:spatial_blade"
+  ]
+}

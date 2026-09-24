@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_spawn_costs",
+  "biomes": "#tensura:horned_bear_spawn",
+  "entity_types": "tensura:horned_bear",
+  "spawn_cost": {
+    "charge": 1.8,
+    "energy_budget": 4.0
+  }
+}

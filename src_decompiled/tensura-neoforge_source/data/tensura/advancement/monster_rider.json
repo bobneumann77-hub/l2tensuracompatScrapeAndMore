@@ -1,0 +1,33 @@
+{
+  "parent": "tensura:monster_tamer",
+  "criteria": {
+    "saddle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tensura:monster_saddle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.monster_rider.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "tensura:monster_saddle"
+    },
+    "title": {
+      "translate": "tensura.advancements.monster_rider.title"
+    }
+  },
+  "requirements": [
+    [
+      "saddle"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

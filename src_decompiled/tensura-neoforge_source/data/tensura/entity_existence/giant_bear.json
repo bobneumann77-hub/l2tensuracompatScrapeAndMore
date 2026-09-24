@@ -1,0 +1,8 @@
+{
+  "type": "tensura:giant_bear",
+  "max_aura": 4000,
+  "max_magicule": 3000,
+  "min_aura": 3000,
+  "min_magicule": 1000,
+  "spiritualHealth": 80
+}

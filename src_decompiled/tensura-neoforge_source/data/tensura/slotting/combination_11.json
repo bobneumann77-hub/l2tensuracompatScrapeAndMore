@@ -1,0 +1,14 @@
+{
+  "combinationID": 11,
+  "durability": 4,
+  "fireCores": 2,
+  "fireMultiplier": 1.5,
+  "projectileCost": 8,
+  "slottingProjectile": {
+    "burnTicks": 300,
+    "damage": 2.0,
+    "entity": "tensura:fire_bolt",
+    "explosionRadius": 1.0,
+    "speed": 2.0
+  }
+}

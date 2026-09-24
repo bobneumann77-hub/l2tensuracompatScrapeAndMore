@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:drowned",
+  "max_magicule": 1600,
+  "min_magicule": 1600,
+  "spiritualHealth": 40
+}

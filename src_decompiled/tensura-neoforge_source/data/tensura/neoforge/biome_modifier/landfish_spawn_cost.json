@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_spawn_costs",
+  "biomes": "#tensura:landfish_spawn",
+  "entity_types": "tensura:landfish",
+  "spawn_cost": {
+    "charge": 4.0,
+    "energy_budget": 4.0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_spawn_costs",
+  "biomes": "#tensura:army_wasp_spawn",
+  "entity_types": "tensura:army_wasp",
+  "spawn_cost": {
+    "charge": 2.18,
+    "energy_budget": 4.0
+  }
+}

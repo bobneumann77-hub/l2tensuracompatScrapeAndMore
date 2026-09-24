@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+      { "model": "tensura:block/webbed_cobblestone_0" },
+      { "model": "tensura:block/webbed_cobblestone_1" },
+      { "model": "tensura:block/webbed_cobblestone_2" },
+      { "model": "tensura:block/webbed_cobblestone_3" }
+    ]
+  }
+}

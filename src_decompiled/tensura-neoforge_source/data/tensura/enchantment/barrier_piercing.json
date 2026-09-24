@@ -1,0 +1,61 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "enchantment.tensura.barrier_piercing"
+  },
+  "effects": {
+    "minecraft:armor_effectiveness": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": -0.2,
+            "per_level_above_first": -0.2
+          }
+        }
+      }
+    ],
+    "minecraft:projectile_piercing": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 3.0,
+            "per_level_above_first": 3.0
+          }
+        }
+      }
+    ],
+    "tensura:after_attack": [
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "tensura:barrier_piercing",
+          "percentage": {
+            "type": "minecraft:linear",
+            "base": 0.1,
+            "per_level_above_first": 0.1
+          }
+        },
+        "enchanted": "attacker"
+      }
+    ]
+  },
+  "exclusive_set": "#tensura:engraving_exclusive",
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 50
+  },
+  "max_level": 2,
+  "min_cost": {
+    "base": 50,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#tensura:handheld_enchantable",
+  "weight": 1
+}

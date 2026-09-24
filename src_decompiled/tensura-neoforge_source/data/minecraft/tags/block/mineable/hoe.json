@@ -1,0 +1,16 @@
+{
+  "values": [
+    "tensura:palm_leaves",
+    "tensura:thatch_block",
+    "tensura:thatch_stairs",
+    "tensura:thatch_slab",
+    "tensura:thatch_wall",
+    "tensura:tatami_block",
+    "tensura:tatami_carpet",
+    "tensura:single_tatami_block",
+    "tensura:single_tatami_carpet",
+    "tensura:moth_egg",
+    "tensura:spider_egg",
+    "tensura:charybdis_core"
+  ]
+}

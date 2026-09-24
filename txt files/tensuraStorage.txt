@@ -1,0 +1,21 @@
+PS C:\Users\yllis\OneDrive\Desktop\tensura-neoforge-2.0.1.2> javap -cp . io.github.manasmods.tensura.storage.TensuraStorages
+Compiled from "TensuraStorages.java"
+public class io.github.manasmods.tensura.storage.TensuraStorages {
+  public io.github.manasmods.tensura.storage.TensuraStorages();
+  public static void init();
+  public static io.github.manasmods.tensura.storage.ability.IAbility getAbilityFrom(net.minecraft.world.entity.LivingEntity);
+  public static io.github.manasmods.tensura.storage.chunk.ChunkStorage getChunkFrom(net.minecraft.world.level.chunk.LevelChunk);
+  public static io.github.manasmods.tensura.storage.effect.IEffect getEffectFrom(net.minecraft.world.entity.LivingEntity);
+  public static io.github.manasmods.tensura.storage.ep.IExistence getExistenceFrom(net.minecraft.world.entity.LivingEntity);
+  public static io.github.manasmods.tensura.storage.spirit.ISpiritWielder getSpiritFrom(net.minecraft.world.entity.LivingEntity);
+  public static io.github.manasmods.tensura.storage.player.ITensuraPlayer getPlayerDataFrom(net.minecraft.world.entity.LivingEntity);
+  public static io.github.manasmods.tensura.storage.boss.template.IBossFightHolder getBossFightHolder(net.minecraft.world.level.Level);
+  public static io.github.manasmods.tensura.storage.labyrinth.ILabyrinth getLabyrinthFrom(net.minecraft.world.level.Level);
+  public static io.github.manasmods.tensura.storage.unique.ITrulyUnique getUniqueStorageFrom(net.minecraft.world.level.Level);
+  public static io.github.manasmods.tensura.storage.restriction.template.IWorldRestriction getWorldRestrictionFrom(net.minecraft.world.level.Level);
+  public static void resetExistence(net.minecraft.world.entity.LivingEntity);
+  public static void resetExistence(net.minecraft.world.entity.LivingEntity, boolean, boolean, boolean);
+  public static void resetEffect(net.minecraft.world.entity.LivingEntity);
+  public static void resetPlayerData(net.minecraft.world.entity.LivingEntity);
+  public static void resetSpirit(net.minecraft.world.entity.LivingEntity);
+}

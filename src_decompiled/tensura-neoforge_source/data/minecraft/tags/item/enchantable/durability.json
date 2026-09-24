@@ -1,0 +1,24 @@
+{
+  "values": [
+    "#tensura:shields",
+    "#tensura:sickles",
+    "#tensura:spears",
+    "#tensura:scythes",
+    "#tensura:tridents",
+    "#tensura:fist_weapons",
+    "#tensura:spell_cast_weapons",
+    "#tensura:pouches",
+    "tensura:short_bow",
+    "tensura:long_bow",
+    "tensura:war_bow",
+    "tensura:spider_bow",
+    "tensura:short_spider_bow",
+    "tensura:long_spider_bow",
+    "tensura:war_spider_bow",
+    "tensura:ant_crossbow",
+    "tensura:kunai",
+    "tensura:pure_magisteel_kunai",
+    "tensura:goblin_club",
+    "tensura:kanabo"
+  ]
+}

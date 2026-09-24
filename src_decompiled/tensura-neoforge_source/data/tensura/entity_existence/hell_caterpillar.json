@@ -1,0 +1,9 @@
+{
+  "type": "tensura:hell_caterpillar",
+  "evolution": "tensura:hell_moth",
+  "max_aura": 2000,
+  "max_magicule": 2999,
+  "min_aura": 1000,
+  "min_magicule": 2000,
+  "spiritualHealth": 40
+}

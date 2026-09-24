@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "bottom": "tensura:block/labyrinth_light_path",
+    "side": "tensura:block/labyrinth_light_path",
+    "top": "tensura:block/labyrinth_light_path"
+  }
+}

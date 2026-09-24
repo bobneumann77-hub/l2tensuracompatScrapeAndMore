@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_spawn_costs",
+  "biomes": "#tensura:giant_ant_spawn",
+  "entity_types": "tensura:giant_ant",
+  "spawn_cost": {
+    "charge": 1.0,
+    "energy_budget": 4.0
+  }
+}

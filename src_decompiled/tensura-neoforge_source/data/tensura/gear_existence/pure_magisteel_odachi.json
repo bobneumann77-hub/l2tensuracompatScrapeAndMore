@@ -1,0 +1,7 @@
+{
+  "type": "tensura:pure_magisteel_odachi",
+  "epGain": 0.025,
+  "evolution": "tensura:adamantite_odachi",
+  "maxEP": 225000,
+  "minEP": 52000
+}

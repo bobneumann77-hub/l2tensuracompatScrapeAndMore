@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "top": "tensura:block/web_block_2",
+    "side": "tensura:block/web_block_2",
+    "bottom": "tensura:block/web_block_2"
+  }
+}

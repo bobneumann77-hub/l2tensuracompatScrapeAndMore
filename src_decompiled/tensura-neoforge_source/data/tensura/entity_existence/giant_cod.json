@@ -1,0 +1,11 @@
+{
+  "type": "tensura:giant_cod",
+  "abilities": [
+    "tensura:water_breathing"
+  ],
+  "max_aura": 1000,
+  "max_magicule": 1000,
+  "min_aura": 500,
+  "min_magicule": 500,
+  "spiritualHealth": 30
+}

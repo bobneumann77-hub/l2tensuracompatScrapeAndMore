@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_spawn_costs",
+  "biomes": "#tensura:feathered_serpent_spawn",
+  "entity_types": "tensura:feathered_serpent",
+  "spawn_cost": {
+    "charge": 2.0,
+    "energy_budget": 4.0
+  }
+}

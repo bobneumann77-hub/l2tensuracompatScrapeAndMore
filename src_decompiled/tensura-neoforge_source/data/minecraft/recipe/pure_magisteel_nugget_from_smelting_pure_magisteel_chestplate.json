@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 2.0,
+  "ingredient": {
+    "item": "tensura:pure_magisteel_chestplate"
+  },
+  "result": {
+    "count": 1,
+    "id": "tensura:pure_magisteel_nugget"
+  }
+}

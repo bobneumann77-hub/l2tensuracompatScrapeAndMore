@@ -1,0 +1,27 @@
+{
+  "parent": "tensura:d_rank",
+  "criteria": {
+    "evolve": {
+      "trigger": "tensura:evolve_race"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.grow_spurt.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "tensura:royal_blood"
+    },
+    "title": {
+      "translate": "tensura.advancements.grow_spurt.title"
+    }
+  },
+  "requirements": [
+    [
+      "evolve"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:wandering_trader",
+  "max_aura": 1200,
+  "max_magicule": 50,
+  "min_aura": 1200,
+  "min_magicule": 50,
+  "spiritualHealth": 50
+}

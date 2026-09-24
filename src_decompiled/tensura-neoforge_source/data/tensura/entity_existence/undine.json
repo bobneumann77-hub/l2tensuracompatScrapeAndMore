@@ -1,0 +1,13 @@
+{
+  "type": "tensura:undine",
+  "abilities": [
+    "tensura:water_transform",
+    "tensura:water_manipulation",
+    "tensura:water_cutter",
+    "tensura:acid_rain",
+    "tensura:water_attack_nullification"
+  ],
+  "max_magicule": 150000,
+  "min_magicule": 120000,
+  "spiritualHealth": 2000
+}

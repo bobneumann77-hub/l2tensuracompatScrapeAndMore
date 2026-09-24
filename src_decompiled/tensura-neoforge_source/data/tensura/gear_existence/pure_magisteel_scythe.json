@@ -1,0 +1,7 @@
+{
+  "type": "tensura:pure_magisteel_scythe",
+  "epGain": 0.025,
+  "evolution": "tensura:adamantite_scythe",
+  "maxEP": 225000,
+  "minEP": 52000
+}

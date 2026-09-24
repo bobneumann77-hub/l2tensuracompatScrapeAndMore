@@ -1,0 +1,7 @@
+{
+  "type": "tensura:pure_magisteel_sword",
+  "epGain": 0.025,
+  "evolution": "tensura:adamantite_sword",
+  "maxEP": 225000,
+  "minEP": 52000
+}

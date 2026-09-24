@@ -1,0 +1,54 @@
+{
+	"format_version": "1.21.110",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.orc_disaster_head",
+				"texture_width": 256,
+				"texture_height": 256,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Head",
+					"pivot": [0, 6, 7]
+				},
+				{
+					"name": "MiscHead",
+					"parent": "Head",
+					"pivot": [0, 1, 0],
+					"cubes": [
+						{"origin": [-6, 0, -6], "size": [12, 12, 12], "uv": [38, 176]},
+						{"origin": [-6, 0, -6], "size": [12, 12, 12], "inflate": 0.5, "uv": [86, 176]},
+						{"origin": [-6, 0, -6], "size": [12, 12, 12], "inflate": 1, "uv": [134, 179]},
+						{"origin": [-2.5, 0, -8], "size": [5, 5, 2], "uv": [178, 221]},
+						{"origin": [-3.5, 0, -8], "size": [1, 4, 2], "uv": [160, 104]},
+						{"origin": [2.5, 0, -8], "size": [1, 4, 2], "uv": [166, 104]}
+					]
+				},
+				{
+					"name": "LeftSpike",
+					"parent": "MiscHead",
+					"pivot": [5, 11, -5],
+					"cubes": [
+						{"origin": [3.5, 9.5, -7], "size": [8, 4, 5], "pivot": [6, 11, -6.5], "rotation": [0, -7.5, -7.5], "uv": [208, 162]},
+						{"origin": [11.5, 9.5, -6.5], "size": [3, 8, 4], "pivot": [6, 11, -6.5], "rotation": [0, -7.5, -7.5], "uv": [20, 212]},
+						{"origin": [14.5, 15.5, -5.5], "size": [8, 2, 2], "pivot": [6, 11, -6.5], "rotation": [0, -7.5, -7.5], "uv": [96, 72]}
+					]
+				},
+				{
+					"name": "RightSpike",
+					"parent": "MiscHead",
+					"pivot": [-5, 11, -5],
+					"cubes": [
+						{"origin": [-11.5, 9.5, -7], "size": [8, 4, 5], "pivot": [-6, 11, -6.5], "rotation": [0, 7.5, 7.5], "uv": [182, 212]},
+						{"origin": [-14.5, 9.5, -6.5], "size": [3, 8, 4], "pivot": [-6, 11, -6.5], "rotation": [0, 7.5, 7.5], "uv": [216, 195]},
+						{"origin": [-22.5, 15.5, -5.5], "size": [8, 2, 2], "pivot": [-6, 11, -6.5], "rotation": [0, 7.5, 7.5], "uv": [116, 72]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:evoker",
+  "abilities": [
+    "tensura:sage"
+  ],
+  "max_aura": 4000,
+  "max_magicule": 4000,
+  "min_aura": 4000,
+  "min_magicule": 4000,
+  "spiritualHealth": 80
+}

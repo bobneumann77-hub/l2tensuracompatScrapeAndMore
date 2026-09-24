@@ -1,0 +1,11 @@
+{
+  "type": "tensura:lizardman",
+  "abilities": [
+    "tensura:scale_armor"
+  ],
+  "max_aura": 5000,
+  "max_magicule": 3000,
+  "min_aura": 3000,
+  "min_magicule": 2000,
+  "spiritualHealth": 68
+}

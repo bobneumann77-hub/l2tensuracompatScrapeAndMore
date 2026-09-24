@@ -1,0 +1,7 @@
+{
+  "parent": "tensura:block/tool_rack",
+  "textures": {
+    "0": "tensura:block/jungle_tool_rack",
+    "particle": "minecraft:block/stripped_jungle_log"
+  }
+}

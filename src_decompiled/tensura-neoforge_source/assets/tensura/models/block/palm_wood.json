@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "tensura:block/palm_wood_top",
+    "side": "tensura:block/palm_wood"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#tensura:basilisk_spawn",
+  "spawners": {
+    "type": "tensura:basilisk",
+    "maxCount": 2,
+    "minCount": 1,
+    "weight": 30
+  }
+}

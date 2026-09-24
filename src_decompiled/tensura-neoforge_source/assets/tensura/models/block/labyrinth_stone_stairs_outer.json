@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "tensura:block/labyrinth_stone",
+    "side": "tensura:block/labyrinth_stone",
+    "top": "tensura:block/labyrinth_stone"
+  }
+}

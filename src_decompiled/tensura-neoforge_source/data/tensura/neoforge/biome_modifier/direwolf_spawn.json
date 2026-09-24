@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#tensura:direwolf_spawn",
+  "spawners": {
+    "type": "tensura:direwolf",
+    "maxCount": 7,
+    "minCount": 3,
+    "weight": 10
+  }
+}

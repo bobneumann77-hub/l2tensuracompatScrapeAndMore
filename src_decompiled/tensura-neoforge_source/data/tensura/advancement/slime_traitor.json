@@ -1,0 +1,33 @@
+{
+  "parent": "tensura:get_bucketed",
+  "criteria": {
+    "slime": {
+      "conditions": {
+        "item": {
+          "items": "tensura:slime_in_a_bucket"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.slime_traitor.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "tensura:chilled_slime"
+    },
+    "title": {
+      "translate": "tensura.advancements.slime_traitor.title"
+    }
+  },
+  "requirements": [
+    [
+      "slime"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

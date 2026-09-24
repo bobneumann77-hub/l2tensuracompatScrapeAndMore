@@ -1,0 +1,61 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.magic_lance",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 7,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "spear",
+					"pivot": [0, 2, 0],
+					"cubes": [
+						{
+							"origin": [0, -6, -5],
+							"size": [0, 16, 48],
+							"pivot": [0, 2, 19],
+							"rotation": [0, 0, 45],
+							"uv": {
+								"east": {"uv": [48, 0], "uv_size": [-48, 16]},
+								"west": {"uv": [0, 0], "uv_size": [48, 16]}
+							}
+						},
+						{
+							"origin": [0, -6, -5],
+							"size": [0, 16, 48],
+							"pivot": [0, 2, 19],
+							"rotation": [0, 0, -45],
+							"uv": {
+								"east": {"uv": [48, 0], "uv_size": [-48, 16]},
+								"west": {"uv": [0, 0], "uv_size": [48, 16]}
+							}
+						},
+						{
+							"origin": [0, -14, -5],
+							"size": [0, 32, 48],
+							"uv": {
+								"east": {"uv": [48, 16], "uv_size": [-48, 32]},
+								"west": {"uv": [0, 16], "uv_size": [48, 32]}
+							}
+						},
+						{
+							"origin": [0, -14, -5],
+							"size": [0, 32, 48],
+							"pivot": [0, 2, 19],
+							"rotation": [0, 0, -90],
+							"uv": {
+								"east": {"uv": [48, 16], "uv_size": [-48, 32]},
+								"west": {"uv": [0, 16], "uv_size": [48, 32]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

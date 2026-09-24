@@ -1,0 +1,30 @@
+{
+  "type": "tensura:refining",
+  "input": {
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:awkward"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:potion"
+  },
+  "input1": {
+    "item": "tensura:chilled_slime"
+  },
+  "input2": {
+    "item": "minecraft:redstone"
+  },
+  "input3": {
+    "item": "minecraft:gunpowder"
+  },
+  "output": {
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "tensura:long_chill"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:splash_potion"
+  }
+}

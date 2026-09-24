@@ -1,0 +1,16 @@
+{
+  "biome": "tensura:underworld_red_sands",
+  "modifiers": [
+    {
+      "mode": "ADD",
+      "value": 1500.0
+    }
+  ],
+  "priority": 1,
+  "regen_modifiers": [
+    {
+      "mode": "ADD",
+      "value": 50.0
+    }
+  ]
+}

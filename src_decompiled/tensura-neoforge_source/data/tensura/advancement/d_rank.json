@@ -1,0 +1,29 @@
+{
+  "parent": "tensura:empowerment",
+  "criteria": {
+    "ep": {
+      "conditions": {
+        "ep": 1000.0
+      },
+      "trigger": "tensura:existence_gain"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.d_rank.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "tensura:low_magisteel_nugget"
+    },
+    "title": {
+      "translate": "tensura.advancements.d_rank.title"
+    }
+  },
+  "requirements": [
+    [
+      "ep"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

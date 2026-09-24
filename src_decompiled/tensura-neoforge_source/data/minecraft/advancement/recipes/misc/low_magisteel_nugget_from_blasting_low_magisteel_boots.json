@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_low_magisteel_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tensura:low_magisteel_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:low_magisteel_nugget_from_blasting_low_magisteel_boots"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_low_magisteel_boots"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:low_magisteel_nugget_from_blasting_low_magisteel_boots"
+    ]
+  }
+}

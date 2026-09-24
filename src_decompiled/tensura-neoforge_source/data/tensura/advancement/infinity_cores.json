@@ -1,0 +1,31 @@
+{
+  "parent": "tensura:elementalist",
+  "criteria": {
+    "slotting": {
+      "trigger": "tensura:max_slotting_used"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.infinity_cores.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "tensura:element_core_empty"
+    },
+    "title": {
+      "translate": "tensura.advancements.infinity_cores.title"
+    }
+  },
+  "requirements": [
+    [
+      "slotting"
+    ]
+  ],
+  "rewards": {
+    "experience": 20
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,26 @@
+{
+  "values": [
+    "tensura:monster_leather_boots_d",
+    "tensura:monster_leather_boots_c",
+    "tensura:monster_leather_boots_b",
+    "tensura:monster_leather_boots_a",
+    "tensura:monster_leather_boots_special_a",
+    "tensura:silver_boots",
+    "tensura:low_magisteel_boots",
+    "tensura:high_magisteel_boots",
+    "tensura:mithril_boots",
+    "tensura:orichalcum_boots",
+    "tensura:pure_magisteel_boots",
+    "tensura:adamantite_boots",
+    "tensura:hihiirokane_boots",
+    "tensura:ant_carapace_boots",
+    "tensura:serpent_scalemail_boots",
+    "tensura:knight_spider_carapace_boots",
+    "tensura:armorsaurus_boots",
+    "tensura:armorsaurus_scalemail_boots",
+    "tensura:charybdis_scalemail_boots",
+    "tensura:holy_armaments_boots",
+    "tensura:dark_boots",
+    "tensura:winged_shoes"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.5,
+  "ingredient": {
+    "item": "tensura:orichalcum_helmet"
+  },
+  "result": {
+    "count": 1,
+    "id": "tensura:orichalcum_nugget"
+  }
+}

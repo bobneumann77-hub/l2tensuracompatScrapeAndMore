@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_spawn_costs",
+  "biomes": "#tensura:one_eyed_owl_spawn",
+  "entity_types": "tensura:one_eyed_owl",
+  "spawn_cost": {
+    "charge": 1.0,
+    "energy_budget": 4.0
+  }
+}

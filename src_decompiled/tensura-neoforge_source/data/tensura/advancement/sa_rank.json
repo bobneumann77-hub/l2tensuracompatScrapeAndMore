@@ -1,0 +1,30 @@
+{
+  "parent": "tensura:a_rank",
+  "criteria": {
+    "ep": {
+      "conditions": {
+        "ep": 100000.0
+      },
+      "trigger": "tensura:existence_gain"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.sa_rank.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "tensura:pure_magisteel_nugget"
+    },
+    "title": {
+      "translate": "tensura.advancements.sa_rank.title"
+    }
+  },
+  "requirements": [
+    [
+      "ep"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,9 @@
+{
+  "asset_name": "pure_magisteel",
+  "description": {
+    "color": "#55FFFF",
+    "translate": "trim_material.tensura.pure_magisteel"
+  },
+  "ingredient": "tensura:pure_magisteel_ingot",
+  "item_model_index": 0.8
+}

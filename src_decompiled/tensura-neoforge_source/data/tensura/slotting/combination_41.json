@@ -1,0 +1,16 @@
+{
+  "combinationID": 41,
+  "durability": 4,
+  "fireCores": 1,
+  "fireMultiplier": 0.5,
+  "projectileCost": 8,
+  "slottingProjectile": {
+    "damage": 1.0,
+    "entity": "tensura:space_cut_projectile",
+    "speed": 1.75
+  },
+  "spaceCores": 1,
+  "spaceMultiplier": 1.0,
+  "waterCores": 1,
+  "waterMultiplier": 0.5
+}

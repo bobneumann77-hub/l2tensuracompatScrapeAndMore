@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:breeze",
+  "abilities": [
+    "tensura:wind",
+    "tensura:wind_attack_resistance"
+  ],
+  "max_magicule": 2500,
+  "min_magicule": 2500,
+  "spiritualHealth": 80
+}

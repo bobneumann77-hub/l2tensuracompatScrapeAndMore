@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:villager",
+  "max_aura": 950,
+  "max_magicule": 50,
+  "min_aura": 950,
+  "min_magicule": 50,
+  "spiritualHealth": 40
+}

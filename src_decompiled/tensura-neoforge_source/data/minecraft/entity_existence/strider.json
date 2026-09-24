@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:strider",
+  "abilities": [
+    "tensura:heat_nullification"
+  ],
+  "max_aura": 10,
+  "max_magicule": 20,
+  "min_aura": 10,
+  "min_magicule": 20,
+  "spiritualHealth": 40
+}

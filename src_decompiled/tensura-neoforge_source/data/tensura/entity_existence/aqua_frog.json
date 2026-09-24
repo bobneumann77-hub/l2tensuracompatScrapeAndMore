@@ -1,0 +1,13 @@
+{
+  "type": "tensura:aqua_frog",
+  "abilities": [
+    "tensura:water_manipulation",
+    "tensura:poison",
+    "tensura:water_transform",
+    "tensura:water_attack_resistance",
+    "tensura:poison_resistance"
+  ],
+  "max_magicule": 9000,
+  "min_magicule": 6000,
+  "spiritualHealth": 500
+}

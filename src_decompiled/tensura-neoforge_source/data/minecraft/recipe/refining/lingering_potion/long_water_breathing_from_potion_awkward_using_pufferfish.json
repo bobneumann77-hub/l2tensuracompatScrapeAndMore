@@ -1,0 +1,33 @@
+{
+  "type": "tensura:refining",
+  "input": {
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:awkward"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:potion"
+  },
+  "input1": {
+    "item": "minecraft:pufferfish"
+  },
+  "input2": {
+    "item": "minecraft:redstone"
+  },
+  "input3": {
+    "item": "minecraft:gunpowder"
+  },
+  "input4": {
+    "item": "minecraft:dragon_breath"
+  },
+  "output": {
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:long_water_breathing"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:lingering_potion"
+  }
+}

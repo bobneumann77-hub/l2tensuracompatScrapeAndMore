@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:snow_golem",
+  "abilities": [
+    "tensura:cold_resistance"
+  ],
+  "max_magicule": 150,
+  "min_magicule": 150,
+  "spiritualHealth": 80
+}

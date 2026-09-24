@@ -1,0 +1,31 @@
+{
+  "parent": "tensura:grow_spurt",
+  "criteria": {
+    "custom": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.infamy_famous.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "tensura:daemon_essence"
+    },
+    "title": {
+      "translate": "tensura.advancements.infamy_famous.title"
+    }
+  },
+  "requirements": [
+    [
+      "custom"
+    ]
+  ],
+  "rewards": {
+    "experience": 20
+  },
+  "sends_telemetry_event": true
+}

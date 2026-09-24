@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tensura:block/cream_labyrinth_brick_slab"
+    },
+    "type=double": {
+      "model": "tensura:block/cream_labyrinth_bricks"
+    },
+    "type=top": {
+      "model": "tensura:block/cream_labyrinth_brick_slab_top"
+    }
+  }
+}

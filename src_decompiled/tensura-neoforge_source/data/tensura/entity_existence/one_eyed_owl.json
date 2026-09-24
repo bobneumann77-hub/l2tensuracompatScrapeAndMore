@@ -1,0 +1,8 @@
+{
+  "type": "tensura:one_eyed_owl",
+  "max_aura": 250,
+  "max_magicule": 250,
+  "min_aura": 150,
+  "min_magicule": 150,
+  "spiritualHealth": 40
+}

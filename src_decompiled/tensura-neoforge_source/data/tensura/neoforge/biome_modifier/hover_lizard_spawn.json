@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#tensura:hover_lizard_spawn",
+  "spawners": {
+    "type": "tensura:hover_lizard",
+    "maxCount": 3,
+    "minCount": 1,
+    "weight": 8
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "tensura:block/slime_chunk_block",
+  "textures": {
+    "particle": "tensura:block/chilled_slime_block",
+    "texture": "tensura:block/chilled_slime_block"
+  }
+}

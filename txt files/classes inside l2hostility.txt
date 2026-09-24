@@ -1,0 +1,594 @@
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\compat\curios
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         3/26/2026  12:32 PM           3962 CurioCompat$CurioSlotAccess.class                                    
+------         3/26/2026  12:32 PM          10067 CurioCompat.class                                                    
+------         1/24/2026   3:22 PM           1012 EntitySlotAccess.class                                               
+------         1/24/2026   3:22 PM           2936 EquipmentSlotAccess.class                                            
+------         1/24/2026   3:22 PM            283 package-info.class                                                   
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\compat\data
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         3/26/2026  12:32 PM           4698 BoMDData.class                                                       
+------         3/26/2026  12:32 PM          14193 CataclysmData.class                                                  
+------         3/26/2026  12:32 PM           3019 MutantMonsterData.class                                              
+------         1/24/2026   3:22 PM            281 package-info.class                                                   
+------         3/26/2026  12:32 PM           8053 TFData.class                                                         
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\compat\gateway
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         1/24/2026   3:22 PM           2351 GatewayCondition.class                                               
+------         3/26/2026  12:32 PM          21113 GatewayConfigGen.class                                               
+------         3/26/2026  12:32 PM           6302 GatewayToEternityCompat.class                                        
+------         3/12/2026   3:42 PM           4208 HostilityGateways.class                                              
+------         1/24/2026   3:22 PM            284 package-info.class                                                   
+------         1/24/2026   3:22 PM           5091 PlaceboCodecDataGen.class                                            
+------         1/24/2026   3:22 PM            671 WaveData.class                                                       
+------         1/24/2026   3:22 PM           1669 WaveId.class                                                         
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\compat\jade
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         1/24/2026   3:22 PM            885 JadeCompat.class                                                     
+------         1/24/2026   3:22 PM            281 package-info.class                                                   
+------         3/26/2026  12:32 PM           3361 TraitInfo.class                                                      
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\compat\jei
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         3/26/2026   1:39 PM           4207 EnvyLootRecipe.class                                                 
+------         3/12/2026   3:42 PM           5195 GLMRecipeCategory.class                                              
+------         3/26/2026  12:32 PM           2980 GluttonyLootRecipe.class                                             
+------         1/24/2026   3:22 PM            648 ITraitLootRecipe.class                                               
+------         3/12/2026   3:42 PM           3347 JEICompat.class                                                      
+------         1/24/2026   3:22 PM            280 package-info.class                                                   
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\compat\kubejs
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         3/12/2026   3:42 PM           2421 AbstractTraitBuilder.class                                           
+------         3/12/2026   3:42 PM           5047 AttributeTraitBuilder.class                                          
+------         3/12/2026   3:42 PM           1248 BasicTraitBuilder.class                                              
+------         3/26/2026  12:32 PM           3551 L2HHelper.class                                                      
+------         3/12/2026   3:42 PM           1275 LegendaryTraitBuilder.class                                          
+------         3/26/2026  12:32 PM           6131 LHKJSPlugin.class                                                    
+------         1/24/2026   3:22 PM            283 package-info.class                                                   
+------         3/12/2026   3:42 PM           3945 TargetEffectTraitBuilder.class                                       
+------         3/12/2026   3:42 PM           2939 TraitItemBuilder.class                                               
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\content\capability\chunk
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         3/12/2026   3:42 PM           4191 ChunkCapHolder.class                                                 
+------         3/12/2026   3:42 PM           4148 ChunkCapSyncToClient.class                                           
+------         3/12/2026   3:42 PM           3692 ChunkClearRenderer$Edge.class                                        
+------         3/12/2026   3:42 PM           5591 ChunkClearRenderer.class                                             
+------         3/26/2026  12:32 PM           1487 ChunkDifficulty$ChunkStage.class                                     
+------         3/26/2026  12:32 PM           4361 ChunkDifficulty.class                                                
+------         1/24/2026   3:22 PM            294 package-info.class                                                   
+------         3/12/2026   3:42 PM            298 RegionalDifficultyModifier.class                                     
+------         3/26/2026  12:32 PM           1516 SectionDifficulty$SectionStage.class                                 
+------         3/26/2026  12:32 PM          10730 SectionDifficulty.class                                              
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\content\capability\mob
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         1/24/2026   3:22 PM            450 CapStorageData.class                                                 
+------         3/26/2026  12:32 PM           3196 ClientCapHandler.class                                               
+------         3/26/2026  12:32 PM           7440 MasterData$Data.class                                                
+------         3/26/2026  12:32 PM           1715 MasterData$Minion.class                                              
+------         3/26/2026  12:32 PM           8953 MasterData.class                                                     
+------         3/12/2026   3:42 PM           3261 MinionData.class                                                     
+------         3/12/2026   3:42 PM           3961 MobCapSyncToClient.class                                             
+------         3/26/2026  12:32 PM           1458 MobTraitCap$Stage.class                                              
+------         3/26/2026  12:32 PM          27478 MobTraitCap.class                                                    
+------         1/24/2026   3:22 PM            292 package-info.class                                                   
+------         3/26/2026  12:32 PM           1285 PerformanceConstants.class                                           
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\content\capability\player
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         1/24/2026   3:22 PM            295 package-info.class                                                   
+------         3/26/2026  12:32 PM          13345 PlayerDifficulty.class                                               
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\content\command
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         1/24/2026   3:22 PM           2675 HostilityCommands.class                                              
+------         3/26/2026  12:32 PM            392 LHMobCommands$MobCommand.class                                       
+------         3/26/2026  12:32 PM            403 LHMobCommands$MobLevelCommand.class                                  
+------         3/26/2026  12:32 PM            453 LHMobCommands$MobTraitCommand.class                                  
+------         3/26/2026  12:32 PM            462 LHMobCommands$MobTraitRankCommand.class                              
+------         3/26/2026  12:32 PM          21727 LHMobCommands.class                                                  
+------         3/26/2026  12:32 PM            416 LHPlayerCommands$PlayerCommand.class                                 
+------         3/26/2026  12:32 PM            445 LHPlayerCommands$PlayerGet.class                                     
+------         3/26/2026  12:32 PM            427 LHPlayerCommands$PlayerLevelCommand.class                            
+------         3/26/2026  12:32 PM          13719 LHPlayerCommands.class                                               
+------         3/26/2026  12:32 PM            438 LHRegionCommands$SectionCommand.class                                
+------         3/26/2026  12:32 PM            467 LHRegionCommands$SectionGet.class                                    
+------         3/26/2026  12:32 PM            449 LHRegionCommands$SectionLevelCommand.class                           
+------         3/26/2026  12:32 PM          15833 LHRegionCommands.class                                               
+------         1/24/2026   3:22 PM            285 package-info.class                                                   
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\content\config
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         3/26/2026  12:32 PM           7166 EntityConfig$Config.class                                            
+------         3/26/2026  12:32 PM           1840 EntityConfig$ItemEntry.class                                         
+------         3/26/2026  12:32 PM           2544 EntityConfig$ItemPool.class                                          
+------         3/26/2026  12:32 PM           2393 EntityConfig$MasterConfig.class                                      
+------         3/26/2026  12:32 PM           4290 EntityConfig$Minion.class                                            
+------         3/26/2026  12:32 PM           2716 EntityConfig$TraitBase.class                                         
+------         3/26/2026  12:32 PM           2892 EntityConfig$TraitCondition.class                                    
+------         3/26/2026  12:32 PM          12765 EntityConfig.class                                                   
+------         1/24/2026   3:22 PM            284 package-info.class                                                   
+------         1/24/2026   3:22 PM           1118 SpecialConfigCondition.class                                         
+------         1/24/2026   3:22 PM           4356 TraitConfig.class                                                    
+------         3/12/2026   3:42 PM           1559 TraitExclusion$Builder.class                                         
+------         3/12/2026   3:42 PM           2387 TraitExclusion.class                                                 
+------         3/12/2026   3:42 PM           2248 WeaponConfig$EnchConfig.class                                        
+------         3/12/2026   3:42 PM           4703 WeaponConfig$ItemCondition.class                                     
+------         3/12/2026   3:42 PM           3860 WeaponConfig$ItemConfig.class                                        
+------         3/12/2026   3:42 PM           9373 WeaponConfig.class                                                   
+------         3/26/2026  12:32 PM           2509 WorldDifficultyConfig$DifficultyConfig.class                         
+------         3/26/2026  12:32 PM          11661 WorldDifficultyConfig.class                                          
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\content\effect
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         1/24/2026   3:22 PM            570 AntiBuildEffect.class                                                
+------         3/12/2026   3:42 PM           2069 GravityEffect.class                                                  
+------         3/12/2026   3:42 PM           2073 MoonwalkEffect.class                                                 
+------         1/24/2026   3:22 PM            284 package-info.class                                                   
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\content\enchantments
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         3/12/2026   3:42 PM            509 HitTargetEnchantment.class                                           
+------         1/24/2026   3:22 PM            400 HostilityEnchantment.class                                           
+------         1/24/2026   3:22 PM            290 package-info.class                                                   
+------         3/12/2026   3:42 PM           2457 RemoveTraitEnchantment.class                                         
+------         1/24/2026   3:22 PM            595 VanishEnchantment.class                                              
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\content\entity
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         3/12/2026   3:42 PM           5320 BulletRenderer.class                                                 
+------         1/30/2026   5:19 PM           5165 BulletType.class                                                     
+------         3/26/2026  12:32 PM           2432 ChargeType.class                                                     
+------         1/30/2026   5:19 PM           7165 HostilityBullet.class                                                
+------         1/30/2026   5:19 PM           2864 HostilityCharge.class                                                
+------         1/24/2026   3:22 PM            284 package-info.class                                                   
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\content\item\beacon
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         3/12/2026   3:42 PM           5762 HostilityBeaconBlock.class                                           
+------         3/26/2026   1:39 PM            881 HostilityBeaconBlockEntity$Section.class                             
+------         3/26/2026   1:39 PM          13759 HostilityBeaconBlockEntity.class                                     
+------         3/26/2026   1:39 PM           1210 HostilityBeaconMenu$1.class                                          
+------         3/26/2026   1:39 PM           1150 HostilityBeaconMenu$PaymentSlot.class                                
+------         3/26/2026   1:39 PM           7730 HostilityBeaconMenu.class                                            
+------         1/24/2026   3:22 PM           9378 HostilityBeaconRenderer.class                                        
+------         3/26/2026  12:32 PM            482 HostilityBeaconScreen$BeaconButton.class                             
+------         3/26/2026  12:32 PM           1719 HostilityBeaconScreen$BeaconCancelButton.class                       
+------         3/26/2026  12:32 PM           2130 HostilityBeaconScreen$BeaconConfirmButton.class                      
+------         3/26/2026  12:32 PM           3900 HostilityBeaconScreen$BeaconPowerButton.class                        
+------         3/26/2026  12:32 PM           2569 HostilityBeaconScreen$BeaconScreenButton.class                       
+------         3/26/2026  12:32 PM           1561 HostilityBeaconScreen$BeaconSpriteScreenButton.class                 
+------         3/26/2026  12:32 PM           9153 HostilityBeaconScreen.class                                          
+------         1/24/2026   3:22 PM            289 package-info.class                                                   
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\content\item\consumable
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         1/24/2026   3:22 PM           2302 BookCopy.class                                                       
+------         1/24/2026   3:22 PM           9982 BookEverything.class                                                 
+------         3/26/2026  12:32 PM           3980 BottleOfCurse.class                                                  
+------         3/26/2026  12:32 PM           3841 BottleOfSanity.class                                                 
+------         3/26/2026  12:32 PM           5155 DrinkableBottleItem.class                                            
+------         3/26/2026  12:32 PM           3333 EffectBoosterBottle.class                                            
+------         1/24/2026   3:22 PM           3304 HostilityChargeItem.class                                            
+------         3/26/2026  12:32 PM           5897 HostilityOrb.class                                                   
+------         1/24/2026   3:22 PM            293 package-info.class                                                   
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\content\item\curio\core
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         3/26/2026  12:32 PM           6830 CurseCurioItem.class                                                 
+------         1/24/2026   3:22 PM            154 EquipCurioItem.class                                                 
+------         1/24/2026   3:22 PM            636 MultiSlotItem.class                                                  
+------         1/24/2026   3:22 PM            293 package-info.class                                                   
+------         1/24/2026   3:22 PM           3183 SingletonItem.class                                                  
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\content\item\curio\curse
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         3/26/2026  12:32 PM           2886 CurseOfEnvy.class                                                    
+------         3/26/2026  12:32 PM           2608 CurseOfGluttony.class                                                
+------         3/26/2026  12:32 PM           3223 CurseOfGreed.class                                                   
+------         3/26/2026  12:32 PM           2553 CurseOfLust.class                                                    
+------         3/26/2026  12:32 PM           6525 CurseOfPride.class                                                   
+------         3/26/2026  12:32 PM           2581 CurseOfSloth.class                                                   
+------         3/26/2026  12:32 PM           7037 CurseOfWrath.class                                                   
+------         1/24/2026   3:22 PM            294 package-info.class                                                   
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\content\item\curio\misc
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         3/26/2026  12:32 PM           3100 Abrahadabra.class                                                    
+------         1/24/2026   3:22 PM           1985 AbyssalThorn.class                                                   
+------         1/24/2026   3:22 PM           2751 DivinityCross.class                                                  
+------         3/26/2026  12:32 PM           3783 DivinityLight.class                                                  
+------         3/26/2026  12:32 PM           3952 FlamingThorn.class                                                   
+------         3/26/2026  12:32 PM           3425 GreedOfNidhoggur.class                                               
+------         3/26/2026  12:32 PM           2557 ImagineBreaker.class                                                 
+------         1/24/2026   3:22 PM           3071 InfinityGlove.class                                                  
+------         1/24/2026   3:22 PM           1991 LootingCharm.class                                                   
+------         1/24/2026   3:22 PM           3057 OddeyesGlasses.class                                                 
+------         1/24/2026   3:22 PM            293 package-info.class                                                   
+------         3/26/2026  12:32 PM           2064 PlatinumStar.class                                                   
+------         3/26/2026  12:32 PM           6555 PocketOfRestoration.class                                            
+------         1/24/2026   3:22 PM           3058 TripleStripCape.class                                                
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\content\item\curio\ring
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         1/24/2026   3:22 PM            293 package-info.class                                                   
+------         3/26/2026  12:32 PM           4484 RingOfCorrosion.class                                                
+------         1/24/2026   3:22 PM           2947 RingOfDivinity.class                                                 
+------         3/26/2026  12:32 PM           3309 RingOfHealing.class                                                  
+------         1/24/2026   3:22 PM           5597 RingOfIncarceration.class                                            
+------         3/26/2026  12:32 PM           4844 RingOfLife.class                                                     
+------          3/3/2026  10:13 PM           2329 RingOfOcean.class                                                    
+------         3/26/2026  12:32 PM           2761 RingOfReflection.class                                               
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\content\item\spawner
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         1/24/2026   3:22 PM           2769 BaseTraitMethod.class                                                
+------         3/26/2026   1:39 PM          11548 BurstSpawnerBlockEntity.class                                        
+------         3/12/2026   3:42 PM           4352 BurstTraitMethod.class                                               
+------         3/26/2026  12:32 PM           1008 ClickTraitMethod$1.class                                             
+------         3/26/2026  12:32 PM           4151 ClickTraitMethod.class                                               
+------         1/24/2026   3:22 PM            290 package-info.class                                                   
+------         1/24/2026   3:22 PM           2073 TraitSpawnerBlock$State.class                                        
+------         1/24/2026   3:22 PM           2069 TraitSpawnerBlock.class                                              
+------         1/24/2026   3:22 PM           5983 TraitSpawnerBlockEntity.class                                        
+------         1/24/2026   3:22 PM           1521 TraitSpawnerData$EntityState.class                                   
+------         1/24/2026   3:22 PM           2342 TraitSpawnerData$TrackedEntity.class                                 
+------         1/24/2026   3:22 PM           3972 TraitSpawnerData.class                                               
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\content\item\tool
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         1/24/2026   3:22 PM           2022 Detector.class                                                       
+------         1/24/2026   3:22 PM           2451 DetectorGlasses.class                                                
+------         1/24/2026   3:22 PM            287 package-info.class                                                   
+------         3/26/2026  12:32 PM           9322 TraitAdderWand.class                                                 
+------         3/26/2026  12:32 PM           9703 WitchWand.class                                                      
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\content\item\traits
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         3/26/2026  12:32 PM           2275 DurabilityEater.class                                                
+------         3/26/2026   1:39 PM           5227 EffectBooster.class                                                  
+------         3/26/2026   1:39 PM           8459 EnchantmentDisabler.class                                            
+------         1/24/2026   3:22 PM            289 package-info.class                                                   
+------         3/26/2026   1:39 PM           6205 ReprintHandler.class                                                 
+------         3/26/2026  12:32 PM           6465 SealedItem.class                                                     
+------         3/26/2026  12:32 PM          10942 TraitSymbol.class                                                    
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\content\logic
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         3/26/2026  12:32 PM           5474 DifficultyLevel.class                                                
+------         3/12/2026   3:42 PM           2398 InheritContext.class                                                 
+------         3/26/2026   1:39 PM          15488 ItemPopulator.class                                                  
+------         3/26/2026  12:32 PM           3211 LevelEditor.class                                                    
+------         3/26/2026  12:32 PM           6562 MobDifficultyCollector.class                                         
+------         1/24/2026   3:22 PM            283 package-info.class                                                   
+------         3/26/2026  12:32 PM           3131 PlayerFinder.class                                                   
+------         3/26/2026  12:32 PM           4170 TraitEffectCache.class                                               
+------         3/26/2026  12:32 PM           1374 TraitGenerator$TraitEntry.class                                      
+------         3/26/2026  12:32 PM           5531 TraitGenerator$TraitPool.class                                       
+------         3/26/2026  12:32 PM           9380 TraitGenerator.class                                                 
+------         3/26/2026   1:39 PM           7505 TraitManager.class                                                   
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\content\menu\tab
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         3/26/2026  12:32 PM           3612 DifficultyOverlay.class                                              
+------         3/26/2026  12:32 PM          10843 DifficultyScreen.class                                               
+------         1/24/2026   3:22 PM           1825 DifficultyTab.class                                                  
+------         1/24/2026   3:22 PM            286 package-info.class                                                   
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\content\traits\base
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         3/12/2026   3:42 PM           3126 AttributeTrait$AttributeEntry.class                                  
+------         3/12/2026   3:42 PM           5328 AttributeTrait.class                                                 
+------         3/26/2026  12:32 PM          14730 MobTrait.class                                                       
+------         1/24/2026   3:22 PM            289 package-info.class                                                   
+------         3/12/2026   3:42 PM           5113 SelfEffectTrait.class                                                
+------         3/26/2026  12:32 PM           7244 TargetEffectTrait.class                                              
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\content\traits\common
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         3/26/2026  12:32 PM           1018 AdaptingTrait$Data.class                                             
+------         3/26/2026  12:32 PM           7042 AdaptingTrait.class                                                  
+------         3/26/2026  12:32 PM           5455 AuraEffectTrait.class                                                
+------         3/26/2026  12:32 PM           4392 FieryTrait.class                                                     
+------         3/26/2026  12:32 PM           1900 GravityTrait.class                                                   
+------         3/26/2026  12:32 PM           2555 InvisibleTrait.class                                                 
+------         1/24/2026   3:22 PM            291 package-info.class                                                   
+------         3/26/2026  12:32 PM           6236 ReflectTrait.class                                                   
+------         3/26/2026  12:32 PM           4766 RegenTrait.class                                                     
+------         3/26/2026  12:32 PM            753 ShulkerTrait$Data.class                                              
+------         3/26/2026  12:32 PM           7788 ShulkerTrait.class                                                   
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\content\traits\goals
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         3/26/2026  12:32 PM            804 CounterStrikeTrait$Data.class                                        
+------         3/26/2026  12:32 PM           5030 CounterStrikeTrait.class                                             
+------         3/26/2026  12:32 PM           7106 EnderTrait.class                                                     
+------         1/24/2026   3:22 PM            290 package-info.class                                                   
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\content\traits\highlevel
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         3/26/2026  12:32 PM           4706 ArenaTrait.class                                                     
+------         3/26/2026  12:32 PM           5796 CorrosionTrait.class                                                 
+------         3/26/2026   1:39 PM          10203 DrainTrait.class                                                     
+------         3/26/2026  12:32 PM           5784 ErosionTrait.class                                                   
+------         3/26/2026  12:32 PM           4400 GrowthTrait.class                                                    
+------         1/24/2026   3:22 PM            294 package-info.class                                                   
+------         3/26/2026  12:32 PM           8936 ReprintTrait.class                                                   
+------         3/26/2026  12:32 PM           2453 SlotIterateDamageTrait.class                                         
+------         3/12/2026   3:42 PM           3329 SplitTrait.class                                                     
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\content\traits\legendary
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         3/26/2026  12:32 PM           4501 DementorTrait.class                                                  
+------         3/26/2026  12:32 PM           8217 DispellTrait.class                                                   
+------         3/26/2026  12:32 PM          10248 KillerAuraTrait.class                                                
+------         3/26/2026  12:32 PM           1651 LegendaryTrait.class                                                 
+------         3/12/2026   3:42 PM           2202 MasterTrait.class                                                    
+------         1/24/2026   3:22 PM            294 package-info.class                                                   
+------         3/26/2026  12:32 PM           3075 PullingTrait.class                                                   
+------         3/26/2026  12:32 PM           5459 PushPullTrait.class                                                  
+------         3/26/2026   1:39 PM           7814 RagnarokTrait.class                                                  
+------         3/26/2026  12:32 PM           3977 RepellingTrait.class                                                 
+------         3/26/2026  12:32 PM           4166 UndyingTrait.class                                                   
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\events
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         3/26/2026  12:32 PM          11427 CapabilityEvents.class                                               
+------         3/26/2026   1:39 PM          17470 ClientEvents.class                                                   
+------         3/26/2026  12:32 PM           4619 ClientGlowingHandler.class                                           
+------         3/12/2026   3:42 PM           1483 HostilityInitEvent$InitPhase.class                                   
+------         3/12/2026   3:42 PM            892 HostilityInitEvent$Post.class                                        
+------         3/12/2026   3:42 PM            936 HostilityInitEvent$Pre.class                                         
+------         3/12/2026   3:42 PM           1393 HostilityInitEvent.class                                             
+------         3/26/2026   1:39 PM          17990 LHAttackListener.class                                               
+------         3/26/2026   1:39 PM           8541 MiscHandlers.class                                                   
+------         3/26/2026  12:32 PM          10731 MobEvents.class                                                      
+------         1/24/2026   3:22 PM            276 package-info.class                                                   
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\init
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         3/26/2026   1:39 PM          15282 L2Hostility.class                                                    
+------         3/26/2026  12:32 PM           3766 L2HostilityClient.class                                              
+------         1/24/2026   3:22 PM            274 package-info.class                                                   
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\init\advancements
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         3/12/2026   3:42 PM           3745 HostilityTriggers.class                                              
+------         3/12/2026   3:42 PM           1632 KillTraitCountTrigger$Ins.class                                      
+------         3/12/2026   3:42 PM           2546 KillTraitCountTrigger.class                                          
+------         3/12/2026   3:42 PM           2023 KillTraitEffectTrigger$Ins.class                                     
+------         3/12/2026   3:42 PM           3333 KillTraitEffectTrigger.class                                         
+------         3/12/2026   3:42 PM           2029 KillTraitFlameTrigger$Ins.class                                      
+------         3/12/2026   3:42 PM           2535 KillTraitFlameTrigger$Type.class                                     
+------         3/12/2026   3:42 PM           3378 KillTraitFlameTrigger.class                                          
+------         3/12/2026   3:42 PM           1715 KillTraitLevelTrigger$Ins.class                                      
+------         3/12/2026   3:42 PM           2540 KillTraitLevelTrigger.class                                          
+------         3/12/2026   3:42 PM           1867 KillTraitsTrigger$Ins.class                                          
+------         3/12/2026   3:42 PM           2660 KillTraitsTrigger.class                                              
+------         1/24/2026   3:22 PM            287 package-info.class                                                   
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\init\data
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         3/26/2026   1:39 PM          10645 AdvGen.class                                                         
+------         3/26/2026  12:32 PM          22999 LangData.class                                                       
+------         3/26/2026  12:32 PM           2972 LHConfig$Client.class                                                
+------         3/26/2026  12:32 PM          20493 LHConfig$Server.class                                                
+------         3/26/2026  12:32 PM           1961 LHConfig.class                                                       
+------         3/26/2026  12:32 PM          16995 LHConfigGen.class                                                    
+------         3/12/2026   3:42 PM           3488 LHDamageTypes.class                                                  
+------         3/26/2026   1:39 PM          14039 LHTagGen.class                                                       
+------         1/24/2026   3:22 PM            279 package-info.class                                                   
+------         3/26/2026   1:39 PM          27624 RecipeGen.class                                                      
+------         3/26/2026  12:32 PM           2988 SlotGen.class                                                        
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\init\entries
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         3/26/2026  12:32 PM           4186 LHRegistrate.class                                                   
+------         1/24/2026   3:22 PM            282 package-info.class                                                   
+------         3/26/2026   1:39 PM          11838 TraitBuilder.class                                                   
+------         3/12/2026   3:42 PM           1267 TraitEntry.class                                                     
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\init\loot
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         3/26/2026   1:39 PM           8400 EnvyLootModifier.class                                               
+------         3/26/2026   1:39 PM           8144 GluttonyLootModifier.class                                           
+------         3/26/2026  12:32 PM           3546 MobCapLootCondition.class                                            
+------         3/12/2026   3:42 PM           2076 MobHealthCondition.class                                             
+------         1/24/2026   3:22 PM            279 package-info.class                                                   
+------         3/26/2026  12:32 PM           2895 PlayerHasItemCondition.class                                         
+------         3/26/2026  12:32 PM          15509 TraitGLMProvider.class                                               
+------         3/26/2026  12:32 PM           3403 TraitLootCondition.class                                             
+------         3/26/2026   1:39 PM          18121 TraitLootModifier.class                                              
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\init\network
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         3/26/2026  12:32 PM           6191 ClientSyncHandler.class                                              
+------         3/12/2026   3:42 PM           4364 LootDataToClient.class                                               
+------         1/24/2026   3:22 PM            282 package-info.class                                                   
+------         3/12/2026   3:42 PM           2587 TraitEffects.class                                                   
+------         3/12/2026   3:42 PM           3707 TraitEffectToClient.class                                            
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\init\registrate
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         3/26/2026   1:39 PM          15793 LHBlocks.class                                                       
+------         3/12/2026   3:42 PM           3951 LHEffects.class                                                      
+------         3/26/2026  12:32 PM           5780 LHEnchantments.class                                                 
+------         3/12/2026   3:42 PM           5534 LHEntities.class                                                     
+------         3/26/2026   1:39 PM          32677 LHItems.class                                                        
+------         3/26/2026   1:39 PM           9290 LHMiscs.class                                                        
+------         3/26/2026   1:39 PM          31723 LHTraits.class                                                       
+------         1/24/2026   3:22 PM            285 package-info.class                                                   
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\mixin
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------         3/26/2026  12:32 PM           2254 CuriosImplMixinHooksMixin.class                                      
+------         3/26/2026  12:32 PM           2936 EntityMixin.class                                                    
+------         2/27/2026   2:04 PM           2659 ItemStackMixin.class                                                 
+------         1/24/2026   3:22 PM            663 NeoForgeEventHandlerAccessor.class                                   
+------         1/24/2026   3:22 PM           2451 PlayerMixin.class                                                    
+------         1/30/2026   5:19 PM           1850 ShulkerBulletMixin.class                                             
+------         2/27/2026   2:04 PM           2663 SlimeMixin.class                                                     
+
+

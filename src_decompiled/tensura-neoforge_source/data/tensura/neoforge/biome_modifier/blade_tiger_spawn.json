@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#tensura:blade_tiger_spawn",
+  "spawners": {
+    "type": "tensura:blade_tiger",
+    "maxCount": 1,
+    "minCount": 1,
+    "weight": 60
+  }
+}

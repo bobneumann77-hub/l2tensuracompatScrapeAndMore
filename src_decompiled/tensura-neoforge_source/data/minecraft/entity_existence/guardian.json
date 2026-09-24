@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:guardian",
+  "evolution": "minecraft:elder_guardian",
+  "max_magicule": 3670,
+  "min_magicule": 3670,
+  "spiritualHealth": 60
+}

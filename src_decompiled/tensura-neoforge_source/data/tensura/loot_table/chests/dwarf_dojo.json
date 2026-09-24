@@ -1,0 +1,149 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather",
+          "weight": 35
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 35
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 35
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:writable_book",
+          "weight": 35
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:air",
+          "weight": 15
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 8.0,
+        "min": 3.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "tensura:apply_skill_data",
+              "tag": "tensura:low_manual_dwarf_trade"
+            }
+          ],
+          "name": "tensura:battlewill_manual",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "tensura:apply_skill_data",
+              "tag": "tensura:medium_manual_dwarf_trade"
+            }
+          ],
+          "name": "tensura:battlewill_manual",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "tensura:apply_skill_data",
+              "tag": "tensura:high_manual_dwarf_trade"
+            }
+          ],
+          "name": "tensura:battlewill_manual",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "tensura:apply_skill_data",
+              "tag": "tensura:rare_manual_dwarf_trade"
+            }
+          ],
+          "name": "tensura:battlewill_manual"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tensura:battlewill_manual",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:air",
+          "weight": 60
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 2.0,
+        "min": 0.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_planks",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:feather",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flint",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tensura:thatch",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wheat",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:air",
+          "weight": 25
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 7.0,
+        "min": 3.0
+      }
+    }
+  ],
+  "random_sequence": "tensura:chests/dwarf_dojo"
+}

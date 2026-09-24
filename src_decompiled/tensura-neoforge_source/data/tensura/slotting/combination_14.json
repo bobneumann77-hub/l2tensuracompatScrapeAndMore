@@ -1,0 +1,16 @@
+{
+  "combinationID": 14,
+  "durability": 3,
+  "fireCores": 1,
+  "fireMultiplier": 1.5,
+  "projectileCost": 6,
+  "slottingProjectile": {
+    "burnTicks": 300,
+    "damage": 1.5,
+    "entity": "tensura:fire_ball",
+    "noGravity": true,
+    "speed": 2.0
+  },
+  "windCores": 1,
+  "windMultiplier": 0.25
+}

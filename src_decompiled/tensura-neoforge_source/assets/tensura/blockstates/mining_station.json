@@ -1,0 +1,37 @@
+{
+  "variants": {
+    "facing=north,waterlogged=false": {
+      "model": "tensura:block/mining_station",
+      "y": 0
+    },
+    "facing=east,waterlogged=false": {
+      "model": "tensura:block/mining_station",
+      "y": 90
+    },
+    "facing=south,waterlogged=false": {
+      "model": "tensura:block/mining_station",
+      "y": 180
+    },
+    "facing=west,waterlogged=false": {
+      "model": "tensura:block/mining_station",
+      "y": 270
+    },
+    "facing=north,waterlogged=true": {
+      "model": "tensura:block/mining_station",
+      "y": 0
+    },
+    "facing=east,waterlogged=true": {
+      "model": "tensura:block/mining_station",
+      "y": 90
+    },
+    "facing=south,waterlogged=true": {
+      "model": "tensura:block/mining_station",
+      "y": 180
+    },
+    "facing=west,waterlogged=true": {
+      "model": "tensura:block/mining_station",
+      "y": 270
+    }
+  }
+}
+

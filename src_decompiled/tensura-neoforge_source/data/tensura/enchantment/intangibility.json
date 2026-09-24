@@ -1,0 +1,47 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "enchantment.tensura.intangibility"
+  },
+  "effects": {
+    "minecraft:armor_effectiveness": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": -1.0,
+            "per_level_above_first": -1.0
+          }
+        }
+      }
+    ],
+    "minecraft:projectile_piercing": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 5.0,
+            "per_level_above_first": 5.0
+          }
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#tensura:engraving_exclusive",
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 50
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 50,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#tensura:handheld_enchantable",
+  "weight": 1
+}

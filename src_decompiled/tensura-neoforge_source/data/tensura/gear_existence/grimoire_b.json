@@ -1,0 +1,7 @@
+{
+  "type": "tensura:grimoire_b",
+  "epGain": 0.01,
+  "evolution": "tensura:grimoire_a",
+  "maxEP": 8000,
+  "minEP": 5000
+}

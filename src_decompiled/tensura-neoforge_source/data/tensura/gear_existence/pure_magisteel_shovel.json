@@ -1,0 +1,7 @@
+{
+  "type": "tensura:pure_magisteel_shovel",
+  "epGain": 0.025,
+  "evolution": "tensura:adamantite_shovel",
+  "maxEP": 225000,
+  "minEP": 52000
+}

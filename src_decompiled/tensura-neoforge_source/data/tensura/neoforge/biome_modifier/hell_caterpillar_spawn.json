@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#tensura:hell_caterpillar_spawn",
+  "spawners": {
+    "type": "tensura:hell_caterpillar",
+    "maxCount": 3,
+    "minCount": 1,
+    "weight": 20
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_spawn_costs",
+  "biomes": "#tensura:direwolf_spawn",
+  "entity_types": "tensura:direwolf",
+  "spawn_cost": {
+    "charge": 1.6,
+    "energy_budget": 4.0
+  }
+}

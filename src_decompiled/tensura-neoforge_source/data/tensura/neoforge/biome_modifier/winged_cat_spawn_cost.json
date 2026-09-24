@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_spawn_costs",
+  "biomes": "#tensura:winged_cat_spawn",
+  "entity_types": "tensura:winged_cat",
+  "spawn_cost": {
+    "charge": 2.0,
+    "energy_budget": 4.0
+  }
+}

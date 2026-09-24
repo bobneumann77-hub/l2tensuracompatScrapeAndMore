@@ -1,0 +1,11 @@
+{
+  "type": "tensura:winged_cat",
+  "abilities": [
+    "tensura:spatial_manipulation",
+    "tensura:space_transform",
+    "tensura:spatial_attack_resistance"
+  ],
+  "max_magicule": 9000,
+  "min_magicule": 8000,
+  "spiritualHealth": 500
+}

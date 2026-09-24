@@ -1,0 +1,7 @@
+{
+  "parent": "tensura:block/warp_pad_corner",
+  "textures": {
+    "1": "tensura:block/cream_labyrinth_brick_warp_pad",
+    "particle": "tensura:block/cream_labyrinth_brick_warp_pad"
+  }
+}

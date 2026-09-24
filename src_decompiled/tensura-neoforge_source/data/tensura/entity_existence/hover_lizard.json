@@ -1,0 +1,9 @@
+{
+  "type": "tensura:hover_lizard",
+  "abilities": [
+    "tensura:sense_heat_source"
+  ],
+  "max_magicule": 6000,
+  "min_magicule": 3000,
+  "spiritualHealth": 100
+}

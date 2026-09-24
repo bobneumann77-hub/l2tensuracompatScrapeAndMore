@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_spawn_costs",
+  "biomes": "#tensura:arch_daemon_spawn",
+  "entity_types": "tensura:arch_daemon",
+  "spawn_cost": {
+    "charge": 4.0,
+    "energy_budget": 4.0
+  }
+}

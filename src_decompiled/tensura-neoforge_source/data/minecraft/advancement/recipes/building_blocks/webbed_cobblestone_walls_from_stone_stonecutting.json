@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:webbed_cobblestone_walls_from_stone_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_webbed_cobblestone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tensura:webbed_cobblestone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_webbed_cobblestone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:webbed_cobblestone_walls_from_stone_stonecutting"
+    ]
+  }
+}

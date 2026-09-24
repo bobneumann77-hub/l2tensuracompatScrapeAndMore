@@ -1,0 +1,39 @@
+package dev.xkmc.l2hostility.init.advancements;
+
+import dev.xkmc.l2core.serial.advancements.BaseCriterion;
+import dev.xkmc.l2core.serial.advancements.BaseCriterionInstance;
+import dev.xkmc.l2hostility.content.capability.mob.MobTraitCap;
+import dev.xkmc.l2serial.serialization.marker.SerialClass;
+import dev.xkmc.l2serial.serialization.marker.SerialField;
+import net.minecraft.advancements.Criterion;
+import net.minecraft.server.level.ServerPlayer;
+
+public class KillTraitCountTrigger extends BaseCriterion<KillTraitCountTrigger.Ins, KillTraitCountTrigger> {
+   public static Criterion<KillTraitCountTrigger.Ins> ins(int count) {
+      KillTraitCountTrigger.Ins ans = new KillTraitCountTrigger.Ins();
+      ans.count = count;
+      return ans.build();
+   }
+
+   public KillTraitCountTrigger() {
+      super(KillTraitCountTrigger.Ins.class);
+   }
+
+   public void trigger(ServerPlayer player, MobTraitCap cap) {
+      this.trigger(player, e -> e.matchAll(cap));
+   }
+
+   @SerialClass
+   public static class Ins extends BaseCriterionInstance<KillTraitCountTrigger.Ins, KillTraitCountTrigger> {
+      @SerialField
+      public int count;
+
+      public Ins() {
+         super((KillTraitCountTrigger)HostilityTriggers.TRAIT_COUNT.get());
+      }
+
+      public boolean matchAll(MobTraitCap cap) {
+         return cap.traits.size() >= this.count;
+      }
+   }
+}

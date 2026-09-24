@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:zombie_villager",
+  "max_aura": 1000,
+  "max_magicule": 450,
+  "min_aura": 1000,
+  "min_magicule": 450,
+  "spiritualHealth": 40
+}

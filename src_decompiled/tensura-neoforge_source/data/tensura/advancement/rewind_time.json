@@ -1,0 +1,51 @@
+{
+  "parent": "tensura:reincarnated",
+  "criteria": {
+    "character": {
+      "conditions": {
+        "item": {
+          "items": "tensura:character_reset_scroll"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "race": {
+      "conditions": {
+        "item": {
+          "items": "tensura:race_reset_scroll"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "skill": {
+      "conditions": {
+        "item": {
+          "items": "tensura:skill_reset_scroll"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.rewind_time.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "tensura:character_reset_scroll"
+    },
+    "title": {
+      "translate": "tensura.advancements.rewind_time.title"
+    }
+  },
+  "requirements": [
+    [
+      "race",
+      "skill",
+      "character"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

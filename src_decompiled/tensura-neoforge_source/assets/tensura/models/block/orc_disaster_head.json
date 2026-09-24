@@ -1,0 +1,7 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "builtin/entity",
+  "textures": {
+    "particle": "minecraft:block/nether_wart_block"
+  }
+}

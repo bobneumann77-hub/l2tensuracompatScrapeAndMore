@@ -1,0 +1,14 @@
+{
+  "type": "tensura:smithing_bench",
+  "input1": {
+    "item": "minecraft:leather"
+  },
+  "inputAmount1": 7,
+  "output": {
+    "count": 1,
+    "id": "minecraft:leather_leggings"
+  },
+  "schematics": [
+    "tensura:leather_gear_schematic"
+  ]
+}

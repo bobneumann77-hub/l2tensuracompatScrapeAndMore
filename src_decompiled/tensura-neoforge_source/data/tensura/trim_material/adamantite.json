@@ -1,0 +1,9 @@
+{
+  "asset_name": "adamantite",
+  "description": {
+    "color": "#55FF55",
+    "translate": "trim_material.tensura.adamantite"
+  },
+  "ingredient": "tensura:adamantite_ingot",
+  "item_model_index": 0.7
+}

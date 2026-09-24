@@ -1,0 +1,59 @@
+{
+  "armor_enchantments": [],
+  "armors": [],
+  "melee_weapons": [
+    {
+      "level": 200,
+      "stack": [
+        {
+          "count": 1,
+          "id": "l2weaponry:poseidon_madness"
+        },
+        {
+          "count": 1,
+          "id": "l2weaponry:axe_of_cursed_flame"
+        },
+        {
+          "count": 1,
+          "id": "l2weaponry:spear_of_winter_storm"
+        }
+      ],
+      "weight": 10
+    },
+    {
+      "level": 300,
+      "stack": [
+        {
+          "count": 1,
+          "id": "l2weaponry:abyss_resonance"
+        },
+        {
+          "count": 1,
+          "id": "l2weaponry:dogmatic_standoff"
+        },
+        {
+          "count": 1,
+          "id": "l2weaponry:barbaric_hallow"
+        }
+      ],
+      "weight": 5
+    },
+    {
+      "level": 400,
+      "stack": [
+        {
+          "count": 1,
+          "id": "l2weaponry:claw_of_determination"
+        },
+        {
+          "count": 1,
+          "id": "l2weaponry:blade_of_illusion"
+        }
+      ],
+      "weight": 2
+    }
+  ],
+  "ranged_weapons": [],
+  "special_weapons": {},
+  "weapon_enchantments": []
+}

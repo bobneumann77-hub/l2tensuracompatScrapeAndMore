@@ -1,0 +1,143 @@
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\tensura-neoforge-2.0.1.2\io\github\manasmods\tensura\storage
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        12/31/1979  11:00 PM           5981 Alignment.class                                                      
+------        12/31/1979  11:00 PM           7952 AreaMagiculeHelper.class                                             
+------        12/31/1979  11:00 PM           8695 TensuraStorages.class                                                
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\tensura-neoforge-2.0.1.2\io\github\manasmods\tensura\storage\ability
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        12/31/1979  11:00 PM           3304 AbilityPreset.class                                                  
+------        12/31/1979  11:00 PM           8093 AbilitySlot.class                                                    
+------        12/31/1979  11:00 PM          14285 AbilityStorage.class                                                 
+------        12/31/1979  11:00 PM           1881 IAbility.class                                                       
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\tensura-neoforge-2.0.1.2\io\github\manasmods\tensura\storage\boss
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        12/31/1979  11:00 PM           7734 BossFightConfigManager.class                                         
+------        12/31/1979  11:00 PM          14788 BossFightStorage.class                                               
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\tensura-neoforge-2.0.1.2\io\github\manasmods\tensura\storage\boss\exit
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        12/31/1979  11:00 PM           3135 IForceExitHandler.class                                              
+------        12/31/1979  11:00 PM           7130 OffsetPointForceExit.class                                           
+------        12/31/1979  11:00 PM          11357 RandomRangeForceExit.class                                           
+------        12/31/1979  11:00 PM           4802 SpawnPointForceExit.class                                            
+------        12/31/1979  11:00 PM           6788 WarpPointForceExit.class                                             
+
+
+    Verzeichnis: 
+    C:\Users\yllis\OneDrive\Desktop\tensura-neoforge-2.0.1.2\io\github\manasmods\tensura\storage\boss\template
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        12/31/1979  11:00 PM           2973 BossFightInstance$PlayerCountHandler.class                           
+------        12/31/1979  11:00 PM          47963 BossFightInstance.class                                              
+------        12/31/1979  11:00 PM            720 IBossFightHolder.class                                               
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\tensura-neoforge-2.0.1.2\io\github\manasmods\tensura\storage\chunk
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        12/31/1979  11:00 PM           3165 ChunkStorage$MagiculeCacheEntry.class                                
+------        12/31/1979  11:00 PM          16797 ChunkStorage.class                                                   
+------        12/31/1979  11:00 PM            810 IChunk.class                                                         
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\tensura-neoforge-2.0.1.2\io\github\manasmods\tensura\storage\effect
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        12/31/1979  11:00 PM          12532 EffectStorage.class                                                  
+------        12/31/1979  11:00 PM            801 IEffect.class                                                        
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\tensura-neoforge-2.0.1.2\io\github\manasmods\tensura\storage\ep
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        12/31/1979  11:00 PM          42431 ExistenceStorage.class                                               
+------        12/31/1979  11:00 PM           2618 IExistence.class                                                     
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\tensura-neoforge-2.0.1.2\io\github\manasmods\tensura\storage\labyrinth
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        12/31/1979  11:00 PM            884 ILabyrinth.class                                                     
+------        12/31/1979  11:00 PM           5039 LabyrinthStorage$LabyrinthBlockData.class                            
+------        12/31/1979  11:00 PM          22546 LabyrinthStorage.class                                               
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\tensura-neoforge-2.0.1.2\io\github\manasmods\tensura\storage\player
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        12/31/1979  11:00 PM           4781 ITensuraPlayer.class                                                 
+------        12/31/1979  11:00 PM           1917 TensuraPlayerStorage$PresenceSenseMode.class                         
+------        12/31/1979  11:00 PM          23101 TensuraPlayerStorage.class                                           
+------        12/31/1979  11:00 PM           3173 WarpPoint$TransmissionType.class                                     
+------        12/31/1979  11:00 PM          12821 WarpPoint.class                                                      
+
+
+    Verzeichnis: 
+    C:\Users\yllis\OneDrive\Desktop\tensura-neoforge-2.0.1.2\io\github\manasmods\tensura\storage\restriction
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        12/31/1979  11:00 PM           7973 WorldRestrictionConfigManager.class                                  
+------        12/31/1979  11:00 PM           8609 WorldRestrictionStorage.class                                        
+
+
+    Verzeichnis: 
+    C:\Users\yllis\OneDrive\Desktop\tensura-neoforge-2.0.1.2\io\github\manasmods\tensura\storage\restriction\template
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        12/31/1979  11:00 PM            727 IWorldRestriction.class                                              
+------        12/31/1979  11:00 PM          15345 WorldRestrictionInstance.class                                       
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\tensura-neoforge-2.0.1.2\io\github\manasmods\tensura\storage\spirit
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        12/31/1979  11:00 PM           1185 ISpiritWielder.class                                                 
+------        12/31/1979  11:00 PM          16808 SpiritStorage.class                                                  
+
+
+    Verzeichnis: C:\Users\yllis\OneDrive\Desktop\tensura-neoforge-2.0.1.2\io\github\manasmods\tensura\storage\unique
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+------        12/31/1979  11:00 PM            662 ITrulyUnique.class                                                   
+------        12/31/1979  11:00 PM           8257 UniqueStorage.class                                                  
+
+

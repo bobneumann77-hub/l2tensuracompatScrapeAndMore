@@ -1,0 +1,27 @@
+{
+  "type": "tensura:refining",
+  "input": {
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:water"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:splash_potion"
+  },
+  "input1": {
+    "item": "minecraft:nether_wart"
+  },
+  "input2": {
+    "item": "minecraft:dragon_breath"
+  },
+  "output": {
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:awkward"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:lingering_potion"
+  }
+}

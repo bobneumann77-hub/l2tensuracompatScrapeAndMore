@@ -1,0 +1,21 @@
+{
+  "credit": "Made with Blockbench",
+  "texture_size": [36, 36],
+  "textures": {
+    "0": "tensura:block/thatch_bed",
+    "particle": "tensura:block/thatch_bed"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 2, 16],
+      "faces": {
+        "east": {"uv": [8, 8, 8.88889, 15.11111], "rotation": 90, "texture": "#0"},
+        "south": {"uv": [0.88889, 15.11111, 8, 16], "texture": "#0"},
+        "west": {"uv": [0, 8, 0.88889, 15.11111], "rotation": 270, "texture": "#0"},
+        "up": {"uv": [0.88889, 8, 8, 15.11111], "texture": "#0"},
+        "down": {"uv": [8.88889, 8, 15.55556, 15.11111], "texture": "#0"}
+      }
+    }
+  ]
+}

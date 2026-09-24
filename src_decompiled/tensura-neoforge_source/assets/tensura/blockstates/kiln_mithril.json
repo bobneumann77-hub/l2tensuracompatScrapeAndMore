@@ -1,0 +1,124 @@
+{
+  "variants": {
+    "facing=east,lit=false,part=base,powered=false": {
+      "model": "tensura:block/kiln_mithril_bottom",
+      "y": 90
+    },
+    "facing=east,lit=false,part=base,powered=true": {
+      "model": "tensura:block/kiln_mithril_bottom",
+      "y": 90
+    },
+    "facing=east,lit=false,part=top,powered=false": {
+      "model": "tensura:block/kiln_mithril_top",
+      "y": 90
+    },
+    "facing=east,lit=false,part=top,powered=true": {
+      "model": "tensura:block/kiln_mithril_top",
+      "y": 90
+    },
+    "facing=east,lit=true,part=base,powered=false": {
+      "model": "tensura:block/kiln_mithril_bottom_lit",
+      "y": 90
+    },
+    "facing=east,lit=true,part=base,powered=true": {
+      "model": "tensura:block/kiln_mithril_bottom_boosted",
+      "y": 90
+    },
+    "facing=east,lit=true,part=top,powered=false": {
+      "model": "tensura:block/kiln_mithril_top_lit",
+      "y": 90
+    },
+    "facing=east,lit=true,part=top,powered=true": {
+      "model": "tensura:block/kiln_mithril_top_boosted",
+      "y": 90
+    },
+    "facing=north,lit=false,part=base,powered=false": {
+      "model": "tensura:block/kiln_mithril_bottom"
+    },
+    "facing=north,lit=false,part=base,powered=true": {
+      "model": "tensura:block/kiln_mithril_bottom"
+    },
+    "facing=north,lit=false,part=top,powered=false": {
+      "model": "tensura:block/kiln_mithril_top"
+    },
+    "facing=north,lit=false,part=top,powered=true": {
+      "model": "tensura:block/kiln_mithril_top"
+    },
+    "facing=north,lit=true,part=base,powered=false": {
+      "model": "tensura:block/kiln_mithril_bottom_lit"
+    },
+    "facing=north,lit=true,part=base,powered=true": {
+      "model": "tensura:block/kiln_mithril_bottom_boosted"
+    },
+    "facing=north,lit=true,part=top,powered=false": {
+      "model": "tensura:block/kiln_mithril_top_lit"
+    },
+    "facing=north,lit=true,part=top,powered=true": {
+      "model": "tensura:block/kiln_mithril_top_boosted"
+    },
+    "facing=south,lit=false,part=base,powered=false": {
+      "model": "tensura:block/kiln_mithril_bottom",
+      "y": 180
+    },
+    "facing=south,lit=false,part=base,powered=true": {
+      "model": "tensura:block/kiln_mithril_bottom",
+      "y": 180
+    },
+    "facing=south,lit=false,part=top,powered=false": {
+      "model": "tensura:block/kiln_mithril_top",
+      "y": 180
+    },
+    "facing=south,lit=false,part=top,powered=true": {
+      "model": "tensura:block/kiln_mithril_top",
+      "y": 180
+    },
+    "facing=south,lit=true,part=base,powered=false": {
+      "model": "tensura:block/kiln_mithril_bottom_lit",
+      "y": 180
+    },
+    "facing=south,lit=true,part=base,powered=true": {
+      "model": "tensura:block/kiln_mithril_bottom_boosted",
+      "y": 180
+    },
+    "facing=south,lit=true,part=top,powered=false": {
+      "model": "tensura:block/kiln_mithril_top_lit",
+      "y": 180
+    },
+    "facing=south,lit=true,part=top,powered=true": {
+      "model": "tensura:block/kiln_mithril_top_boosted",
+      "y": 180
+    },
+    "facing=west,lit=false,part=base,powered=false": {
+      "model": "tensura:block/kiln_mithril_bottom",
+      "y": 270
+    },
+    "facing=west,lit=false,part=base,powered=true": {
+      "model": "tensura:block/kiln_mithril_bottom",
+      "y": 270
+    },
+    "facing=west,lit=false,part=top,powered=false": {
+      "model": "tensura:block/kiln_mithril_top",
+      "y": 270
+    },
+    "facing=west,lit=false,part=top,powered=true": {
+      "model": "tensura:block/kiln_mithril_top",
+      "y": 270
+    },
+    "facing=west,lit=true,part=base,powered=false": {
+      "model": "tensura:block/kiln_mithril_bottom_lit",
+      "y": 270
+    },
+    "facing=west,lit=true,part=base,powered=true": {
+      "model": "tensura:block/kiln_mithril_bottom_boosted",
+      "y": 270
+    },
+    "facing=west,lit=true,part=top,powered=false": {
+      "model": "tensura:block/kiln_mithril_top_lit",
+      "y": 270
+    },
+    "facing=west,lit=true,part=top,powered=true": {
+      "model": "tensura:block/kiln_mithril_top_boosted",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "tensura:wanderful",
+  "criteria": {
+    "grimoires": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#tensura:magic_grimoires"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.booked_on_magic.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "tensura:grimoire_special_a"
+    },
+    "title": {
+      "translate": "tensura.advancements.booked_on_magic.title"
+    }
+  },
+  "requirements": [
+    [
+      "grimoires"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_giant_ant_leg": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tensura:giant_ant_leg"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tensura:cooked_giant_ant_leg_from_campfire_cooking"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_giant_ant_leg"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tensura:cooked_giant_ant_leg_from_campfire_cooking"
+    ]
+  }
+}

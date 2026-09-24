@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:wither_skeleton",
+  "abilities": [
+    "tensura:corrosion",
+    "tensura:heat_nullification"
+  ],
+  "max_magicule": 3100,
+  "min_magicule": 3100,
+  "spiritualHealth": 60
+}

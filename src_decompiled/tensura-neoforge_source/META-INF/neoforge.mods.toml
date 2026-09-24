@@ -1,0 +1,83 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+#issueTrackerURL = ""
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "tensura"
+version = "2.0.1.2"
+displayName = "Tensura: Reincarnated"
+authors = "MinhEragon, MrProfessor, ItsJustArthur, Borniuus"
+description = '''
+TenSura:Reincarnated is a mod about bringing the popular Japanese media 'That Time I Got Reincarnated as a Slime' into the world of Minecraft! Adding and Reworking so many systems that it may as well be a Modpack!
+'''
+#logoFile = ""
+
+[[dependencies.tensura]]
+modId = "neoforge"
+abilityType = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.tensura]]
+modId = "minecraft"
+abilityType = "required"
+versionRange = "[1.21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.tensura]]
+modId = "manascore_storage"
+abilityType = "required"
+versionRange = "[3.0.2.9,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.tensura]]
+modId = "manascore_skill"
+abilityType = "required"
+versionRange = "[3.0.2.9,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.tensura]]
+modId = "manascore_race"
+abilityType = "required"
+versionRange = "[3.0.2.9,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.tensura]]
+modId = "architectury"
+abilityType = "required"
+versionRange = "[13.0.8,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.tensura]]
+modId = "geckolib"
+abilityType = "required"
+versionRange = "[4.7.5,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.tensura]]
+modId = "smartbrainlib"
+abilityType = "required"
+versionRange = "[1.16.7,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.tensura]]
+modId = "terrablender"
+abilityType = "required"
+versionRange = "[4.1.0.0,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[mixins]]
+config = "tensura.mixins.json"
+
+[[mixins]]
+config = "tensura-forge.mixins.json"

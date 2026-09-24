@@ -1,0 +1,16 @@
+{
+  "biome": "tensura:desert_of_death",
+  "modifiers": [
+    {
+      "mode": "ADD",
+      "value": 29500.0
+    }
+  ],
+  "priority": 1,
+  "regen_modifiers": [
+    {
+      "mode": "ADD",
+      "value": 200.0
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:hoglin",
+  "max_magicule": 3500,
+  "min_magicule": 3500,
+  "spiritualHealth": 80
+}

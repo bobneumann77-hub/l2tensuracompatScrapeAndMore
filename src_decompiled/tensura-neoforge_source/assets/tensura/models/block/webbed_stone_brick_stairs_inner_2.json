@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "top": "tensura:block/webbed_stone_bricks_2",
+    "side": "tensura:block/webbed_stone_bricks_2",
+    "bottom": "tensura:block/webbed_stone_bricks_2"
+  }
+}

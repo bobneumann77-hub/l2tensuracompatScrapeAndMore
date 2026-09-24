@@ -1,0 +1,14 @@
+{
+  "type": "tensura:metal_slime",
+  "abilities": [
+    "tensura:self_regeneration",
+    "tensura:body_armor",
+    "tensura:absorb_and_dissolve",
+    "tensura:physical_attack_resistance"
+  ],
+  "max_aura": 10,
+  "max_magicule": 300000,
+  "min_aura": 10,
+  "min_magicule": 100000,
+  "spiritualHealth": 500
+}

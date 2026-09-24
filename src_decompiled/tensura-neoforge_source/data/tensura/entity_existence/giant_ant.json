@@ -1,0 +1,8 @@
+{
+  "type": "tensura:giant_ant",
+  "max_aura": 2499,
+  "max_magicule": 2500,
+  "min_aura": 2000,
+  "min_magicule": 2334,
+  "spiritualHealth": 100
+}

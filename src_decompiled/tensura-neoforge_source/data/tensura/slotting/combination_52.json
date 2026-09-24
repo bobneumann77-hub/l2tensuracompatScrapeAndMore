@@ -1,0 +1,19 @@
+{
+  "combinationID": 52,
+  "durability": 3,
+  "projectileCost": 7,
+  "slottingProjectile": {
+    "burnTicks": -1,
+    "damage": 3.0,
+    "effect": {
+      "effectID": "tensura:corrosion",
+      "range": 4.0,
+      "ticks": 100
+    },
+    "entity": "tensura:acid_ball",
+    "knockbackForce": 1.0,
+    "speed": 1.25
+  },
+  "waterCores": 3,
+  "waterMultiplier": 3.0
+}

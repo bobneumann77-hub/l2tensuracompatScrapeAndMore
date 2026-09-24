@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:spider",
+  "max_aura": 200,
+  "max_magicule": 850,
+  "min_aura": 200,
+  "min_magicule": 850,
+  "spiritualHealth": 40
+}

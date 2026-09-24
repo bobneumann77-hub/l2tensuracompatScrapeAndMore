@@ -1,0 +1,52 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "enchantment.tensura.severance"
+  },
+  "effects": {
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 3.0,
+            "per_level_above_first": 3.0
+          }
+        }
+      }
+    ],
+    "tensura:after_damage": [
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "tensura:severance",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          },
+          "ignoreDefence": false,
+          "multiplyOriginalDamage": true,
+          "severanceCap": 0.5
+        },
+        "enchanted": "attacker"
+      }
+    ]
+  },
+  "exclusive_set": "#tensura:engraving_exclusive",
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 50
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 50,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#tensura:handheld_enchantable",
+  "weight": 1
+}

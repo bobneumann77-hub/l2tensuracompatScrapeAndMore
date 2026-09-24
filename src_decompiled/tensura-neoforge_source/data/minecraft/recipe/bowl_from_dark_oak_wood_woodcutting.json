@@ -1,0 +1,10 @@
+{
+  "type": "tensura:woodcutting",
+  "ingredient": {
+    "item": "minecraft:dark_oak_wood"
+  },
+  "result": {
+    "count": 4,
+    "id": "minecraft:bowl"
+  }
+}

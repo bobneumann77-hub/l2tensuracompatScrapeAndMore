@@ -1,0 +1,82 @@
+{
+  "variants": {
+    "facing=down,sculk_sensor_phase=inactive": {
+      "model": "tensura:block/charybdis_core",
+      "x": 180
+    },
+    "facing=east,sculk_sensor_phase=inactive": {
+      "model": "tensura:block/charybdis_core",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north,sculk_sensor_phase=inactive": {
+      "model": "tensura:block/charybdis_core",
+      "x": 90
+    },
+    "facing=south,sculk_sensor_phase=inactive": {
+      "model": "tensura:block/charybdis_core",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up,sculk_sensor_phase=inactive": {
+      "model": "tensura:block/charybdis_core"
+    },
+    "facing=west,sculk_sensor_phase=inactive": {
+      "model": "tensura:block/charybdis_core",
+      "x": 90,
+      "y": 270
+    },
+    "facing=down,sculk_sensor_phase=active": {
+      "model": "tensura:block/charybdis_core_active",
+      "x": 180
+    },
+    "facing=east,sculk_sensor_phase=active": {
+      "model": "tensura:block/charybdis_core_active",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north,sculk_sensor_phase=active": {
+      "model": "tensura:block/charybdis_core_active",
+      "x": 90
+    },
+    "facing=south,sculk_sensor_phase=active": {
+      "model": "tensura:block/charybdis_core_active",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up,sculk_sensor_phase=active": {
+      "model": "tensura:block/charybdis_core_active"
+    },
+    "facing=west,sculk_sensor_phase=active": {
+      "model": "tensura:block/charybdis_core_active",
+      "x": 90,
+      "y": 270
+    },
+    "facing=down,sculk_sensor_phase=cooldown": {
+      "model": "tensura:block/charybdis_core_inert",
+      "x": 180
+    },
+    "facing=east,sculk_sensor_phase=cooldown": {
+      "model": "tensura:block/charybdis_core_inert",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north,sculk_sensor_phase=cooldown": {
+      "model": "tensura:block/charybdis_core_inert",
+      "x": 90
+    },
+    "facing=south,sculk_sensor_phase=cooldown": {
+      "model": "tensura:block/charybdis_core_inert",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up,sculk_sensor_phase=cooldown": {
+      "model": "tensura:block/charybdis_core_inert"
+    },
+    "facing=west,sculk_sensor_phase=cooldown": {
+      "model": "tensura:block/charybdis_core_inert",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

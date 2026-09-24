@@ -1,0 +1,11 @@
+// 1.21.1	2026-01-24T01:28:20.4587098	Tags for minecraft:enchantment mod id tensura
+12a6dc3e0973cb23e616a6416cd8859ce0488f87 data/c/tags/enchantment/entity_defense_enhancements.json
+788838014adfb6ee1b7e90c62ae975513fe09b12 data/c/tags/enchantment/weapon_damage_enhancements.json
+9d6d9bda94b4eacd84a01fa08065d14a20ec9475 data/minecraft/tags/enchantment/curse.json
+247d353d6f84dbc7a93198b8251b3c200fc5f7ff data/minecraft/tags/enchantment/tooltip_order.json
+93c97b0ab263e8d1a2489f7ec840ef3c696f4e06 data/tensura/tags/enchantment/engraving.json
+4fec083f39c991daf86647367134035da925a646 data/tensura/tags/enchantment/engraving_exclusive.json
+00dced20ddde1063ee97a7853c3c42fa8edbb397 data/tensura/tags/enchantment/inheritance_engraving.json
+f4afc99dba9f0ffe57a7adf0acb61941bee78322 data/tensura/tags/enchantment/sealing_curse.json
+74614088ec1fb6d48ac9edbdd9506d6770b841c4 data/tensura/tags/enchantment/sealing_exclusive.json
+796a5cff7c246726610e5aa4c5cdfacdf04846e1 data/tensura/tags/enchantment/tsukumogami.json

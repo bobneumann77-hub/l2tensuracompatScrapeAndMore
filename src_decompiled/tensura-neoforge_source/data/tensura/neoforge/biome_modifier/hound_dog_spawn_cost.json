@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_spawn_costs",
+  "biomes": "#tensura:hound_dog_spawn",
+  "entity_types": "tensura:hound_dog",
+  "spawn_cost": {
+    "charge": 1.2,
+    "energy_budget": 4.0
+  }
+}

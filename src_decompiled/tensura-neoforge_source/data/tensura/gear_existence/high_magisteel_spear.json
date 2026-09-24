@@ -1,0 +1,7 @@
+{
+  "type": "tensura:high_magisteel_spear",
+  "epGain": 0.02,
+  "evolution": "tensura:pure_magisteel_spear",
+  "maxEP": 52000,
+  "minEP": 18000
+}

@@ -1,0 +1,8 @@
+{
+  "type": "tensura:orc",
+  "max_aura": 1500,
+  "max_magicule": 1500,
+  "min_aura": 500,
+  "min_magicule": 500,
+  "spiritualHealth": 76
+}

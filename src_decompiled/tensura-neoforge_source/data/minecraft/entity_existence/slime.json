@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:slime",
+  "abilities": [
+    "tensura:self_regeneration",
+    "tensura:absorb_and_dissolve"
+  ],
+  "max_magicule": 1000,
+  "min_magicule": 1000,
+  "spiritualHealth": 60
+}

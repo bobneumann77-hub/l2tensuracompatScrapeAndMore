@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blaze",
+  "abilities": [
+    "tensura:gravity_flight",
+    "tensura:heat_nullification"
+  ],
+  "max_magicule": 2500,
+  "min_magicule": 2500,
+  "spiritualHealth": 80
+}

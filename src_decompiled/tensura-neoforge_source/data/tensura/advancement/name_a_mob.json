@@ -1,0 +1,27 @@
+{
+  "parent": "tensura:monster_tamer",
+  "criteria": {
+    "name": {
+      "trigger": "tensura:name"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.name_a_mob.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:name_tag"
+    },
+    "title": {
+      "translate": "tensura.advancements.name_a_mob.title"
+    }
+  },
+  "requirements": [
+    [
+      "name"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

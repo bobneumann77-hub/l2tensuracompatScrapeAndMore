@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#tensura:spear_toro_spawn",
+  "spawners": {
+    "type": "tensura:spear_toro",
+    "maxCount": 1,
+    "minCount": 1,
+    "weight": 2
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "tensura:cattledeer",
+  "max_magicule": 700,
+  "min_magicule": 500,
+  "spiritualHealth": 60
+}

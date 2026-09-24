@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "tensura:low_quality_magic_crystal_bricks"
+  },
+  "result": {
+    "count": 1,
+    "id": "tensura:low_quality_magic_crystal_brick_wall"
+  }
+}

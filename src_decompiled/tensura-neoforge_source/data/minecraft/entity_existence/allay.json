@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:allay",
+  "max_magicule": 500,
+  "min_magicule": 334,
+  "spiritualHealth": 80
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "tensura:block/magic_engine",
+  "textures": {
+    "1": "minecraft:block/deepslate_bricks",
+    "particle": "minecraft:block/deepslate_bricks"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "tensura:black_spider",
+  "abilities": [
+    "tensura:sticky_steel_thread"
+  ],
+  "max_aura": 1500,
+  "max_magicule": 6000,
+  "min_aura": 1000,
+  "min_magicule": 5000,
+  "spiritualHealth": 200
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:ender_dragon",
+  "abilities": [
+    "tensura:self_regeneration"
+  ],
+  "max_magicule": 25000,
+  "min_magicule": 25000,
+  "spiritualHealth": 4000
+}

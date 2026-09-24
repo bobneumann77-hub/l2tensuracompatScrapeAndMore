@@ -1,0 +1,10 @@
+{
+  "type": "tensura:woodcutting",
+  "ingredient": {
+    "item": "tensura:palm_wood"
+  },
+  "result": {
+    "count": 8,
+    "id": "tensura:palm_slab"
+  }
+}

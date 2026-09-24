@@ -1,0 +1,38 @@
+{
+  "parent": "tensura:magic_ore",
+  "criteria": {
+    "low_magisteel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tensura:low_magisteel_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.low_magisteel.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "tensura:low_magisteel_ingot"
+    },
+    "title": {
+      "translate": "tensura.advancements.low_magisteel.title"
+    }
+  },
+  "requirements": [
+    [
+      "low_magisteel"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "tensura:advancement_reward/low_magisteel"
+    ]
+  },
+  "sends_telemetry_event": true
+}

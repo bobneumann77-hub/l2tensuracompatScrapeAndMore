@@ -1,0 +1,20 @@
+{
+  "textures": [
+    "tensura:fire_particle_0",
+    "tensura:fire_particle_1",
+    "tensura:fire_particle_2",
+    "tensura:fire_particle_3",
+    "tensura:fire_particle_4",
+    "tensura:fire_particle_5",
+    "tensura:fire_particle_6",
+    "tensura:fire_particle_7",
+    "tensura:blue_fire_particle_0",
+    "tensura:blue_fire_particle_1",
+    "tensura:blue_fire_particle_2",
+    "tensura:blue_fire_particle_3",
+    "tensura:blue_fire_particle_4",
+    "tensura:blue_fire_particle_5",
+    "tensura:blue_fire_particle_6",
+    "tensura:blue_fire_particle_7"
+  ]
+}

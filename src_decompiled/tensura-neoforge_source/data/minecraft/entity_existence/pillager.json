@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:pillager",
+  "max_aura": 2750,
+  "max_magicule": 50,
+  "min_aura": 2750,
+  "min_magicule": 50,
+  "spiritualHealth": 40
+}

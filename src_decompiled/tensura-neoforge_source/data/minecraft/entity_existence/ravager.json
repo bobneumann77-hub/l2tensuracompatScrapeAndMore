@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:ravager",
+  "max_aura": 3300,
+  "max_magicule": 2000,
+  "min_aura": 3300,
+  "min_magicule": 2000,
+  "spiritualHealth": 200
+}

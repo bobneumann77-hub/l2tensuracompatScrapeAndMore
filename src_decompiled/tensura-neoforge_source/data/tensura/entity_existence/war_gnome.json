@@ -1,0 +1,14 @@
+{
+  "type": "tensura:war_gnome",
+  "abilities": [
+    "tensura:gravity_field",
+    "tensura:earth_transform",
+    "tensura:earth_manipulation",
+    "tensura:earth_spikes",
+    "tensura:earth_jail",
+    "tensura:earth_attack_nullification"
+  ],
+  "max_magicule": 150000,
+  "min_magicule": 120000,
+  "spiritualHealth": 2000
+}

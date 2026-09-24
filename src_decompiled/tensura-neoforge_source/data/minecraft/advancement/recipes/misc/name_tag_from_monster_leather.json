@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_monster_leather_d": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tensura:monster_leather_d"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:name_tag_from_monster_leather"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_monster_leather_d"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:name_tag_from_monster_leather"
+    ]
+  }
+}

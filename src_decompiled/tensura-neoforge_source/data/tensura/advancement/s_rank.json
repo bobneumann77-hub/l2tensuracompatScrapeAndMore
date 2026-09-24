@@ -1,0 +1,31 @@
+{
+  "parent": "tensura:sa_rank",
+  "criteria": {
+    "ep": {
+      "conditions": {
+        "ep": 400000.0
+      },
+      "trigger": "tensura:existence_gain"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.s_rank.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "tensura:adamantite_nugget"
+    },
+    "title": {
+      "translate": "tensura.advancements.s_rank.title"
+    }
+  },
+  "requirements": [
+    [
+      "ep"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

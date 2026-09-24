@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "leather": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.getcha_leathers.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:leather"
+    },
+    "title": {
+      "translate": "tensura.advancements.getcha_leathers.title"
+    }
+  },
+  "requirements": [
+    [
+      "leather"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "tensura:advancement_reward/getcha_leathers"
+    ]
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "item/crossbow",
+    "textures": {
+        "layer0": "tensura:item/crossbow_speared_fin"
+    }
+}

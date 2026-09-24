@@ -1,0 +1,8 @@
+{
+  "type": "tensura:goblin",
+  "max_aura": 700,
+  "max_magicule": 300,
+  "min_aura": 400,
+  "min_magicule": 100,
+  "spiritualHealth": 44
+}

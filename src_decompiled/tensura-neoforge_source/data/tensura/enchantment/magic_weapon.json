@@ -1,0 +1,39 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "enchantment.tensura.magic_weapon"
+  },
+  "effects": {
+    "tensura:after_attack": [
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "tensura:additional_damage",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": 1.0,
+            "per_level_above_first": 1.0
+          },
+          "calculation_type": "TOTAL_ATTACK_MULTIPLY",
+          "damage_type": "tensura:magic"
+        },
+        "enchanted": "damaging_entity"
+      }
+    ]
+  },
+  "exclusive_set": "#tensura:engraving_exclusive",
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 50
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 50,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#tensura:handheld_enchantable",
+  "weight": 1
+}

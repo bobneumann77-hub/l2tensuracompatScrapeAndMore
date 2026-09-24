@@ -1,0 +1,31 @@
+{
+  "parent": "tensura:reincarnated",
+  "criteria": {
+    "labyrinth": {
+      "conditions": {
+        "to": "tensura:labyrinth"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.labyrinth.description"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "tensura:labyrinth_bricks"
+    },
+    "title": {
+      "translate": "tensura.advancements.labyrinth.title"
+    }
+  },
+  "requirements": [
+    [
+      "labyrinth"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

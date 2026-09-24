@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_low_quality_magic_crystal_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tensura:low_quality_magic_crystal_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:chiseled_low_quality_magic_crystal_bricks_from_low_quality_magic_crystal_bricks_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_low_quality_magic_crystal_bricks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:chiseled_low_quality_magic_crystal_bricks_from_low_quality_magic_crystal_bricks_stonecutting"
+    ]
+  }
+}

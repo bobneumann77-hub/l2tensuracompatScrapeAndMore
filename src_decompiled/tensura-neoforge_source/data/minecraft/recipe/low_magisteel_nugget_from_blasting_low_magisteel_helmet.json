@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.5,
+  "ingredient": {
+    "item": "tensura:low_magisteel_helmet"
+  },
+  "result": {
+    "count": 1,
+    "id": "tensura:low_magisteel_nugget"
+  }
+}

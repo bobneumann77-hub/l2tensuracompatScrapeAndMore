@@ -1,0 +1,30 @@
+{
+  "parent": "tensura:real_adventure",
+  "criteria": {
+    "hell": {
+      "conditions": {
+        "to": "tensura:hell"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.hell.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "tensura:daemon_essence"
+    },
+    "title": {
+      "translate": "tensura.advancements.hell.title"
+    }
+  },
+  "requirements": [
+    [
+      "hell"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

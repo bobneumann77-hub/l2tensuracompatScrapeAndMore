@@ -1,0 +1,14 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "l2hostility:block/hostility_beacon_base"
+      }
+    },
+    {
+      "apply": {
+        "model": "l2hostility:block/hostility_beacon_glass"
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+// 1.21.1	2026-02-25T20:44:47.1051575	Tags for manascore_race:races mod id vanilla
+fc8c3a5f0e37b9a88a8f5723bd2dd282e0c640b5 data/tensura/tags/manascore_race/races/beastfolk.json
+cd4f2e167dc2a4c4465360ee49a30260e6731585 data/tensura/tags/manascore_race/races/can_breath_water.json
+b620098f6e43af581cb995be38e5cdfdcdedb9eb data/tensura/tags/manascore_race/races/can_glide.json
+6e2f1851c1eb7e0913f1821f7dfff6e6daaf8c27 data/tensura/tags/manascore_race/races/cold_blooded.json
+e96b605994d9d10e4b0ec47da1ed3ebc458aad9b data/tensura/tags/manascore_race/races/daemon.json
+cf6bc62c19100363df197f30296cd1d600d3b23b data/tensura/tags/manascore_race/races/divine.json
+e96b605994d9d10e4b0ec47da1ed3ebc458aad9b data/tensura/tags/manascore_race/races/has_creative_flight.json
+dac9c9cd0174fcbb06622dd11b59699988f0d296 data/tensura/tags/manascore_race/races/human_like.json
+33c13acbf75985275f5a80a4a3e0b22e1822caff data/tensura/tags/manascore_race/races/limited_ep_in_central.json
+09320fefe9658f91138277380b2190991ae649e0 data/tensura/tags/manascore_race/races/necromancer.json
+cd4f2e167dc2a4c4465360ee49a30260e6731585 data/tensura/tags/manascore_race/races/need_moist.json
+8484999f84b02e4fe82c83cdf500379b02e466fa data/tensura/tags/manascore_race/races/no_blood.json
+88d5faffcd3062b55c5b6d550cf3e4c8cb7158a2 data/tensura/tags/manascore_race/races/slime.json
+8a386cfbfa3ec54d0d6ea264400003386375c15d data/tensura/tags/manascore_race/races/spawn_as_spiritual.json
+5d44df68e87adebabb5770debce24d938332888a data/tensura/tags/manascore_race/races/spiritual.json
+2fa82cbed07c023f2efdb73195263ccf00a494e6 data/tensura/tags/manascore_race/races/unable_to_heal_with_food.json
+c72e5a817ef7e3d107ac2ec971e2394e462da438 data/tensura/tags/manascore_race/races/undead.json

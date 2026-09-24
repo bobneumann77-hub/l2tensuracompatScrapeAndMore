@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "enabled=true": {
+      "model": "tensura:block/labyrinth_barrier_block_1"
+    },
+    "enabled=false":{
+      "model": "tensura:block/labyrinth_barrier_block_2"
+    }
+  }
+}

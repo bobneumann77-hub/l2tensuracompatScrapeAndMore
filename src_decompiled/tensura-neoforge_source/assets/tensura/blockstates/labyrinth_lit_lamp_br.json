@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "tensura:block/labyrinth_lit_lamp_br",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "tensura:block/labyrinth_lit_lamp_br"
+    },
+    "facing=south": {
+      "model": "tensura:block/labyrinth_lit_lamp_br",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tensura:block/labyrinth_lit_lamp_br",
+      "y": 270
+    }
+  }
+}

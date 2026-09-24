@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "tensura:smooth_sarasa_sandstone"
+  },
+  "result": {
+    "count": 2,
+    "id": "tensura:smooth_sarasa_sandstone_slab"
+  }
+}

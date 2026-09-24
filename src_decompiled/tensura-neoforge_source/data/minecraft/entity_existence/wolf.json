@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:wolf",
+  "max_aura": 1090,
+  "max_magicule": 10,
+  "min_aura": 1090,
+  "min_magicule": 10,
+  "spiritualHealth": 50
+}

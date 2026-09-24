@@ -1,0 +1,11 @@
+{
+  "values": [
+    "tensura:webbed_cobblestone_wall",
+    "tensura:webbed_stone_brick_wall",
+    "tensura:low_quality_magic_crystal_brick_wall",
+    "tensura:medium_quality_magic_crystal_brick_wall",
+    "tensura:high_quality_magic_crystal_brick_wall",
+    "tensura:sarasa_sandstone_wall",
+    "tensura:thatch_wall"
+  ]
+}

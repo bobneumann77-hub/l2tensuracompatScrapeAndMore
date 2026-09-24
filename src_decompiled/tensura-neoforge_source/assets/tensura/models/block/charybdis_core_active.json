@@ -1,0 +1,7 @@
+{
+  "parent": "tensura:block/charybdis_core",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "tensura:block/charybdis_core_active"
+  }
+}

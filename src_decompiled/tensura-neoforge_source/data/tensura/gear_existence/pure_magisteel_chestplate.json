@@ -1,0 +1,7 @@
+{
+  "type": "tensura:pure_magisteel_chestplate",
+  "epGain": 0.025,
+  "evolution": "tensura:adamantite_chestplate",
+  "maxEP": 225000,
+  "minEP": 52000
+}

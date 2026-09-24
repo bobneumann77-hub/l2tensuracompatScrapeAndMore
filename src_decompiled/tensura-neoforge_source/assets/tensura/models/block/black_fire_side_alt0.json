@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_fire_side_alt",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "fire": "tensura:block/black_fire_0"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "tensura:block/cream_labyrinth_bricks",
+    "side": "tensura:block/cream_labyrinth_bricks",
+    "top": "tensura:block/cream_labyrinth_bricks"
+  }
+}

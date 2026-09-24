@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#tensura:black_spider_spawn",
+  "spawners": {
+    "type": "tensura:black_spider",
+    "maxCount": 2,
+    "minCount": 1,
+    "weight": 80
+  }
+}

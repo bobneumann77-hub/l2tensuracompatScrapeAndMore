@@ -1,0 +1,30 @@
+{
+  "type": "tensura:refining",
+  "input": {
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:water"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:lingering_potion"
+  },
+  "input1": {
+    "item": "tensura:chilled_slime"
+  },
+  "input2": {
+    "item": "minecraft:nether_wart"
+  },
+  "input3": {
+    "item": "minecraft:glowstone_dust"
+  },
+  "output": {
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "tensura:strong_chill"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:lingering_potion"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/door_top_left",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "bottom": "tensura:block/palm_door_bottom",
+    "top": "tensura:block/palm_door_top"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#tensura:one_eyed_owl_spawn",
+  "spawners": {
+    "type": "tensura:one_eyed_owl",
+    "maxCount": 2,
+    "minCount": 1,
+    "weight": 50
+  }
+}

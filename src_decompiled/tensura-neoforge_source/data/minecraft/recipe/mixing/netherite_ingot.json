@@ -1,0 +1,11 @@
+{
+  "type": "tensura:kiln_mixing",
+  "left": "tensura:gold",
+  "left_count": 36,
+  "output": {
+    "count": 1,
+    "id": "minecraft:netherite_ingot"
+  },
+  "right": "tensura:netherite",
+  "right_count": 16
+}

@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:adventure/walk_on_powder_snow_with_leather_boots",
+  "criteria": {
+    "boots": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "feet": {
+                  "items": "#minecraft:can_walk_on_powder_snow"
+                }
+              },
+              "stepping_on": {
+                "block": {
+                  "blocks": "minecraft:powder_snow"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.light_as_horned_rabbit.description"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "tensura:monster_leather_boots_special_a"
+    },
+    "title": {
+      "translate": "tensura.advancements.light_as_horned_rabbit.title"
+    }
+  },
+  "requirements": [
+    [
+      "boots"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "tensura:block/tatami_block",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "tensura:block/tatami_block",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "tensura:block/tatami_block",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "tensura:block/tatami_block",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "tensura:block/tatami_block"
+    },
+    "facing=west": {
+      "model": "tensura:block/tatami_block",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

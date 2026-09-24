@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:phantom",
+  "max_magicule": 2000,
+  "min_magicule": 2000,
+  "spiritualHealth": 80
+}

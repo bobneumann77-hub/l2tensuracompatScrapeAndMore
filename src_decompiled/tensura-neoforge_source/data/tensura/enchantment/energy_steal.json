@@ -1,0 +1,38 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "enchantment.tensura.energy_steal"
+  },
+  "effects": {
+    "tensura:after_damage": [
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "tensura:energy_steal",
+          "cooldown": 20,
+          "percentage": {
+            "type": "minecraft:linear",
+            "base": 0.01,
+            "per_level_above_first": 0.01
+          }
+        },
+        "enchanted": "attacker"
+      }
+    ]
+  },
+  "exclusive_set": "#tensura:engraving_exclusive",
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 50
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 50,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#tensura:handheld_enchantable",
+  "weight": 1
+}

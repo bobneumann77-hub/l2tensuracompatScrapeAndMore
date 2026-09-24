@@ -1,0 +1,7 @@
+{
+  "parent": "tensura:block/magic_engine",
+  "textures": {
+    "1": "tensura:block/medium_quality_magic_crystal_bricks",
+    "particle": "tensura:block/medium_quality_magic_crystal_bricks"
+  }
+}

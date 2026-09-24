@@ -1,0 +1,60 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "enchantment.tensura.enervation"
+  },
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "tensura:apply_saturation",
+          "aoePredicate": {
+            "type_specific": {
+              "type": "tensura:additional_racial_predicate",
+              "undead": false
+            }
+          },
+          "armorExhaustion": 4.0,
+          "armorSaturation": {
+            "type": "minecraft:linear",
+            "base": -5.0,
+            "per_level_above_first": -5.0
+          },
+          "handExhaustion": 4.0,
+          "handRadius": 5.0,
+          "handSaturation": {
+            "type": "minecraft:linear",
+            "base": -2.0,
+            "per_level_above_first": -2.0
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "periodic_tick": 20,
+            "type_specific": {
+              "type": "tensura:additional_racial_predicate",
+              "undead": false
+            }
+          }
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#tensura:engraving_exclusive",
+  "max_cost": {
+    "base": 100,
+    "per_level_above_first": 100
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 100,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "any"
+  ],
+  "supported_items": "#minecraft:enchantable/durability",
+  "weight": 1
+}

@@ -1,0 +1,10 @@
+{
+  "type": "tensura:woodcutting",
+  "ingredient": {
+    "item": "minecraft:birch_wood"
+  },
+  "result": {
+    "count": 16,
+    "id": "minecraft:birch_button"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "tensura:woodcutting",
+  "ingredient": {
+    "item": "minecraft:oak_wood"
+  },
+  "result": {
+    "count": 16,
+    "id": "minecraft:oak_button"
+  }
+}

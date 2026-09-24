@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#tensura:armorsaurus_spawn",
+  "spawners": {
+    "type": "tensura:armorsaurus",
+    "maxCount": 1,
+    "minCount": 1,
+    "weight": 60
+  }
+}

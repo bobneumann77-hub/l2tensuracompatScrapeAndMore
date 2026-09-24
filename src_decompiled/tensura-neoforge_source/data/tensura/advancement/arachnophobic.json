@@ -1,0 +1,43 @@
+{
+  "parent": "tensura:goodnight_spider",
+  "criteria": {
+    "black_spider": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "tensura:black_spider"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.arachnophobic.description"
+    },
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "tensura:spider_fang"
+    },
+    "title": {
+      "translate": "tensura.advancements.arachnophobic.title"
+    }
+  },
+  "requirements": [
+    [
+      "black_spider"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "tensura:advancement_reward/arachnophobic"
+    ]
+  },
+  "sends_telemetry_event": true
+}

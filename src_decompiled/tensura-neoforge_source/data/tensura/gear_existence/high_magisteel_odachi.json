@@ -1,0 +1,7 @@
+{
+  "type": "tensura:high_magisteel_odachi",
+  "epGain": 0.02,
+  "evolution": "tensura:pure_magisteel_odachi",
+  "maxEP": 52000,
+  "minEP": 18000
+}

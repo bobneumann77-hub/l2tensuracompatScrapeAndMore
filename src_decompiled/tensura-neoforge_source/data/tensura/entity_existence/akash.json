@@ -1,0 +1,12 @@
+{
+  "type": "tensura:akash",
+  "abilities": [
+    "tensura:space_transform",
+    "tensura:spatial_manipulation",
+    "tensura:teleport",
+    "tensura:spatial_attack_nullification"
+  ],
+  "max_magicule": 150000,
+  "min_magicule": 120000,
+  "spiritualHealth": 2000
+}

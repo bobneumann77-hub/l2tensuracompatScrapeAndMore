@@ -1,0 +1,50 @@
+{
+  "parent": "tensura:hear_me_direwolves",
+  "criteria": {
+    "wolf": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "tensura:direwolf",
+                "type_specific": {
+                  "type": "tensura:variant_predicate",
+                  "variants": [
+                    "TEMPEST_STAR_WOLF"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:started_riding"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.good_boy.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:bone"
+    },
+    "title": {
+      "translate": "tensura.advancements.good_boy.title"
+    }
+  },
+  "requirements": [
+    [
+      "wolf"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": true
+}

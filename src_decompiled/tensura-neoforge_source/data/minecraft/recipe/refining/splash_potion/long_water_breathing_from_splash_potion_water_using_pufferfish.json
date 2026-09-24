@@ -1,0 +1,30 @@
+{
+  "type": "tensura:refining",
+  "input": {
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:water"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:splash_potion"
+  },
+  "input1": {
+    "item": "minecraft:pufferfish"
+  },
+  "input2": {
+    "item": "minecraft:nether_wart"
+  },
+  "input3": {
+    "item": "minecraft:redstone"
+  },
+  "output": {
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:long_water_breathing"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:splash_potion"
+  }
+}

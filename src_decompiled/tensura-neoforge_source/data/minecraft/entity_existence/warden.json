@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:warden",
+  "abilities": [
+    "tensura:steel_strength",
+    "tensura:ultrasonic_waves",
+    "tensura:sense_soundwave",
+    "tensura:heat_resistance"
+  ],
+  "max_aura": 2000,
+  "max_magicule": 8000,
+  "min_aura": 2000,
+  "min_magicule": 8000,
+  "spiritualHealth": 2000
+}

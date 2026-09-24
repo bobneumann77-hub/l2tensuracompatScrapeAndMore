@@ -1,0 +1,16 @@
+{
+  "combinationID": 40,
+  "durability": 3,
+  "fireCores": 1,
+  "fireMultiplier": 1.0,
+  "projectileCost": 7,
+  "slottingProjectile": {
+    "burnTicks": 300,
+    "damage": 2.0,
+    "entity": "tensura:space_cut_projectile",
+    "knockbackForce": 3.0,
+    "speed": 1.75
+  },
+  "spaceCores": 2,
+  "spaceMultiplier": 2.0
+}

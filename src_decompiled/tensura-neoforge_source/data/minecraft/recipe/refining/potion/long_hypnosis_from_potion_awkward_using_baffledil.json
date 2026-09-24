@@ -1,0 +1,27 @@
+{
+  "type": "tensura:refining",
+  "input": {
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:awkward"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:potion"
+  },
+  "input1": {
+    "item": "tensura:baffledil"
+  },
+  "input2": {
+    "item": "minecraft:redstone"
+  },
+  "output": {
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "tensura:long_hypnosis"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:potion"
+  }
+}

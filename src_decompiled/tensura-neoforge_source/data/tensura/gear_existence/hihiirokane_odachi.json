@@ -1,0 +1,8 @@
+{
+  "type": "tensura:hihiirokane_odachi",
+  "engravings": {
+    "tensura:tsukumogami": 1
+  },
+  "epGain": 0.04,
+  "minEP": 750000
+}

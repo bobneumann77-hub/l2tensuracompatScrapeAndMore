@@ -1,0 +1,6 @@
+{
+  "type": "tensura:zombie",
+  "max_magicule": 3000,
+  "min_magicule": 1000,
+  "spiritualHealth": 100
+}

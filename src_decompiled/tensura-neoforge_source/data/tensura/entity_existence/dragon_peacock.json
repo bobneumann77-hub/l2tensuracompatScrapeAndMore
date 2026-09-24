@@ -1,0 +1,6 @@
+{
+  "type": "tensura:dragon_peacock",
+  "max_magicule": 2000,
+  "min_magicule": 1000,
+  "spiritualHealth": 60
+}

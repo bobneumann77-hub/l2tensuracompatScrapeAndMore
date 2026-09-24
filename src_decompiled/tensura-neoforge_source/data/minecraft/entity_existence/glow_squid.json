@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:glow_squid",
+  "abilities": [
+    "tensura:water_breathing"
+  ],
+  "max_aura": 20,
+  "max_magicule": 10,
+  "min_aura": 20,
+  "min_magicule": 10,
+  "spiritualHealth": 10
+}

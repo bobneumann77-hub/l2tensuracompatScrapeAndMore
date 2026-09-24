@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:silverfish",
+  "max_magicule": 1000,
+  "min_magicule": 1000,
+  "spiritualHealth": 20
+}

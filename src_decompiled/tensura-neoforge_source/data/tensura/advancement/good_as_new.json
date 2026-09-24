@@ -1,0 +1,33 @@
+{
+  "parent": "tensura:hipokute_flower",
+  "criteria": {
+    "potion": {
+      "conditions": {
+        "item": {
+          "items": "tensura:full_potion"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.good_as_new.description"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "tensura:full_potion"
+    },
+    "title": {
+      "translate": "tensura.advancements.good_as_new.title"
+    }
+  },
+  "requirements": [
+    [
+      "potion"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

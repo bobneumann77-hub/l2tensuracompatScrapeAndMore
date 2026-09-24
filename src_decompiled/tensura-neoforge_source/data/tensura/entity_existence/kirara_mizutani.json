@@ -1,0 +1,11 @@
+{
+  "type": "tensura:kirara_mizutani",
+  "abilities": [
+    "tensura:bewilder"
+  ],
+  "max_aura": 45000,
+  "max_magicule": 25000,
+  "min_aura": 30000,
+  "min_magicule": 20000,
+  "spiritualHealth": 1000
+}

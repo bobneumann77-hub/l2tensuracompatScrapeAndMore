@@ -1,0 +1,21 @@
+{
+  "combinationID": 55,
+  "durability": 3,
+  "projectileCost": 7,
+  "slottingProjectile": {
+    "burnTicks": 100,
+    "damage": 3.0,
+    "effect": {
+      "effectID": "tensura:paralysis",
+      "level": 1,
+      "range": 4.0,
+      "ticks": 100
+    },
+    "entity": "tensura:lightning_sphere",
+    "explosionRadius": 2.0,
+    "noGravity": true,
+    "speed": 1.0
+  },
+  "windCores": 3,
+  "windMultiplier": 3.0
+}

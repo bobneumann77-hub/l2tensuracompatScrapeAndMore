@@ -1,0 +1,76 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.megiddo_bubble",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "all",
+					"pivot": [0, 14, 0]
+				},
+				{
+					"name": "bubble_big",
+					"parent": "all",
+					"pivot": [0, 7, 0],
+					"cubes": [
+						{
+							"origin": [-12, 0, -12],
+							"size": [24, 14, 24],
+							"uv": {
+								"north": {"uv": [24, 0], "uv_size": [24, 14]},
+								"east": {"uv": [24, 0], "uv_size": [24, 14]},
+								"south": {"uv": [24, 0], "uv_size": [24, 14]},
+								"west": {"uv": [24, 0], "uv_size": [24, 14]},
+								"up": {"uv": [0, 0], "uv_size": [24, 24]},
+								"down": {"uv": [0, 48], "uv_size": [24, -24]}
+							}
+						}
+					]
+				},
+				{
+					"name": "bubble_small",
+					"parent": "all",
+					"pivot": [0, 0.25, 0],
+					"cubes": [
+						{
+							"origin": [-3, -19, -3],
+							"size": [6, 6, 6],
+							"uv": {
+								"north": {"uv": [24, 14], "uv_size": [6, 6]},
+								"east": {"uv": [24, 14], "uv_size": [6, 6]},
+								"south": {"uv": [24, 14], "uv_size": [6, 6]},
+								"west": {"uv": [24, 14], "uv_size": [6, 6]},
+								"up": {"uv": [25, 23], "uv_size": [6, 6]},
+								"down": {"uv": [25, 37], "uv_size": [6, -6]}
+							}
+						}
+					]
+				},
+				{
+					"name": "string",
+					"parent": "bubble_small",
+					"pivot": [0, -13.5, 0],
+					"cubes": [
+						{
+							"origin": [-0.5, -13, -0.5],
+							"size": [1, 13, 1],
+							"uv": {
+								"north": {"uv": [32, 14], "uv_size": [1, 13]},
+								"east": {"uv": [32, 14], "uv_size": [1, 13]},
+								"south": {"uv": [32, 14], "uv_size": [1, 13]},
+								"west": {"uv": [32, 14], "uv_size": [1, 13]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

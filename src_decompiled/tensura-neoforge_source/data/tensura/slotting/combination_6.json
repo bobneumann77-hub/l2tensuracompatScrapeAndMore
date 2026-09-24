@@ -1,0 +1,13 @@
+{
+  "combinationID": 6,
+  "durability": 4,
+  "earthCores": 2,
+  "earthMultiplier": 1.5,
+  "projectileCost": 8,
+  "slottingProjectile": {
+    "damage": 2.0,
+    "entity": "tensura:boulder_shot",
+    "knockbackForce": 1.0,
+    "speed": 1.0
+  }
+}

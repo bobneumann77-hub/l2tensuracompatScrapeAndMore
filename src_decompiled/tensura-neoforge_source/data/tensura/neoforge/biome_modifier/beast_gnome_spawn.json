@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#tensura:beast_gnome_spawn",
+  "spawners": {
+    "type": "tensura:beast_gnome",
+    "maxCount": 1,
+    "minCount": 1,
+    "weight": 5
+  }
+}

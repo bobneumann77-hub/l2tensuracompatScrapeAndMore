@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:ghast",
+  "abilities": [
+    "tensura:flame_attack_nullification"
+  ],
+  "max_magicule": 3000,
+  "min_magicule": 3000,
+  "spiritualHealth": 100
+}

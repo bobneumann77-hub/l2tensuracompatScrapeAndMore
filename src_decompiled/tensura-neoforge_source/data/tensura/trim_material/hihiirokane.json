@@ -1,0 +1,9 @@
+{
+  "asset_name": "hihiirokane",
+  "description": {
+    "color": "#FF5555",
+    "translate": "trim_material.tensura.hihiirokane"
+  },
+  "ingredient": "tensura:hihiirokane_ingot",
+  "item_model_index": 0.8
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:pufferfish",
+  "abilities": [
+    "tensura:poison",
+    "tensura:water_breathing"
+  ],
+  "max_magicule": 10,
+  "min_magicule": 10,
+  "spiritualHealth": 40
+}

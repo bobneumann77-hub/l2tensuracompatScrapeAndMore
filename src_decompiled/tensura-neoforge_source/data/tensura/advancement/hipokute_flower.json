@@ -1,0 +1,34 @@
+{
+  "parent": "tensura:magic_seedy_place",
+  "criteria": {
+    "flower": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tensura:hipokute_flower"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.hipokute_flower.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "tensura:hipokute_flower"
+    },
+    "title": {
+      "translate": "tensura.advancements.hipokute_flower.title"
+    }
+  },
+  "requirements": [
+    [
+      "flower"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

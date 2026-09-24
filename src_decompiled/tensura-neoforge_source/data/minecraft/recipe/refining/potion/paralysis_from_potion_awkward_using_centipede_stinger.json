@@ -1,0 +1,24 @@
+{
+  "type": "tensura:refining",
+  "input": {
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:awkward"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:potion"
+  },
+  "input1": {
+    "item": "tensura:centipede_stinger"
+  },
+  "output": {
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "tensura:paralysis"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:potion"
+  }
+}

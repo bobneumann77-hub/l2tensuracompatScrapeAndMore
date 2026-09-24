@@ -1,0 +1,52 @@
+{
+  "parent": "tensura:monster_tamer",
+  "criteria": {
+    "metal_slime": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "tensura:metal_slime"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tame_animal"
+    },
+    "slime": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "tensura:slime"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tame_animal"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.tamed_a_slime.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "tensura:slime_chunk"
+    },
+    "title": {
+      "translate": "tensura.advancements.tamed_a_slime.title"
+    }
+  },
+  "requirements": [
+    [
+      "slime",
+      "metal_slime"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

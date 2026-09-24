@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:enderman",
+  "abilities": [
+    "tensura:shadow_motion",
+    "tensura:danger_sense"
+  ],
+  "max_aura": 300,
+  "max_magicule": 3000,
+  "min_aura": 300,
+  "min_magicule": 300,
+  "spiritualHealth": 80
+}

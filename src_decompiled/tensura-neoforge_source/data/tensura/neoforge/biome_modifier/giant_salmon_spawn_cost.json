@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_spawn_costs",
+  "biomes": "#tensura:giant_salmon_spawn",
+  "entity_types": "tensura:giant_salmon",
+  "spawn_cost": {
+    "charge": 3.0,
+    "energy_budget": 4.0
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "part=big_c": {
+      "model": "tensura:block/brick_warp_pad_center"
+    },
+    "part=big_e": {
+      "model": "tensura:block/brick_warp_pad_side",
+      "y": 270
+    },
+    "part=big_n": {
+      "model": "tensura:block/brick_warp_pad_side",
+      "y": 180
+    },
+    "part=big_ne": {
+      "model": "tensura:block/brick_warp_pad_corner",
+      "y": 270
+    },
+    "part=big_nw": {
+      "model": "tensura:block/brick_warp_pad_corner",
+      "y": 180
+    },
+    "part=big_s": {
+      "model": "tensura:block/brick_warp_pad_side"
+    },
+    "part=big_se": {
+      "model": "tensura:block/brick_warp_pad_corner"
+    },
+    "part=big_sw": {
+      "model": "tensura:block/brick_warp_pad_corner",
+      "y": 90
+    },
+    "part=big_w": {
+      "model": "tensura:block/brick_warp_pad_side",
+      "y": 90
+    },
+    "part=small_ne": {
+      "model": "tensura:block/brick_warp_pad",
+      "y": 270
+    },
+    "part=small_nw": {
+      "model": "tensura:block/brick_warp_pad",
+      "y": 180
+    },
+    "part=small_se": {
+      "model": "tensura:block/brick_warp_pad"
+    },
+    "part=small_sw": {
+      "model": "tensura:block/brick_warp_pad",
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+      { "model": "tensura:block/webbed_stone_bricks_0" },
+      { "model": "tensura:block/webbed_stone_bricks_1" },
+      { "model": "tensura:block/webbed_stone_bricks_2" },
+      { "model": "tensura:block/webbed_stone_bricks_3" }
+    ]
+  }
+}

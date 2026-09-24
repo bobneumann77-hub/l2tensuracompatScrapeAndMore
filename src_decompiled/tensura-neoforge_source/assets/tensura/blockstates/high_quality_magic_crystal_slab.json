@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tensura:block/high_quality_magic_crystal_slab"
+    },
+    "type=double": {
+      "model": "tensura:block/high_quality_magic_crystal_block"
+    },
+    "type=top": {
+      "model": "tensura:block/high_quality_magic_crystal_slab_top"
+    }
+  }
+}

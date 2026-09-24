@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:elder_guardian",
+  "abilities": [
+    "tensura:coercion"
+  ],
+  "max_magicule": 10000,
+  "min_magicule": 10000,
+  "spiritualHealth": 1000
+}

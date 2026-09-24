@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_adamantite_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tensura:adamantite_nugget"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:adamantite_ingot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_adamantite_nugget"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:adamantite_ingot"
+    ]
+  }
+}

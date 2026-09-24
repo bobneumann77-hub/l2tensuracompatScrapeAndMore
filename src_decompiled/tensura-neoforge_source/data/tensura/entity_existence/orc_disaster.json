@@ -1,0 +1,13 @@
+{
+  "type": "tensura:orc_disaster",
+  "abilities": [
+    "tensura:starved",
+    "tensura:corrosion",
+    "tensura:self_regeneration",
+    "tensura:strength",
+    "tensura:scale_armor"
+  ],
+  "max_magicule": 250000,
+  "min_magicule": 224435,
+  "spiritualHealth": 2700
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "magic_bottles",
+  "key": {
+    "#": {
+      "item": "minecraft:glass"
+    },
+    "X": {
+      "item": "tensura:low_quality_magic_crystal"
+    }
+  },
+  "pattern": [
+    "#X#",
+    " # "
+  ],
+  "result": {
+    "count": 3,
+    "id": "tensura:magic_bottle"
+  }
+}

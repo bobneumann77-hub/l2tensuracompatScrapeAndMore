@@ -1,0 +1,22 @@
+{
+  "type": "tensura:greater_daemon",
+  "abilities": [
+    "tensura:magic_sense",
+    "tensura:possession",
+    "tensura:magic_resistance",
+    "tensura:stone_shot",
+    "tensura:fire_lance",
+    "tensura:thunder_orb",
+    "tensura:acid_shell",
+    "tensura:tornado_blade",
+    "tensura:magic_barrier",
+    "tensura:icicle_lance",
+    "tensura:sleep_mist"
+  ],
+  "evolution": "tensura:arch_daemon",
+  "max_aura": 1000,
+  "max_magicule": 69000,
+  "min_aura": 500,
+  "min_magicule": 9500,
+  "spiritualHealth": 400
+}

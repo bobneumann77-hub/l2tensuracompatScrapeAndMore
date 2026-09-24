@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side",
+  "textures": {
+    "wall": "tensura:block/low_quality_magic_crystal_bricks"
+  }
+}

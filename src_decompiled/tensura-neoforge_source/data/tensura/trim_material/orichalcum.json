@@ -1,0 +1,9 @@
+{
+  "asset_name": "orichalcum",
+  "description": {
+    "color": "#FFD700",
+    "translate": "trim_material.tensura.orichalcum"
+  },
+  "ingredient": "tensura:orichalcum_ingot",
+  "item_model_index": 0.6
+}

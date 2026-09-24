@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tensura:block/smooth_sarasa_sandstone_slab"
+    },
+    "type=double": {
+      "model": "tensura:block/smooth_sarasa_sandstone"
+    },
+    "type=top": {
+      "model": "tensura:block/smooth_sarasa_sandstone_slab_top"
+    }
+  }
+}

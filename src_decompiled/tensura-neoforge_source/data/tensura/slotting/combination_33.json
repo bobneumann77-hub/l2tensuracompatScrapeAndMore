@@ -1,0 +1,21 @@
+{
+  "combinationID": 33,
+  "durability": 3,
+  "earthCores": 1,
+  "earthMultiplier": 1.0,
+  "projectileCost": 7,
+  "slottingProjectile": {
+    "burnTicks": -1,
+    "damage": 2.5,
+    "effect": {
+      "effectID": "minecraft:slowness",
+      "level": 2,
+      "ticks": 200
+    },
+    "entity": "tensura:bog_shot",
+    "knockbackForce": 1.5,
+    "speed": 1.85
+  },
+  "waterCores": 2,
+  "waterMultiplier": 2.0
+}

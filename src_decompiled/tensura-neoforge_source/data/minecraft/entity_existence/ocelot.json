@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:ocelot",
+  "max_aura": 30,
+  "max_magicule": 10,
+  "min_aura": 30,
+  "min_magicule": 10,
+  "spiritualHealth": 30
+}

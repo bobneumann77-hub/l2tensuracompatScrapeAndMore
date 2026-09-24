@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#tensura:winged_cat_spawn",
+  "spawners": {
+    "type": "tensura:winged_cat",
+    "maxCount": 1,
+    "minCount": 1,
+    "weight": 5
+  }
+}

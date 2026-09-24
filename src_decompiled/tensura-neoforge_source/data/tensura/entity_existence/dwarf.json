@@ -1,0 +1,8 @@
+{
+  "type": "tensura:dwarf",
+  "max_aura": 1080,
+  "max_magicule": 120,
+  "min_aura": 720,
+  "min_magicule": 80,
+  "spiritualHealth": 70
+}

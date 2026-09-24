@@ -1,0 +1,13 @@
+{
+  "combinationID": 5,
+  "slottingProjectile": {
+    "burnTicks": -1,
+    "damage": 1.0,
+    "entity": "tensura:wind_sphere",
+    "knockbackForce": 3.0,
+    "noGravity": true,
+    "speed": 1.0
+  },
+  "windCores": 1,
+  "windMultiplier": 1.0
+}

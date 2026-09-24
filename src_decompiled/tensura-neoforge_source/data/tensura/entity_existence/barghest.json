@@ -1,0 +1,6 @@
+{
+  "type": "tensura:barghest",
+  "max_magicule": 4000,
+  "min_magicule": 2000,
+  "spiritualHealth": 80
+}

@@ -1,0 +1,15 @@
+{
+  "combinationID": 12,
+  "durability": 4,
+  "fireCores": 1,
+  "fireMultiplier": 0.75,
+  "projectileCost": 8,
+  "slottingProjectile": {
+    "burnTicks": 100,
+    "damage": 1.25,
+    "entity": "tensura:space_cut_projectile",
+    "speed": 1.75
+  },
+  "spaceCores": 1,
+  "spaceMultiplier": 0.75
+}

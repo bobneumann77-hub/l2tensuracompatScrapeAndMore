@@ -1,0 +1,11 @@
+{
+  "type": "tensura:hell_moth",
+  "abilities": [
+    "tensura:paralysis"
+  ],
+  "max_aura": 2499,
+  "max_magicule": 4500,
+  "min_aura": 2000,
+  "min_magicule": 4000,
+  "spiritualHealth": 80
+}

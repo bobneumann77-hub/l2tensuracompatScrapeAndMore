@@ -1,0 +1,7 @@
+{
+  "parent": "tensura:block/warp_pad_side",
+  "textures": {
+    "1": "tensura:block/quartz_warp_pad",
+    "particle": "tensura:block/quartz_warp_pad"
+  }
+}

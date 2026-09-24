@@ -1,0 +1,16 @@
+{
+  "biome": "tensura:barren_land",
+  "modifiers": [
+    {
+      "mode": "ADD",
+      "value": 45500.0
+    }
+  ],
+  "priority": 1,
+  "regen_modifiers": [
+    {
+      "mode": "ADD",
+      "value": 400.0
+    }
+  ]
+}

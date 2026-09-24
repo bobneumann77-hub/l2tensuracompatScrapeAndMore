@@ -1,0 +1,11 @@
+{
+  "type": "tensura:shinji_tanimura",
+  "abilities": [
+    "tensura:healer"
+  ],
+  "max_aura": 60000,
+  "max_magicule": 80000,
+  "min_aura": 50000,
+  "min_magicule": 70000,
+  "spiritualHealth": 1000
+}

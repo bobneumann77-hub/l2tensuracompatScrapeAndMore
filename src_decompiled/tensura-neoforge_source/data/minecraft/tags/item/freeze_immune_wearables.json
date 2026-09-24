@@ -1,0 +1,28 @@
+{
+  "values": [
+    "tensura:monster_leather_helmet_d",
+    "tensura:monster_leather_helmet_c",
+    "tensura:monster_leather_helmet_b",
+    "tensura:monster_leather_helmet_a",
+    "tensura:monster_leather_helmet_special_a",
+    "tensura:monster_leather_chestplate_d",
+    "tensura:monster_leather_chestplate_c",
+    "tensura:monster_leather_chestplate_b",
+    "tensura:monster_leather_chestplate_a",
+    "tensura:monster_leather_chestplate_special_a",
+    "tensura:dark_jacket",
+    "tensura:monster_leather_leggings_d",
+    "tensura:monster_leather_leggings_c",
+    "tensura:monster_leather_leggings_b",
+    "tensura:monster_leather_leggings_a",
+    "tensura:monster_leather_leggings_special_a",
+    "tensura:dark_leggings",
+    "tensura:monster_leather_boots_d",
+    "tensura:monster_leather_boots_c",
+    "tensura:monster_leather_boots_b",
+    "tensura:monster_leather_boots_a",
+    "tensura:monster_leather_boots_special_a",
+    "tensura:dark_boots",
+    "tensura:winged_shoes"
+  ]
+}

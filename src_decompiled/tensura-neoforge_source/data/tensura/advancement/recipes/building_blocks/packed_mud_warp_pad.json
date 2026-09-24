@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_mud_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mud_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_packed_mud": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:packed_mud"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tensura:packed_mud_warp_pad"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_warp_core": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tensura:warp_core"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_warp_core",
+      "has_packed_mud",
+      "has_mud_bricks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tensura:packed_mud_warp_pad"
+    ]
+  }
+}

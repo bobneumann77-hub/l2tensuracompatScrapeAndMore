@@ -1,0 +1,36 @@
+{
+  "type": "tensura:refining",
+  "input": {
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:water"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:potion"
+  },
+  "input1": {
+    "item": "minecraft:turtle_helmet"
+  },
+  "input2": {
+    "item": "minecraft:nether_wart"
+  },
+  "input3": {
+    "item": "minecraft:redstone"
+  },
+  "input4": {
+    "item": "minecraft:gunpowder"
+  },
+  "input5": {
+    "item": "minecraft:dragon_breath"
+  },
+  "output": {
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:long_turtle_master"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:lingering_potion"
+  }
+}

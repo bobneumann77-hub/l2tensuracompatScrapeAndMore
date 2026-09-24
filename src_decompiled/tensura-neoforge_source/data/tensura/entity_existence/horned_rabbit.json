@@ -1,0 +1,8 @@
+{
+  "type": "tensura:horned_rabbit",
+  "max_aura": 3000,
+  "max_magicule": 3000,
+  "min_aura": 1000,
+  "min_magicule": 2000,
+  "spiritualHealth": 50
+}

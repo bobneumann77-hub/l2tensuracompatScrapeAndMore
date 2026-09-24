@@ -1,0 +1,33 @@
+{
+  "type": "tensura:refining",
+  "input": {
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:water"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:potion"
+  },
+  "input1": {
+    "item": "tensura:giant_ant_leg"
+  },
+  "input2": {
+    "item": "minecraft:nether_wart"
+  },
+  "input3": {
+    "item": "minecraft:redstone"
+  },
+  "input4": {
+    "item": "minecraft:gunpowder"
+  },
+  "output": {
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "tensura:long_fragility"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:splash_potion"
+  }
+}

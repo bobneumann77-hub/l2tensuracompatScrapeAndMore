@@ -1,0 +1,27 @@
+{
+  "type": "tensura:refining",
+  "input": {
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:awkward"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:potion"
+  },
+  "input1": {
+    "item": "minecraft:turtle_helmet"
+  },
+  "input2": {
+    "item": "minecraft:redstone"
+  },
+  "output": {
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:long_turtle_master"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:potion"
+  }
+}

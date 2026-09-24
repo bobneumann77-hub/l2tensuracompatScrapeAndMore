@@ -1,0 +1,39 @@
+{
+  "parent": "tensura:orichalcum",
+  "criteria": {
+    "pure_magisteel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tensura:pure_magisteel_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.pure_magisteel.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "tensura:pure_magisteel_ingot"
+    },
+    "title": {
+      "translate": "tensura.advancements.pure_magisteel.title"
+    }
+  },
+  "requirements": [
+    [
+      "pure_magisteel"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "tensura:advancement_reward/pure_magisteel"
+    ]
+  },
+  "sends_telemetry_event": true
+}

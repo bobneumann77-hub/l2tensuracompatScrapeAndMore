@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#tensura:barghest_spawn",
+  "spawners": {
+    "type": "tensura:barghest",
+    "maxCount": 4,
+    "minCount": 2,
+    "weight": 80
+  }
+}

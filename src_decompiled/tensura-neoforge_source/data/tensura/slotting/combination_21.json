@@ -1,0 +1,19 @@
+{
+  "combinationID": 21,
+  "durability": 3,
+  "earthCores": 3,
+  "earthMultiplier": 3.0,
+  "projectileCost": 7,
+  "slottingProjectile": {
+    "damage": 3.0,
+    "effect": {
+      "effectID": "tensura:burden",
+      "level": 1,
+      "range": 4.0,
+      "ticks": 200
+    },
+    "entity": "tensura:gravity_sphere",
+    "noGravity": true,
+    "speed": 0.8
+  }
+}

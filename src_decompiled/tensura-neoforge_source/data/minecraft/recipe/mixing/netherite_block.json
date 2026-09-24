@@ -1,0 +1,11 @@
+{
+  "type": "tensura:kiln_mixing",
+  "left": "tensura:gold",
+  "left_count": 324,
+  "output": {
+    "count": 1,
+    "id": "minecraft:netherite_block"
+  },
+  "right": "tensura:netherite",
+  "right_count": 144
+}

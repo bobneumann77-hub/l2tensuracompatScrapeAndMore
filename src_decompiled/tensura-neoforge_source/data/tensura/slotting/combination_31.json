@@ -1,0 +1,21 @@
+{
+  "combinationID": 31,
+  "durability": 4,
+  "earthCores": 1,
+  "earthMultiplier": 0.5,
+  "projectileCost": 8,
+  "slottingProjectile": {
+    "damage": 2.0,
+    "effect": {
+      "effectID": "minecraft:poison",
+      "ticks": 100
+    },
+    "entity": "tensura:space_cut_projectile",
+    "noGravity": true,
+    "speed": 1.75
+  },
+  "spaceCores": 1,
+  "spaceMultiplier": 0.5,
+  "waterCores": 1,
+  "waterMultiplier": 1.0
+}

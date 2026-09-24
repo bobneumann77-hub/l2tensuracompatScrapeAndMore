@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_granite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:granite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_polished_granite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_granite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tensura:granite_warp_pad"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_warp_core": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tensura:warp_core"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_warp_core",
+      "has_granite",
+      "has_polished_granite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tensura:granite_warp_pad"
+    ]
+  }
+}

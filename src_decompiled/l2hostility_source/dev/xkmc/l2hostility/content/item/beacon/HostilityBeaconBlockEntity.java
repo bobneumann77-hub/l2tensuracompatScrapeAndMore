@@ -1,0 +1,307 @@
+package dev.xkmc.l2hostility.content.item.beacon;
+
+import com.google.common.collect.ImmutableList;
+import com.google.common.collect.Lists;
+import dev.xkmc.l2complements.init.registrate.LCEffects;
+import dev.xkmc.l2core.base.tile.BaseBlockEntity;
+import dev.xkmc.l2hostility.init.data.LHTagGen;
+import dev.xkmc.l2hostility.init.registrate.LHBlocks;
+import dev.xkmc.l2modularblock.tile_api.TickableBlockEntity;
+import dev.xkmc.l2serial.serialization.marker.SerialClass;
+import dev.xkmc.l2serial.serialization.marker.SerialField;
+import java.util.List;
+import javax.annotation.Nullable;
+import net.minecraft.advancements.CriteriaTriggers;
+import net.minecraft.core.BlockPos;
+import net.minecraft.core.Holder;
+import net.minecraft.core.HolderLookup.Provider;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.Component.Serializer;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
+import net.minecraft.util.FastColor.ARGB32;
+import net.minecraft.world.LockCode;
+import net.minecraft.world.MenuProvider;
+import net.minecraft.world.effect.MobEffect;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.player.Inventory;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.inventory.AbstractContainerMenu;
+import net.minecraft.world.inventory.ContainerData;
+import net.minecraft.world.inventory.ContainerLevelAccess;
+import net.minecraft.world.inventory.MenuType;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.entity.BaseContainerBlockEntity;
+import net.minecraft.world.level.block.entity.BlockEntityType;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.levelgen.Heightmap.Types;
+import net.minecraft.world.phys.AABB;
+
+@SerialClass
+public class HostilityBeaconBlockEntity extends BaseBlockEntity implements TickableBlockEntity, MenuProvider, ContainerData {
+   private static final int MAX_LEVELS = 3;
+   public static final List<Holder<MobEffect>> BEACON_EFFECTS = List.of(
+      MobEffects.WEAKNESS, LCEffects.ICE, LCEffects.FLAME, LCEffects.CURSE, LCEffects.CLEANSE, LCEffects.INCARCERATE
+   );
+   private static final int BLOCKS_CHECK_PER_TICK = 10;
+   private static final Component DEFAULT_NAME = Component.translatable("container.beacon");
+   List<HostilityBeaconBlockEntity.Section> beamSections = Lists.newArrayList();
+   private List<HostilityBeaconBlockEntity.Section> checkingBeamSections = Lists.newArrayList();
+   int levels;
+   private int lastCheckY;
+   @SerialField
+   int power = -1;
+   @Nullable
+   private Component name;
+   private LockCode lockKey = LockCode.NO_LOCK;
+
+   public HostilityBeaconBlockEntity(BlockEntityType<? extends HostilityBeaconBlockEntity> type, BlockPos pos, BlockState state) {
+      super(type, pos, state);
+   }
+
+   public void tick() {
+      if (this.level != null) {
+         BlockPos pos = this.getBlockPos();
+         int x = pos.getX();
+         int y = pos.getY();
+         int z = pos.getZ();
+         BlockPos start;
+         if (this.lastCheckY < y) {
+            start = pos;
+            this.checkingBeamSections = Lists.newArrayList();
+            this.lastCheckY = y - 1;
+         } else {
+            start = new BlockPos(x, this.lastCheckY + 1, z);
+         }
+
+         HostilityBeaconBlockEntity.Section sec = this.checkingBeamSections.isEmpty()
+            ? null
+            : this.checkingBeamSections.get(this.checkingBeamSections.size() - 1);
+         int h = this.level.getHeight(Types.WORLD_SURFACE, x, z);
+
+         for (int i = 0; i < 10 && start.getY() <= h; i++) {
+            BlockState state = this.level.getBlockState(start);
+            Integer afloat = state.getBeaconColorMultiplier(this.level, start, pos);
+            if (afloat != null) {
+               if (this.checkingBeamSections.size() <= 1) {
+                  sec = new HostilityBeaconBlockEntity.Section(afloat);
+                  this.checkingBeamSections.add(sec);
+               } else if (sec != null) {
+                  if (afloat == sec.color) {
+                     sec.increaseHeight();
+                  } else {
+                     sec = new HostilityBeaconBlockEntity.Section(ARGB32.average(sec.color, afloat));
+                     this.checkingBeamSections.add(sec);
+                  }
+               }
+            } else {
+               if (sec == null || state.getLightBlock(this.level, start) >= 15 && !state.is(Blocks.BEDROCK)) {
+                  this.checkingBeamSections.clear();
+                  this.lastCheckY = h;
+                  break;
+               }
+
+               sec.increaseHeight();
+            }
+
+            start = start.above();
+            this.lastCheckY++;
+         }
+
+         int oldLv = this.levels;
+         if (this.level.getGameTime() % 80L == 0L) {
+            if (!this.beamSections.isEmpty()) {
+               this.levels = updateBase(this.level, x, y, z);
+            }
+
+            if (this.levels > 0 && !this.beamSections.isEmpty()) {
+               this.applyEffects(this.level, pos);
+               playSound(this.level, pos, SoundEvents.BEACON_AMBIENT);
+            }
+         }
+
+         if (this.lastCheckY >= h) {
+            this.lastCheckY = this.level.getMinBuildHeight() - 1;
+            boolean flag = oldLv > 0;
+            this.beamSections = this.checkingBeamSections;
+            if (!this.level.isClientSide) {
+               boolean flag1 = this.levels > 0;
+               if (!flag && flag1) {
+                  playSound(this.level, pos, SoundEvents.BEACON_ACTIVATE);
+                  AABB aabb = new AABB(x, y, z, x, y - 4, z).inflate(10.0, 5.0, 10.0);
+
+                  for (ServerPlayer serverplayer : this.level.getEntitiesOfClass(ServerPlayer.class, aabb)) {
+                     CriteriaTriggers.CONSTRUCT_BEACON.trigger(serverplayer, this.levels);
+                  }
+               } else if (flag && !flag1) {
+                  playSound(this.level, pos, SoundEvents.BEACON_DEACTIVATE);
+               }
+            }
+         }
+      }
+   }
+
+   private static int updateBase(Level level, int x, int y, int z) {
+      int ans = 0;
+
+      for (int iy = 1; iy <= 3; ans = iy++) {
+         int y0 = y - iy;
+         if (y0 < level.getMinBuildHeight()) {
+            break;
+         }
+
+         boolean valid = true;
+
+         for (int ix = x - iy; ix <= x + iy && valid; ix++) {
+            for (int iz = z - iy; iz <= z + iy; iz++) {
+               if (!level.getBlockState(new BlockPos(ix, y0, iz)).is(LHTagGen.BEACON_BLOCK)) {
+                  valid = false;
+                  break;
+               }
+            }
+         }
+
+         if (!valid) {
+            break;
+         }
+      }
+
+      return ans;
+   }
+
+   public void setRemoved() {
+      if (this.level != null) {
+         playSound(this.level, this.worldPosition, SoundEvents.BEACON_DEACTIVATE);
+      }
+
+      super.setRemoved();
+   }
+
+   private void applyEffects(Level level, BlockPos pos) {
+      if (!level.isClientSide && this.power >= 0) {
+         Holder<MobEffect> eff = BEACON_EFFECTS.get(this.power);
+         double d0 = this.levels * 10 + 10;
+         int i = 0;
+         int j = (9 + this.levels * 2) * 20;
+         AABB aabb = new AABB(pos).inflate(d0).expandTowards(0.0, level.getHeight(), 0.0);
+
+         for (LivingEntity e : level.getEntitiesOfClass(LivingEntity.class, aabb)) {
+            e.addEffect(new MobEffectInstance(eff, j, i, true, true));
+         }
+      }
+   }
+
+   public static void playSound(Level level, BlockPos pos, SoundEvent sound) {
+      level.playSound(null, pos, sound, SoundSource.BLOCKS, 1.0F, 1.0F);
+   }
+
+   public List<HostilityBeaconBlockEntity.Section> getBeamSections() {
+      return (List<HostilityBeaconBlockEntity.Section>)(this.levels == 0 ? ImmutableList.of() : this.beamSections);
+   }
+
+   public void loadAdditional(CompoundTag tag, Provider registries) {
+      super.loadAdditional(tag, registries);
+      if (tag.contains("CustomName", 8)) {
+         this.name = parseCustomNameSafe(tag.getString("CustomName"), registries);
+      }
+
+      this.lockKey = LockCode.fromTag(tag);
+   }
+
+   public void saveAdditional(CompoundTag tag, Provider registries) {
+      super.saveAdditional(tag, registries);
+      tag.putInt("Levels", this.levels);
+      if (this.name != null) {
+         tag.putString("CustomName", Serializer.toJson(this.name, registries));
+      }
+
+      this.lockKey.addToTag(tag);
+   }
+
+   public void setCustomName(@Nullable Component name) {
+      this.name = name;
+   }
+
+   @Nullable
+   public Component getCustomName() {
+      return this.name;
+   }
+
+   @Nullable
+   public AbstractContainerMenu createMenu(int id, Inventory inv, Player player) {
+      return this.level != null && BaseContainerBlockEntity.canUnlock(player, this.lockKey, this.getDisplayName())
+         ? new HostilityBeaconMenu(
+            (MenuType<HostilityBeaconMenu>)LHBlocks.MT_BEACON.get(), id, inv, this, ContainerLevelAccess.create(this.level, this.getBlockPos())
+         )
+         : null;
+   }
+
+   public Component getDisplayName() {
+      return this.getName();
+   }
+
+   public Component getName() {
+      return this.name != null ? this.name : DEFAULT_NAME;
+   }
+
+   public void setLevel(Level level) {
+      super.setLevel(level);
+      this.lastCheckY = level.getMinBuildHeight() - 1;
+   }
+
+   public int get(int index) {
+      return switch (index) {
+         case 0 -> this.levels;
+         case 1 -> this.power;
+         default -> 0;
+      };
+   }
+
+   public void set(int index, int value) {
+      if (this.level != null) {
+         switch (index) {
+            case 0:
+               this.levels = value;
+               break;
+            case 1:
+               if (!this.level.isClientSide && !this.beamSections.isEmpty()) {
+                  playSound(this.level, this.worldPosition, SoundEvents.BEACON_POWER_SELECT);
+               }
+
+               this.power = value;
+         }
+      }
+   }
+
+   public int getCount() {
+      return 2;
+   }
+
+   public static class Section {
+      final int color;
+      private int height;
+
+      public Section(int p_350966_) {
+         this.color = p_350966_;
+         this.height = 1;
+      }
+
+      protected void increaseHeight() {
+         this.height++;
+      }
+
+      public int getColor() {
+         return this.color;
+      }
+
+      public int getHeight() {
+         return this.height;
+      }
+   }
+}

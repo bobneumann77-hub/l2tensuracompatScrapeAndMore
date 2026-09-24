@@ -1,0 +1,469 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.mad_orbs",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "All",
+					"pivot": [0, 29, 0]
+				},
+				{
+					"name": "Everything",
+					"parent": "All",
+					"pivot": [0, 29, 0]
+				},
+				{
+					"name": "Orbs",
+					"parent": "Everything",
+					"pivot": [0, 28, 0]
+				},
+				{
+					"name": "Orb1",
+					"parent": "Orbs",
+					"pivot": [5, 29.5, -24]
+				},
+				{
+					"name": "Core1",
+					"parent": "Orb1",
+					"pivot": [5, 29.5, -24],
+					"rotation": [-45, -45, 45],
+					"cubes": [
+						{"origin": [3.5, 28, -25.5], "size": [3, 3, 3], "uv": [0, 0]},
+						{"origin": [3.5, 28, -25.5], "size": [3, 3, 3], "inflate": 0.5, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "Smoke",
+					"parent": "Orb1",
+					"pivot": [5, 28, -24]
+				},
+				{
+					"name": "SmallSmoke",
+					"parent": "Smoke",
+					"pivot": [5, 29.5, -24],
+					"cubes": [
+						{"origin": [3.5, 28, -25.5], "size": [3, 3, 3], "inflate": 0.4, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "SmallSmoke2",
+					"parent": "Smoke",
+					"pivot": [5, 29.5, -24],
+					"cubes": [
+						{"origin": [3.5, 28, -25.5], "size": [3, 3, 3], "inflate": 0.7, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "SmallSmoke3",
+					"parent": "Smoke",
+					"pivot": [5, 29.5, -24],
+					"cubes": [
+						{"origin": [3.5, 28, -25.5], "size": [3, 3, 3], "inflate": 0.3, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "Smoke2",
+					"parent": "Orb1",
+					"pivot": [5, 28, -24]
+				},
+				{
+					"name": "SmallSmoke4",
+					"parent": "Smoke2",
+					"pivot": [5, 29.5, -24],
+					"cubes": [
+						{"origin": [3.5, 28, -25.5], "size": [3, 3, 3], "inflate": 0.4, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "SmallSmoke5",
+					"parent": "Smoke2",
+					"pivot": [5, 29.5, -24],
+					"cubes": [
+						{"origin": [3.5, 28, -25.5], "size": [3, 3, 3], "inflate": 0.7, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "SmallSmoke6",
+					"parent": "Smoke2",
+					"pivot": [5, 29.5, -24],
+					"cubes": [
+						{"origin": [3.5, 28, -25.5], "size": [3, 3, 3], "inflate": 0.3, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "Orb2",
+					"parent": "Orbs",
+					"pivot": [-4, 29.5, 23]
+				},
+				{
+					"name": "Core2",
+					"parent": "Orb2",
+					"pivot": [-4, 29.5, 23],
+					"rotation": [-45, -45, 45],
+					"cubes": [
+						{"origin": [-5.5, 28, 21.5], "size": [3, 3, 3], "uv": [0, 0]},
+						{"origin": [-5.5, 28, 21.5], "size": [3, 3, 3], "inflate": 0.5, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "Smoke3",
+					"parent": "Orb2",
+					"pivot": [-4, 28, 23]
+				},
+				{
+					"name": "SmallSmoke7",
+					"parent": "Smoke3",
+					"pivot": [-4, 29.5, 23],
+					"cubes": [
+						{"origin": [-5.5, 28, 21.5], "size": [3, 3, 3], "inflate": 0.4, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "SmallSmoke8",
+					"parent": "Smoke3",
+					"pivot": [-4, 29.5, 23],
+					"cubes": [
+						{"origin": [-5.5, 28, 21.5], "size": [3, 3, 3], "inflate": 0.7, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "SmallSmoke9",
+					"parent": "Smoke3",
+					"pivot": [-4, 29.5, 23],
+					"cubes": [
+						{"origin": [-5.5, 28, 21.5], "size": [3, 3, 3], "inflate": 0.3, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "Smoke4",
+					"parent": "Orb2",
+					"pivot": [-4, 28, 23]
+				},
+				{
+					"name": "SmallSmoke10",
+					"parent": "Smoke4",
+					"pivot": [-4, 29.5, 23],
+					"cubes": [
+						{"origin": [-5.5, 28, 21.5], "size": [3, 3, 3], "inflate": 0.4, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "SmallSmoke11",
+					"parent": "Smoke4",
+					"pivot": [-4, 29.5, 23],
+					"cubes": [
+						{"origin": [-5.5, 28, 21.5], "size": [3, 3, 3], "inflate": 0.7, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "SmallSmoke12",
+					"parent": "Smoke4",
+					"pivot": [-4, 29.5, 23],
+					"cubes": [
+						{"origin": [-5.5, 28, 21.5], "size": [3, 3, 3], "inflate": 0.3, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "Orb3",
+					"parent": "Orbs",
+					"pivot": [-21, 29.5, 8]
+				},
+				{
+					"name": "Core3",
+					"parent": "Orb3",
+					"pivot": [-21, 29.5, 8],
+					"rotation": [-45, -45, 45],
+					"cubes": [
+						{"origin": [-22.5, 28, 6.5], "size": [3, 3, 3], "uv": [0, 0]},
+						{"origin": [-22.5, 28, 6.5], "size": [3, 3, 3], "inflate": 0.5, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "Smoke5",
+					"parent": "Orb3",
+					"pivot": [-21, 28, 8]
+				},
+				{
+					"name": "SmallSmoke13",
+					"parent": "Smoke5",
+					"pivot": [-21, 29.5, 8],
+					"cubes": [
+						{"origin": [-22.5, 28, 6.5], "size": [3, 3, 3], "inflate": 0.4, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "SmallSmoke14",
+					"parent": "Smoke5",
+					"pivot": [-21, 29.5, 8],
+					"cubes": [
+						{"origin": [-22.5, 28, 6.5], "size": [3, 3, 3], "inflate": 0.7, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "SmallSmoke15",
+					"parent": "Smoke5",
+					"pivot": [-21, 29.5, 8],
+					"cubes": [
+						{"origin": [-22.5, 28, 6.5], "size": [3, 3, 3], "inflate": 0.3, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "Smoke6",
+					"parent": "Orb3",
+					"pivot": [-21, 28, 8]
+				},
+				{
+					"name": "SmallSmoke16",
+					"parent": "Smoke6",
+					"pivot": [-21, 29.5, 8],
+					"cubes": [
+						{"origin": [-22.5, 28, 6.5], "size": [3, 3, 3], "inflate": 0.4, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "SmallSmoke17",
+					"parent": "Smoke6",
+					"pivot": [-21, 29.5, 8],
+					"cubes": [
+						{"origin": [-22.5, 28, 6.5], "size": [3, 3, 3], "inflate": 0.7, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "SmallSmoke18",
+					"parent": "Smoke6",
+					"pivot": [-21, 29.5, 8],
+					"cubes": [
+						{"origin": [-22.5, 28, 6.5], "size": [3, 3, 3], "inflate": 0.3, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "Orb4",
+					"parent": "Orbs",
+					"pivot": [23, 29.5, -10]
+				},
+				{
+					"name": "Core4",
+					"parent": "Orb4",
+					"pivot": [23, 29.5, -10],
+					"rotation": [-45, -45, 45],
+					"cubes": [
+						{"origin": [21.5, 28, -11.5], "size": [3, 3, 3], "uv": [0, 0]},
+						{"origin": [21.5, 28, -11.5], "size": [3, 3, 3], "inflate": 0.5, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "Smoke7",
+					"parent": "Orb4",
+					"pivot": [23, 28, -10]
+				},
+				{
+					"name": "SmallSmoke19",
+					"parent": "Smoke7",
+					"pivot": [23, 29.5, -10],
+					"cubes": [
+						{"origin": [21.5, 28, -11.5], "size": [3, 3, 3], "inflate": 0.4, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "SmallSmoke20",
+					"parent": "Smoke7",
+					"pivot": [23, 29.5, -10],
+					"cubes": [
+						{"origin": [21.5, 28, -11.5], "size": [3, 3, 3], "inflate": 0.7, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "SmallSmoke21",
+					"parent": "Smoke7",
+					"pivot": [23, 29.5, -10],
+					"cubes": [
+						{"origin": [21.5, 28, -11.5], "size": [3, 3, 3], "inflate": 0.3, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "Smoke8",
+					"parent": "Orb4",
+					"pivot": [23, 28, -10]
+				},
+				{
+					"name": "SmallSmoke22",
+					"parent": "Smoke8",
+					"pivot": [23, 29.5, -10],
+					"cubes": [
+						{"origin": [21.5, 28, -11.5], "size": [3, 3, 3], "inflate": 0.4, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "SmallSmoke23",
+					"parent": "Smoke8",
+					"pivot": [23, 29.5, -10],
+					"cubes": [
+						{"origin": [21.5, 28, -11.5], "size": [3, 3, 3], "inflate": 0.7, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "SmallSmoke24",
+					"parent": "Smoke8",
+					"pivot": [23, 29.5, -10],
+					"cubes": [
+						{"origin": [21.5, 28, -11.5], "size": [3, 3, 3], "inflate": 0.3, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "Orb5",
+					"parent": "Orbs",
+					"pivot": [-18, 29.5, -19]
+				},
+				{
+					"name": "Core5",
+					"parent": "Orb5",
+					"pivot": [-18, 29.5, -19],
+					"rotation": [-45, -45, 45],
+					"cubes": [
+						{"origin": [-19.5, 28, -20.5], "size": [3, 3, 3], "uv": [0, 0]},
+						{"origin": [-19.5, 28, -20.5], "size": [3, 3, 3], "inflate": 0.5, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "Smoke9",
+					"parent": "Orb5",
+					"pivot": [-18, 28, -19]
+				},
+				{
+					"name": "SmallSmoke25",
+					"parent": "Smoke9",
+					"pivot": [-18, 29.5, -19],
+					"cubes": [
+						{"origin": [-19.5, 28, -20.5], "size": [3, 3, 3], "inflate": 0.4, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "SmallSmoke26",
+					"parent": "Smoke9",
+					"pivot": [-18, 29.5, -19],
+					"cubes": [
+						{"origin": [-19.5, 28, -20.5], "size": [3, 3, 3], "inflate": 0.7, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "SmallSmoke27",
+					"parent": "Smoke9",
+					"pivot": [-18, 29.5, -19],
+					"cubes": [
+						{"origin": [-19.5, 28, -20.5], "size": [3, 3, 3], "inflate": 0.3, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "Smoke10",
+					"parent": "Orb5",
+					"pivot": [-18, 28, -19]
+				},
+				{
+					"name": "SmallSmoke28",
+					"parent": "Smoke10",
+					"pivot": [-18, 29.5, -19],
+					"cubes": [
+						{"origin": [-19.5, 28, -20.5], "size": [3, 3, 3], "inflate": 0.4, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "SmallSmoke29",
+					"parent": "Smoke10",
+					"pivot": [-18, 29.5, -19],
+					"cubes": [
+						{"origin": [-19.5, 28, -20.5], "size": [3, 3, 3], "inflate": 0.7, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "SmallSmoke30",
+					"parent": "Smoke10",
+					"pivot": [-18, 29.5, -19],
+					"cubes": [
+						{"origin": [-19.5, 28, -20.5], "size": [3, 3, 3], "inflate": 0.3, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "Orb6",
+					"parent": "Orbs",
+					"pivot": [18, 29.5, 17]
+				},
+				{
+					"name": "Core6",
+					"parent": "Orb6",
+					"pivot": [18, 29.5, 17],
+					"rotation": [-45, -45, 45],
+					"cubes": [
+						{"origin": [16.5, 28, 15.5], "size": [3, 3, 3], "uv": [0, 0]},
+						{"origin": [16.5, 28, 15.5], "size": [3, 3, 3], "inflate": 0.5, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "Smoke11",
+					"parent": "Orb6",
+					"pivot": [18, 28, 17]
+				},
+				{
+					"name": "SmallSmoke31",
+					"parent": "Smoke11",
+					"pivot": [18, 29.5, 17],
+					"cubes": [
+						{"origin": [16.5, 28, 15.5], "size": [3, 3, 3], "inflate": 0.4, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "SmallSmoke32",
+					"parent": "Smoke11",
+					"pivot": [18, 29.5, 17],
+					"cubes": [
+						{"origin": [16.5, 28, 15.5], "size": [3, 3, 3], "inflate": 0.7, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "SmallSmoke33",
+					"parent": "Smoke11",
+					"pivot": [18, 29.5, 17],
+					"cubes": [
+						{"origin": [16.5, 28, 15.5], "size": [3, 3, 3], "inflate": 0.3, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "Smoke12",
+					"parent": "Orb6",
+					"pivot": [18, 28, 17]
+				},
+				{
+					"name": "SmallSmoke34",
+					"parent": "Smoke12",
+					"pivot": [18, 29.5, 17],
+					"cubes": [
+						{"origin": [16.5, 28, 15.5], "size": [3, 3, 3], "inflate": 0.4, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "SmallSmoke35",
+					"parent": "Smoke12",
+					"pivot": [18, 29.5, 17],
+					"cubes": [
+						{"origin": [16.5, 28, 15.5], "size": [3, 3, 3], "inflate": 0.7, "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "SmallSmoke36",
+					"parent": "Smoke12",
+					"pivot": [18, 29.5, 17],
+					"cubes": [
+						{"origin": [16.5, 28, 15.5], "size": [3, 3, 3], "inflate": 0.3, "uv": [0, 6]}
+					]
+				}
+			]
+		}
+	]
+}

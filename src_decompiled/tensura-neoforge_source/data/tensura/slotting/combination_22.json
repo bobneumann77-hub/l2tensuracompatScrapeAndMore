@@ -1,0 +1,16 @@
+{
+  "combinationID": 22,
+  "durability": 2,
+  "earthCores": 2,
+  "earthMultiplier": 3.0,
+  "fireCores": 1,
+  "fireMultiplier": 2.0,
+  "projectileCost": 6,
+  "slottingProjectile": {
+    "burnTicks": 200,
+    "damage": 1.5,
+    "entity": "tensura:magma_shot",
+    "explosionRadius": 2.0,
+    "speed": 1.5
+  }
+}

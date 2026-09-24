@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_daemon_essence": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tensura:daemon_essence"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_magic_stone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tensura:magic_stone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tensura:daemon_core"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_magic_stone",
+      "has_daemon_essence"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tensura:daemon_core"
+    ]
+  }
+}

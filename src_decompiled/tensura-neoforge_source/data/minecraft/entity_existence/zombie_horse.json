@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:zombie_horse",
+  "max_magicule": 150,
+  "min_magicule": 150,
+  "spiritualHealth": 60
+}

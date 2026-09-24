@@ -1,0 +1,17 @@
+{
+  "type": "tensura:smithing_bench",
+  "input1": {
+    "item": "minecraft:golden_apple"
+  },
+  "input2": {
+    "item": "tensura:orichalcum_ingot"
+  },
+  "inputAmount2": 8,
+  "output": {
+    "count": 1,
+    "id": "minecraft:enchanted_golden_apple"
+  },
+  "schematics": [
+    "tensura:orichalcum_gear_schematic"
+  ]
+}

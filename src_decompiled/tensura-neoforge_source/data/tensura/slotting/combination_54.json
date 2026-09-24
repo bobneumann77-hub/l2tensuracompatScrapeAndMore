@@ -1,0 +1,22 @@
+{
+  "combinationID": 54,
+  "durability": 3,
+  "projectileCost": 7,
+  "slottingProjectile": {
+    "burnTicks": -1,
+    "damage": 2.5,
+    "effect": {
+      "effectID": "tensura:chill",
+      "level": 2,
+      "range": 1.0,
+      "ticks": 200
+    },
+    "entity": "tensura:ice_lance",
+    "knockbackForce": 1.0,
+    "speed": 2.0
+  },
+  "waterCores": 1,
+  "waterMultiplier": 2.0,
+  "windCores": 2,
+  "windMultiplier": 2.0
+}

@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#tensura:giant_salmon_spawn",
+  "spawners": {
+    "type": "tensura:giant_salmon",
+    "maxCount": 1,
+    "minCount": 1,
+    "weight": 2
+  }
+}

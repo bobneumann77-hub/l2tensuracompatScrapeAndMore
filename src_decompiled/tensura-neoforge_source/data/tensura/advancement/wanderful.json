@@ -1,0 +1,34 @@
+{
+  "parent": "tensura:youre_a_wizard",
+  "criteria": {
+    "staves": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#tensura:magic_staves"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.wanderful.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "tensura:high_magic_staff"
+    },
+    "title": {
+      "translate": "tensura.advancements.wanderful.title"
+    }
+  },
+  "requirements": [
+    [
+      "staves"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

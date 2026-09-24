@@ -1,0 +1,8 @@
+{
+  "type": "tensura:landfish",
+  "max_aura": 200,
+  "max_magicule": 600,
+  "min_aura": 200,
+  "min_magicule": 400,
+  "spiritualHealth": 30
+}

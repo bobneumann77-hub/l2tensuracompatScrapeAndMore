@@ -1,0 +1,12 @@
+{
+  "type": "tensura:shogo_taguchi",
+  "abilities": [
+    "tensura:berserker",
+    "tensura:survivor"
+  ],
+  "max_aura": 60000,
+  "max_magicule": 40000,
+  "min_aura": 50000,
+  "min_magicule": 30000,
+  "spiritualHealth": 1000
+}

@@ -1,0 +1,14 @@
+{
+  "values": [
+    "tensura:webbed_cobblestone_stairs",
+    "tensura:webbed_stone_brick_stairs",
+    "tensura:low_quality_magic_crystal_stairs",
+    "tensura:medium_quality_magic_crystal_stairs",
+    "tensura:high_quality_magic_crystal_stairs",
+    "tensura:low_quality_magic_crystal_brick_stairs",
+    "tensura:medium_quality_magic_crystal_brick_stairs",
+    "tensura:high_quality_magic_crystal_brick_stairs",
+    "tensura:sarasa_sandstone_stairs",
+    "tensura:smooth_sarasa_sandstone_stairs"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "type": "tensura:pouch_b",
+  "epGain": 0.004,
+  "evolution": "tensura:pouch_a",
+  "maxEP": 8000,
+  "minEP": 5000
+}

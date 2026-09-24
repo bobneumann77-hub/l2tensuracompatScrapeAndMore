@@ -1,0 +1,11 @@
+{
+  "type": "tensura:blade_tiger",
+  "abilities": [
+    "tensura:voice_cannon"
+  ],
+  "max_aura": 2000,
+  "max_magicule": 11000,
+  "min_aura": 1000,
+  "min_magicule": 8000,
+  "spiritualHealth": 300
+}

@@ -1,0 +1,11 @@
+{
+  "type": "tensura:spear_toro",
+  "abilities": [
+    "tensura:water_breathing"
+  ],
+  "max_aura": 3500,
+  "max_magicule": 6500,
+  "min_aura": 3000,
+  "min_magicule": 6000,
+  "spiritualHealth": 160
+}

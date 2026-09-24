@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_magic_crystal": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tensura:high_quality_magic_crystal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_magisteel_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tensura:pure_magisteel_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mud_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mud_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tensura:mud_bricks_magic_engine"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_mud_bricks",
+      "has_magisteel_ingot",
+      "has_magic_crystal"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tensura:mud_bricks_magic_engine"
+    ]
+  }
+}

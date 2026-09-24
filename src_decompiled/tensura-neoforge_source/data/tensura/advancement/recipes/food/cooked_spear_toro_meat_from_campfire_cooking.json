@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_spear_toro_meat": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tensura:raw_spear_toro_meat"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tensura:cooked_spear_toro_meat_from_campfire_cooking"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_spear_toro_meat"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tensura:cooked_spear_toro_meat_from_campfire_cooking"
+    ]
+  }
+}

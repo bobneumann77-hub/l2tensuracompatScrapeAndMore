@@ -1,0 +1,9 @@
+{
+  "combinationID": 13,
+  "durability": 10,
+  "fireCores": 1,
+  "fireMultiplier": 0.25,
+  "projectileCost": 50,
+  "waterCores": 1,
+  "waterMultiplier": 0.25
+}

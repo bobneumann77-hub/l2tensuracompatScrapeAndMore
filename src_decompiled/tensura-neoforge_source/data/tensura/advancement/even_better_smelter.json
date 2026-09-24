@@ -1,0 +1,35 @@
+{
+  "parent": "tensura:better_smelter",
+  "criteria": {
+    "kiln": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tensura:kiln_mithril"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.even_better_smelter.description"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "tensura:kiln_mithril"
+    },
+    "title": {
+      "translate": "tensura.advancements.even_better_smelter.title"
+    }
+  },
+  "requirements": [
+    [
+      "kiln"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

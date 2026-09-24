@@ -1,0 +1,15 @@
+{
+  "combinationID": 36,
+  "durability": 3,
+  "fireCores": 3,
+  "fireMultiplier": 3.0,
+  "projectileCost": 7,
+  "slottingProjectile": {
+    "burnTicks": 300,
+    "damage": 3.0,
+    "entity": "tensura:plasmas_ball",
+    "explosionRadius": 3.0,
+    "noGravity": true,
+    "speed": 1.0
+  }
+}

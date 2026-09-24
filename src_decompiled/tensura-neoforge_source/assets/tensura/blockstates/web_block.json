@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+      { "model": "tensura:block/web_block_0" },
+      { "model": "tensura:block/web_block_1" },
+      { "model": "tensura:block/web_block_2" },
+      { "model": "tensura:block/web_block_3" }
+    ]
+  }
+}

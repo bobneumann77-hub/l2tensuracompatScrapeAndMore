@@ -1,0 +1,29 @@
+{
+  "parent": "tensura:c_rank",
+  "criteria": {
+    "ep": {
+      "conditions": {
+        "ep": 6000.0
+      },
+      "trigger": "tensura:existence_gain"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.b_rank.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "tensura:mithril_nugget"
+    },
+    "title": {
+      "translate": "tensura.advancements.b_rank.title"
+    }
+  },
+  "requirements": [
+    [
+      "ep"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

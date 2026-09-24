@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:goat",
+  "max_aura": 10,
+  "max_magicule": 120,
+  "min_aura": 10,
+  "min_magicule": 120,
+  "spiritualHealth": 20
+}

@@ -1,0 +1,29 @@
+{
+  "values": [
+    "tensura:blood_drain",
+    "tensura:curse",
+    "tensura:disintegration",
+    "tensura:death_bless",
+    "tensura:death_wish",
+    "tensura:devoured",
+    "tensura:drowsy",
+    "tensura:energy_drain",
+    "tensura:energy_source_lost",
+    "tensura:fear",
+    "tensura:gravity_explode",
+    "tensura:heart_eat",
+    "tensura:infection",
+    "tensura:infinite_eater",
+    "tensura:insanity",
+    "tensura:magicule_poison",
+    "tensura:mind_crush",
+    "tensura:mind_requiem",
+    "tensura:petrification",
+    "tensura:severance",
+    "tensura:soul_consumed",
+    "tensura:soul_scatter",
+    "tensura:suffocate",
+    "tensura:suicide",
+    "tensura:synthesise"
+  ]
+}

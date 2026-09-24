@@ -1,0 +1,40 @@
+{
+  "parent": "tensura:pure_magisteel",
+  "criteria": {
+    "items": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#tensura:adamantite_items"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.adamantite.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "tensura:adamantite_ingot"
+    },
+    "title": {
+      "translate": "tensura.advancements.adamantite.title"
+    }
+  },
+  "requirements": [
+    [
+      "items"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "tensura:advancement_reward/adamantite"
+    ]
+  },
+  "sends_telemetry_event": true
+}

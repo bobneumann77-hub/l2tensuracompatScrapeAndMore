@@ -1,0 +1,181 @@
+Auflistung der Ordnerpfade
+Volumeseriennummer : 4AD6-CDA4
+C:.
++---.cache
++---assets
+?   +---l2hostility
+?       +---blockstates
+?       +---lang
+?       +---models
+?       ?   +---block
+?       ?   +---item
+?       +---patchouli_books
+?       ?   +---hostility_guide
+?       ?       +---en_us
+?       ?       ?   +---categories
+?       ?       ?   +---entries
+?       ?       ?       +---legendary
+?       ?       ?       +---mechanics
+?       ?       ?       +---traits
+?       ?       +---zh_cn
+?       ?           +---categories
+?       ?           +---entries
+?       ?               +---legendary
+?       ?               +---mechanics
+?       ?               +---traits
+?       +---textures
+?           +---block
+?           +---entity
+?           +---gui
+?           ?   +---advancements
+?           ?   ?   +---backgrounds
+?           ?   +---container
+?           +---item
+?           ?   +---curio
+?           ?   +---trait
+?           +---mob_effect
+?           +---slot
++---data
+?   +---bosses_of_mass_destruction
+?   ?   +---l2hostility_config
+?   ?       +---entity
+?   +---cataclysm
+?   ?   +---l2hostility_config
+?   ?       +---entity
+?   ?       +---weapon
+?   +---curios
+?   ?   +---tags
+?   ?       +---item
+?   +---gateways
+?   ?   +---advancement
+?   ?   ?   +---recipes
+?   ?   ?       +---misc
+?   ?   ?           +---hostility
+?   ?   +---gateways
+?   ?   ?   +---hostility
+?   ?   +---l2hostility_config
+?   ?   ?   +---entity
+?   ?   +---recipe
+?   ?       +---hostility
+?   +---l2archery
+?   ?   +---l2hostility_config
+?   ?       +---weapon
+?   +---l2complements
+?   ?   +---l2hostility_config
+?   ?   ?   +---weapon
+?   ?   +---tags
+?   ?       +---mob_effect
+?   +---l2hostility
+?   ?   +---advancement
+?   ?   ?   +---burnt
+?   ?   ?   +---hostility
+?   ?   ?   +---recipes
+?   ?   ?       +---burnt
+?   ?   ?       +---misc
+?   ?   +---curios
+?   ?   ?   +---entities
+?   ?   ?   ?   +---l2hostility
+?   ?   ?   ?       +---curios
+?   ?   ?   ?           +---entities
+?   ?   ?   +---slots
+?   ?   +---damage_type
+?   ?   +---data_maps
+?   ?   ?   +---l2hostility
+?   ?   ?       +---trait
+?   ?   +---enchantment
+?   ?   +---l2hostility_config
+?   ?   ?   +---difficulty
+?   ?   ?   +---entity
+?   ?   ?   +---weapon
+?   ?   +---l2library_config
+?   ?   ?   +---menu_layout
+?   ?   +---loot_modifiers
+?   ?   +---loot_table
+?   ?   ?   +---blocks
+?   ?   +---patchouli_books
+?   ?   ?   +---hostility_guide
+?   ?   +---recipe
+?   ?   ?   +---burnt
+?   ?   +---tags
+?   ?       +---block
+?   ?       +---enchantment
+?   ?       +---entity_type
+?   ?       +---item
+?   ?       +---l2hostility
+?   ?       ?   +---trait
+?   ?       +---mob_effect
+?   +---l2tabs
+?   ?   +---data_maps
+?   ?       +---l2tabs
+?   ?           +---tab
+?   +---l2weaponry
+?   ?   +---l2hostility_config
+?   ?       +---weapon
+?   +---minecraft
+?   ?   +---tags
+?   ?       +---block
+?   ?       ?   +---mineable
+?   ?       +---damage_type
+?   ?       +---item
+?   ?           +---enchantable
+?   +---mutantmonsters
+?   ?   +---l2hostility_config
+?   ?       +---entity
+?   +---neoforge
+?   ?   +---loot_modifiers
+?   ?   +---tags
+?   ?       +---damage_type
+?   +---twilightforest
+?       +---l2hostility_config
+?           +---entity
++---dev
+?   +---xkmc
+?       +---l2hostility
+?           +---compat
+?           ?   +---curios
+?           ?   +---data
+?           ?   +---gateway
+?           ?   +---jade
+?           ?   +---jei
+?           ?   +---kubejs
+?           +---content
+?           ?   +---capability
+?           ?   ?   +---chunk
+?           ?   ?   +---mob
+?           ?   ?   +---player
+?           ?   +---command
+?           ?   +---config
+?           ?   +---effect
+?           ?   +---enchantments
+?           ?   +---entity
+?           ?   +---item
+?           ?   ?   +---beacon
+?           ?   ?   +---consumable
+?           ?   ?   +---curio
+?           ?   ?   ?   +---core
+?           ?   ?   ?   +---curse
+?           ?   ?   ?   +---misc
+?           ?   ?   ?   +---ring
+?           ?   ?   +---spawner
+?           ?   ?   +---tool
+?           ?   ?   +---traits
+?           ?   +---logic
+?           ?   +---menu
+?           ?   ?   +---tab
+?           ?   +---traits
+?           ?       +---base
+?           ?       +---common
+?           ?       +---goals
+?           ?       +---highlevel
+?           ?       +---legendary
+?           +---events
+?           +---init
+?           ?   +---advancements
+?           ?   +---data
+?           ?   +---entries
+?           ?   +---loot
+?           ?   +---network
+?           ?   +---registrate
+?           +---mixin
++---META-INF
+    +---jarjar

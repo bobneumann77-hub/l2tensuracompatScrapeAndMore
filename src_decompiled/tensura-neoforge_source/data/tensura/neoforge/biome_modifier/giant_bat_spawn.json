@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#tensura:giant_bat_spawn",
+  "spawners": {
+    "type": "tensura:giant_bat",
+    "maxCount": 2,
+    "minCount": 1,
+    "weight": 80
+  }
+}

@@ -1,0 +1,196 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.bone_golem.stand": {
+			"loop": true
+		},
+		"animation.bone_golem.t_pose": {
+			"loop": true,
+			"bones": {
+				"left_arm": {
+					"rotation": {
+						"vector": [0, 0, -90]
+					}
+				},
+				"right_arm": {
+					"rotation": {
+						"vector": [0, 0, 90]
+					}
+				}
+			}
+		},
+		"animation.bone_golem.zombie": {
+			"loop": true,
+			"bones": {
+				"left_arm": {
+					"rotation": {
+						"vector": [-90, 0, 0]
+					}
+				},
+				"right_arm": {
+					"rotation": {
+						"vector": [-90, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.bone_golem.star": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"position": {
+						"vector": [0, -1, 0]
+					}
+				},
+				"left_arm": {
+					"rotation": {
+						"vector": [0, 0, -125]
+					}
+				},
+				"left_leg": {
+					"rotation": {
+						"vector": [0, 0, -35]
+					}
+				},
+				"right_leg": {
+					"rotation": {
+						"vector": [0, 0, 35]
+					}
+				},
+				"right_arm": {
+					"rotation": {
+						"vector": [0, 0, 125]
+					}
+				}
+			}
+		},
+		"animation.bone_golem.sneak": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": {
+						"vector": [28, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 2]
+					}
+				},
+				"head": {
+					"rotation": {
+						"vector": [-28, 0, 0]
+					}
+				},
+				"left_leg": {
+					"rotation": {
+						"vector": [-28, 0, 0]
+					},
+					"position": {
+						"vector": [0, 1, -1]
+					}
+				},
+				"right_leg": {
+					"rotation": {
+						"vector": [-28, 0, 0]
+					},
+					"position": {
+						"vector": [0, 1, -1]
+					}
+				}
+			}
+		},
+		"animation.bone_golem.sit": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"position": {
+						"vector": [0, -12, 0]
+					}
+				},
+				"left_arm": {
+					"rotation": {
+						"vector": [-45, 0, 0]
+					},
+					"position": {
+						"vector": [0, -0.2, 0]
+					}
+				},
+				"left_leg": {
+					"rotation": {
+						"vector": [-90, -12.5, 0]
+					},
+					"position": {
+						"vector": [0, 1, 0]
+					}
+				},
+				"right_leg": {
+					"rotation": {
+						"vector": [-90, 12.5, 0]
+					},
+					"position": {
+						"vector": [0, 1, 0]
+					}
+				},
+				"right_arm": {
+					"rotation": {
+						"vector": [-45, 0, 0]
+					},
+					"position": {
+						"vector": [0, -0.2, 0]
+					}
+				}
+			}
+		},
+		"animation.bone_golem.walk": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"position": {
+						"vector": [0, -2, 0]
+					}
+				},
+				"head": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"left_arm": {
+					"rotation": {
+						"vector": [40, 0, 0]
+					}
+				},
+				"left_leg": {
+					"rotation": {
+						"vector": [-40, 0, 0]
+					}
+				},
+				"right_leg": {
+					"rotation": {
+						"vector": [40, 0, 0]
+					}
+				},
+				"right_arm": {
+					"rotation": {
+						"vector": [-40, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.bone_golem.sleep": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": {
+						"vector": [-90, 0, 0]
+					},
+					"position": {
+						"vector": [0, -10, -6]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

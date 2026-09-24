@@ -1,0 +1,12 @@
+{
+  "type": "tensura:tempest_serpent",
+  "abilities": [
+    "tensura:poisonous_breath",
+    "tensura:sense_heat_source"
+  ],
+  "max_aura": 1500,
+  "max_magicule": 8500,
+  "min_aura": 1000,
+  "min_magicule": 8000,
+  "spiritualHealth": 160
+}

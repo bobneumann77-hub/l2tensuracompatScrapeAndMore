@@ -1,0 +1,18 @@
+{
+  "type": "tensura:smithing_bench",
+  "input1": {
+    "item": "minecraft:stick"
+  },
+  "input2": {
+    "item": "minecraft:string"
+  },
+  "inputAmount1": 3,
+  "inputAmount2": 3,
+  "output": {
+    "count": 1,
+    "id": "minecraft:bow"
+  },
+  "schematics": [
+    "tensura:basic_bows_schematic"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:adventure/whos_the_pillager_now",
+  "criteria": {
+    "horn": {
+      "conditions": {
+        "killing_blow": {
+          "direct_entity": {
+            "type": "tensura:unicorn_horn"
+          }
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.unicorn_horn.description"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "tensura:unicorn_horn"
+    },
+    "title": {
+      "translate": "tensura.advancements.unicorn_horn.title"
+    }
+  },
+  "requirements": [
+    [
+      "horn"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

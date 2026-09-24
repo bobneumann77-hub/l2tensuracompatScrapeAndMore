@@ -1,0 +1,31 @@
+{
+  "parent": "tensura:tamed_a_slime",
+  "criteria": {
+    "bucket": {
+      "conditions": {
+        "item": {
+          "items": "tensura:slime_in_a_bucket"
+        }
+      },
+      "trigger": "minecraft:filled_bucket"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.get_bucketed.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "tensura:slime_in_a_bucket"
+    },
+    "title": {
+      "translate": "tensura.advancements.get_bucketed.title"
+    }
+  },
+  "requirements": [
+    [
+      "bucket"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "tensura:hella_cool",
+  "criteria": {
+    "golems": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#tensura:bone_golems"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.build_body.description"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "tensura:low_magisteel_bone_golem"
+    },
+    "title": {
+      "translate": "tensura.advancements.build_body.title"
+    }
+  },
+  "requirements": [
+    [
+      "golems"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

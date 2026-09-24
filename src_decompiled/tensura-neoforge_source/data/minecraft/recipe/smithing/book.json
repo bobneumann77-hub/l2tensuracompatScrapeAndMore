@@ -1,0 +1,18 @@
+{
+  "type": "tensura:smithing_bench",
+  "input1": {
+    "item": "minecraft:paper"
+  },
+  "input2": {
+    "item": "tensura:monster_leather_d"
+  },
+  "inputAmount1": 3,
+  "inputAmount2": 1,
+  "output": {
+    "count": 1,
+    "id": "minecraft:book"
+  },
+  "schematics": [
+    "tensura:monster_leather_gear_schematic"
+  ]
+}

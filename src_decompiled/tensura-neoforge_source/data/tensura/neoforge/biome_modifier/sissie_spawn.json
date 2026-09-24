@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#tensura:sissie_spawn",
+  "spawners": {
+    "type": "tensura:sissie",
+    "maxCount": 1,
+    "minCount": 1,
+    "weight": 1
+  }
+}

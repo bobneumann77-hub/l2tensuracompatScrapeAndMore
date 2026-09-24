@@ -1,0 +1,34 @@
+{
+  "parent": "tensura:unhealable_wound",
+  "criteria": {
+    "blade": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tensura:ice_blade"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.a_bit_cold.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "tensura:ice_blade"
+    },
+    "title": {
+      "translate": "tensura.advancements.a_bit_cold.title"
+    }
+  },
+  "requirements": [
+    [
+      "blade"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

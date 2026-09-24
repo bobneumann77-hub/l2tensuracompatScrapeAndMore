@@ -1,0 +1,11 @@
+{
+  "type": "tensura:feathered_serpent",
+  "abilities": [
+    "tensura:wind_manipulation",
+    "tensura:wind_transform",
+    "tensura:wind_attack_resistance"
+  ],
+  "max_magicule": 9000,
+  "min_magicule": 6000,
+  "spiritualHealth": 500
+}

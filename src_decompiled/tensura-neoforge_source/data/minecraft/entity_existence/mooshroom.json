@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:mooshroom",
+  "max_aura": 20,
+  "max_magicule": 10,
+  "min_aura": 20,
+  "min_magicule": 10,
+  "spiritualHealth": 30
+}

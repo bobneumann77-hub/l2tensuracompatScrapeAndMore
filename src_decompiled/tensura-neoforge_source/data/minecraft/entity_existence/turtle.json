@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:turtle",
+  "max_aura": 10,
+  "max_magicule": 10,
+  "min_aura": 10,
+  "min_magicule": 10,
+  "spiritualHealth": 30
+}

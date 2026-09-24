@@ -1,0 +1,12 @@
+{
+  "type": "tensura:megalodon",
+  "abilities": [
+    "tensura:scale_armor",
+    "tensura:magic_jamming"
+  ],
+  "max_aura": 10000,
+  "max_magicule": 30000,
+  "min_aura": 5000,
+  "min_magicule": 15000,
+  "spiritualHealth": 200
+}

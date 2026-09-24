@@ -1,0 +1,19 @@
+{
+  "values": [
+    "tensura:kiln",
+    "tensura:kiln_mithril",
+    "tensura:kiln_orichalcum",
+    "tensura:magic_ore_block",
+    "tensura:deepslate_magic_ore",
+    "tensura:magic_ore",
+    "tensura:spellbinding_table",
+    "tensura:high_quality_magic_crystal_block",
+    "tensura:high_quality_magic_crystal_stairs",
+    "tensura:high_quality_magic_crystal_slab",
+    "tensura:high_quality_magic_crystal_bricks",
+    "tensura:high_quality_magic_crystal_brick_stairs",
+    "tensura:high_quality_magic_crystal_brick_slab",
+    "tensura:high_quality_magic_crystal_brick_wall",
+    "tensura:chiseled_high_quality_magic_crystal_bricks"
+  ]
+}

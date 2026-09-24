@@ -1,0 +1,22 @@
+{
+  "type": "tensura:lesser_daemon",
+  "abilities": [
+    "tensura:magic_sense",
+    "tensura:possession",
+    "tensura:magic_resistance",
+    "tensura:earth_lock",
+    "tensura:stone_shot",
+    "tensura:fire_aspectual",
+    "tensura:fire_ball",
+    "tensura:water_aspectual",
+    "tensura:water_cutter_aspectual",
+    "tensura:wind_gust",
+    "tensura:wind_cutter"
+  ],
+  "evolution": "tensura:greater_daemon",
+  "max_aura": 1000,
+  "max_magicule": 8000,
+  "min_aura": 500,
+  "min_magicule": 7500,
+  "spiritualHealth": 200
+}

@@ -1,0 +1,45 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "enchantment.tensura.vigor"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.2,
+          "per_level_above_first": 0.2
+        },
+        "attribute": "tensura:aura_gain",
+        "id": "minecraft:enchantment.vigor",
+        "operation": "add_multiplied_total"
+      },
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.2,
+          "per_level_above_first": 0.2
+        },
+        "attribute": "tensura:magicule_gain",
+        "id": "minecraft:enchantment.vigor",
+        "operation": "add_multiplied_total"
+      }
+    ]
+  },
+  "exclusive_set": "#tensura:engraving_exclusive",
+  "max_cost": {
+    "base": 100,
+    "per_level_above_first": 100
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 100,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "any"
+  ],
+  "supported_items": "#minecraft:enchantable/durability",
+  "weight": 1
+}

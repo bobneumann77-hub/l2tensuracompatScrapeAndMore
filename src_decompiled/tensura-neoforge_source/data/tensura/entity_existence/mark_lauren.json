@@ -1,0 +1,13 @@
+{
+  "type": "tensura:mark_lauren",
+  "abilities": [
+    "tensura:thrower",
+    "tensura:strengthen_body",
+    "tensura:strength"
+  ],
+  "max_aura": 70000,
+  "max_magicule": 40000,
+  "min_aura": 60000,
+  "min_magicule": 30000,
+  "spiritualHealth": 1000
+}

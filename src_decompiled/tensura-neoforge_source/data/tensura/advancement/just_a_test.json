@@ -1,0 +1,27 @@
+{
+  "parent": "tensura:labyrinth",
+  "criteria": {
+    "colossus": {
+      "trigger": "tensura:died_to_colossus"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.just_a_test.description"
+    },
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "tensura:labyrinth_stone"
+    },
+    "title": {
+      "translate": "tensura.advancements.just_a_test.title"
+    }
+  },
+  "requirements": [
+    [
+      "colossus"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

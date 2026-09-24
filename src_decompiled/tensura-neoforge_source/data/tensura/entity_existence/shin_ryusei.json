@@ -1,0 +1,11 @@
+{
+  "type": "tensura:shin_ryusei",
+  "abilities": [
+    "tensura:observer"
+  ],
+  "max_aura": 60000,
+  "max_magicule": 40000,
+  "min_aura": 50000,
+  "min_magicule": 30000,
+  "spiritualHealth": 1000
+}

@@ -1,0 +1,7 @@
+{
+  "type": "tensura:low_magisteel_chestplate",
+  "epGain": 0.01,
+  "evolution": "tensura:high_magisteel_chestplate",
+  "maxEP": 18000,
+  "minEP": 6000
+}

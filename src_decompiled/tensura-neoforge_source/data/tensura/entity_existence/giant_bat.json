@@ -1,0 +1,12 @@
+{
+  "type": "tensura:giant_bat",
+  "abilities": [
+    "tensura:drain",
+    "tensura:ultrasonic_waves"
+  ],
+  "max_aura": 1999,
+  "max_magicule": 3000,
+  "min_aura": 1834,
+  "min_magicule": 2500,
+  "spiritualHealth": 100
+}

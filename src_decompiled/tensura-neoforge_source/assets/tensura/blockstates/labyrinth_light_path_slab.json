@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tensura:block/labyrinth_light_path_slab"
+    },
+    "type=double": {
+      "model": "tensura:block/labyrinth_light_path"
+    },
+    "type=top": {
+      "model": "tensura:block/labyrinth_light_path_slab_top"
+    }
+  }
+}

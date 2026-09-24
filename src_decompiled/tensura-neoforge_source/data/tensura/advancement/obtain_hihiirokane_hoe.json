@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:husbandry/obtain_netherite_hoe",
+  "criteria": {
+    "hoe": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {}
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "components": {
+                "tensura:tsukumogami_inactive": 0.0
+              },
+              "items": "tensura:hihiirokane_hoe"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.obtain_hihiirokane_hoe.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "tensura:hihiirokane_hoe"
+    },
+    "title": {
+      "translate": "tensura.advancements.obtain_hihiirokane_hoe.title"
+    }
+  },
+  "requirements": [
+    [
+      "hoe"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

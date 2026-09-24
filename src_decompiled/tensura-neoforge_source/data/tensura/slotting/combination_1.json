@@ -1,0 +1,11 @@
+{
+  "combinationID": 1,
+  "earthCores": 1,
+  "earthMultiplier": 1.0,
+  "slottingProjectile": {
+    "damage": 1.0,
+    "entity": "tensura:stone_shot",
+    "knockbackForce": 1.5,
+    "speed": 3.0
+  }
+}

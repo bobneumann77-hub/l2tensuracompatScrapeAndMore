@@ -1,0 +1,12 @@
+{
+  "type": "tensura:salamander",
+  "abilities": [
+    "tensura:flame_breath",
+    "tensura:flame_transform",
+    "tensura:flame_manipulation",
+    "tensura:flame_attack_resistance"
+  ],
+  "max_magicule": 8500,
+  "min_magicule": 7000,
+  "spiritualHealth": 500
+}

@@ -1,0 +1,31 @@
+{
+  "type": "tensura:dead_end_rainbow",
+  "engravings": {
+    "tensura:dead_end_rainbow": 1,
+    "tensura:intangibility": 1
+  },
+  "epGain": 0.025,
+  "minEP": 45000,
+  "uniqueEvolutions": [
+    {
+      "EP": 225000,
+      "attributes": [
+        {
+          "type": "minecraft:generic.attack_damage",
+          "amount": 15.0,
+          "slot": "mainhand"
+        }
+      ]
+    },
+    {
+      "EP": 750000,
+      "attributes": [
+        {
+          "type": "minecraft:generic.attack_damage",
+          "amount": 29.0,
+          "slot": "mainhand"
+        }
+      ]
+    }
+  ]
+}

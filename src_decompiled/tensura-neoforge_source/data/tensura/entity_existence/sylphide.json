@@ -1,0 +1,14 @@
+{
+  "type": "tensura:sylphide",
+  "abilities": [
+    "tensura:wind_transform",
+    "tensura:wind_manipulation",
+    "tensura:wind_blade",
+    "tensura:aerial_blade",
+    "tensura:electro_blast",
+    "tensura:wind_attack_nullification"
+  ],
+  "max_magicule": 150000,
+  "min_magicule": 120000,
+  "spiritualHealth": 2000
+}

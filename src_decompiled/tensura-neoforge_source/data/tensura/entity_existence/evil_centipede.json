@@ -1,0 +1,11 @@
+{
+  "type": "tensura:evil_centipede",
+  "abilities": [
+    "tensura:paralysing_breath"
+  ],
+  "max_aura": 2000,
+  "max_magicule": 7000,
+  "min_aura": 1000,
+  "min_magicule": 6000,
+  "spiritualHealth": 150
+}

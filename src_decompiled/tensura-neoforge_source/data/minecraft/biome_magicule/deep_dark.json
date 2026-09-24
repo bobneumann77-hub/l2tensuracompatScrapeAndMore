@@ -1,0 +1,16 @@
+{
+  "biome": "minecraft:deep_dark",
+  "modifiers": [
+    {
+      "mode": "ADD",
+      "value": 2000.0
+    }
+  ],
+  "priority": 1,
+  "regen_modifiers": [
+    {
+      "mode": "ADD",
+      "value": 20.0
+    }
+  ]
+}

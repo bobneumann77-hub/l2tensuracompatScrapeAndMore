@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#tensura:giant_ant_spawn",
+  "spawners": {
+    "type": "tensura:giant_ant",
+    "maxCount": 4,
+    "minCount": 1,
+    "weight": 80
+  }
+}

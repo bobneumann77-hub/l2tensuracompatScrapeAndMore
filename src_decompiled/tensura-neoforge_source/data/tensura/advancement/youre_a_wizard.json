@@ -1,0 +1,31 @@
+{
+  "parent": "tensura:fast_learner",
+  "criteria": {
+    "tome": {
+      "conditions": {
+        "item": {
+          "items": "tensura:magic_tome"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.youre_a_wizard.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "tensura:magic_tome"
+    },
+    "title": {
+      "translate": "tensura.advancements.youre_a_wizard.title"
+    }
+  },
+  "requirements": [
+    [
+      "tome"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

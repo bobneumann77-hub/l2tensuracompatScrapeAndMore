@@ -1,0 +1,48 @@
+{
+  "parent": "tensura:hiss_tory",
+  "criteria": {
+    "charybdis": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "tensura:charybdis",
+              "type_specific": {
+                "type": "tensura:tamed_predicate",
+                "tamed": false
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.ruler_of_the_skies.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "tensura:charybdis_core"
+    },
+    "title": {
+      "translate": "tensura.advancements.ruler_of_the_skies.title"
+    }
+  },
+  "requirements": [
+    [
+      "charybdis"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "tensura:advancement_reward/ruler_of_the_skies"
+    ]
+  },
+  "sends_telemetry_event": true
+}

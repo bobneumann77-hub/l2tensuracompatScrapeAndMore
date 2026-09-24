@@ -1,0 +1,92 @@
+{
+  "parent": "tensura:monster_rider",
+  "criteria": {
+    "centipede": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "tensura:evil_centipede"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:started_riding"
+    },
+    "centipede_body": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "tensura:evil_centipede_body"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:started_riding"
+    },
+    "serpent": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "tensura:tempest_serpent"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:started_riding"
+    },
+    "serpent_body": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "tensura:tempest_serpent_body"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:started_riding"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.choo_choo.description"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "tensura:centipede_stinger"
+    },
+    "title": {
+      "translate": "tensura.advancements.choo_choo.title"
+    }
+  },
+  "requirements": [
+    [
+      "centipede",
+      "centipede_body",
+      "serpent",
+      "serpent_body"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

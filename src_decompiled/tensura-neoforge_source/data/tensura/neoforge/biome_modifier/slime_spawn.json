@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#tensura:slime_spawn",
+  "spawners": {
+    "type": "tensura:slime",
+    "maxCount": 5,
+    "minCount": 1,
+    "weight": 80
+  }
+}

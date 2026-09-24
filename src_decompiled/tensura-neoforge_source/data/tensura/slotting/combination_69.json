@@ -1,0 +1,27 @@
+{
+  "combinationID": 69,
+  "durability": 0,
+  "earthCores": 1,
+  "earthMultiplier": 1.0,
+  "fireCores": 1,
+  "fireMultiplier": 1.0,
+  "projectileCost": 0,
+  "slottingProjectile": {
+    "damage": 5.0,
+    "effect": {
+      "effectID": "tensura:anti_skill",
+      "range": 3.0,
+      "ticks": 200
+    },
+    "entity": "tensura:reflector_echo",
+    "explosionRadius": 4.0,
+    "noGravity": true,
+    "speed": 2.0
+  },
+  "spaceCores": 1,
+  "spaceMultiplier": 1.0,
+  "waterCores": 1,
+  "waterMultiplier": 1.0,
+  "windCores": 1,
+  "windMultiplier": 1.0
+}

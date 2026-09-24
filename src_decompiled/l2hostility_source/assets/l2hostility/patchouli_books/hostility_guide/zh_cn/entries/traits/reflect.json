@@ -1,0 +1,16 @@
+{
+  "name": "反射",
+  "icon": "l2hostility:reflect",
+  "category": "l2hostility:traits",
+  "pages": [
+	{
+	  "type": "patchouli:spotlight",
+	  "item": "l2hostility:reflect",
+	  "text": "拥有该词条的怪物会将直接物理伤害反弹给敌人，词条等级越高反弹伤害越高。请注意反弹造成的伤害是可以无视护甲的魔法伤害。"
+	},
+	{
+	  "type": "patchouli:text",
+	  "text": "你可以使用弓箭，投掷物，魔法伤害来对付拥有该词条的怪物。"
+	}
+  ]
+}

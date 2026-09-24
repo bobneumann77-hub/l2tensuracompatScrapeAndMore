@@ -1,0 +1,8 @@
+{
+  "type": "tensura:pegacorn",
+  "max_aura": 3000,
+  "max_magicule": 7000,
+  "min_aura": 2500,
+  "min_magicule": 6500,
+  "spiritualHealth": 120
+}

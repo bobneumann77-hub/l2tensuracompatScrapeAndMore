@@ -1,0 +1,421 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "enchantment.tensura.tsukumogami"
+  },
+  "effects": {
+    "tensura:weapon_multiplier": [
+      {
+        "amount": -0.1,
+        "attribute": "minecraft:generic.attack_damage",
+        "group": "mainhand",
+        "id": "minecraft:enchantment.tsukumogami",
+        "predicate": {
+          "components": {
+            "tensura:tsukumogami_inactive": 0.1
+          }
+        }
+      },
+      {
+        "amount": -0.1,
+        "attribute": "minecraft:generic.armor",
+        "group": "armor",
+        "id": "minecraft:enchantment.tsukumogami",
+        "predicate": {
+          "components": {
+            "tensura:tsukumogami_inactive": 0.1
+          }
+        }
+      },
+      {
+        "amount": -0.1,
+        "attribute": "minecraft:generic.armor_toughness",
+        "group": "armor",
+        "id": "minecraft:enchantment.tsukumogami",
+        "predicate": {
+          "components": {
+            "tensura:tsukumogami_inactive": 0.1
+          }
+        }
+      },
+      {
+        "amount": -0.1,
+        "attribute": "minecraft:generic.knockback_resistance",
+        "group": "armor",
+        "id": "minecraft:enchantment.tsukumogami",
+        "predicate": {
+          "components": {
+            "tensura:tsukumogami_inactive": 0.1
+          }
+        }
+      },
+      {
+        "amount": -0.2,
+        "attribute": "minecraft:generic.attack_damage",
+        "group": "mainhand",
+        "id": "minecraft:enchantment.tsukumogami",
+        "predicate": {
+          "components": {
+            "tensura:tsukumogami_inactive": 0.2
+          }
+        }
+      },
+      {
+        "amount": -0.2,
+        "attribute": "minecraft:generic.armor",
+        "group": "armor",
+        "id": "minecraft:enchantment.tsukumogami",
+        "predicate": {
+          "components": {
+            "tensura:tsukumogami_inactive": 0.2
+          }
+        }
+      },
+      {
+        "amount": -0.2,
+        "attribute": "minecraft:generic.armor_toughness",
+        "group": "armor",
+        "id": "minecraft:enchantment.tsukumogami",
+        "predicate": {
+          "components": {
+            "tensura:tsukumogami_inactive": 0.2
+          }
+        }
+      },
+      {
+        "amount": -0.2,
+        "attribute": "minecraft:generic.knockback_resistance",
+        "group": "armor",
+        "id": "minecraft:enchantment.tsukumogami",
+        "predicate": {
+          "components": {
+            "tensura:tsukumogami_inactive": 0.2
+          }
+        }
+      },
+      {
+        "amount": -0.3,
+        "attribute": "minecraft:generic.attack_damage",
+        "group": "mainhand",
+        "id": "minecraft:enchantment.tsukumogami",
+        "predicate": {
+          "components": {
+            "tensura:tsukumogami_inactive": 0.3
+          }
+        }
+      },
+      {
+        "amount": -0.3,
+        "attribute": "minecraft:generic.armor",
+        "group": "armor",
+        "id": "minecraft:enchantment.tsukumogami",
+        "predicate": {
+          "components": {
+            "tensura:tsukumogami_inactive": 0.3
+          }
+        }
+      },
+      {
+        "amount": -0.3,
+        "attribute": "minecraft:generic.armor_toughness",
+        "group": "armor",
+        "id": "minecraft:enchantment.tsukumogami",
+        "predicate": {
+          "components": {
+            "tensura:tsukumogami_inactive": 0.3
+          }
+        }
+      },
+      {
+        "amount": -0.3,
+        "attribute": "minecraft:generic.knockback_resistance",
+        "group": "armor",
+        "id": "minecraft:enchantment.tsukumogami",
+        "predicate": {
+          "components": {
+            "tensura:tsukumogami_inactive": 0.3
+          }
+        }
+      },
+      {
+        "amount": -0.4,
+        "attribute": "minecraft:generic.attack_damage",
+        "group": "mainhand",
+        "id": "minecraft:enchantment.tsukumogami",
+        "predicate": {
+          "components": {
+            "tensura:tsukumogami_inactive": 0.4
+          }
+        }
+      },
+      {
+        "amount": -0.4,
+        "attribute": "minecraft:generic.armor",
+        "group": "armor",
+        "id": "minecraft:enchantment.tsukumogami",
+        "predicate": {
+          "components": {
+            "tensura:tsukumogami_inactive": 0.4
+          }
+        }
+      },
+      {
+        "amount": -0.4,
+        "attribute": "minecraft:generic.armor_toughness",
+        "group": "armor",
+        "id": "minecraft:enchantment.tsukumogami",
+        "predicate": {
+          "components": {
+            "tensura:tsukumogami_inactive": 0.4
+          }
+        }
+      },
+      {
+        "amount": -0.4,
+        "attribute": "minecraft:generic.knockback_resistance",
+        "group": "armor",
+        "id": "minecraft:enchantment.tsukumogami",
+        "predicate": {
+          "components": {
+            "tensura:tsukumogami_inactive": 0.4
+          }
+        }
+      },
+      {
+        "amount": -0.5,
+        "attribute": "minecraft:generic.attack_damage",
+        "group": "mainhand",
+        "id": "minecraft:enchantment.tsukumogami",
+        "predicate": {
+          "components": {
+            "tensura:tsukumogami_inactive": 0.5
+          }
+        }
+      },
+      {
+        "amount": -0.5,
+        "attribute": "minecraft:generic.armor",
+        "group": "armor",
+        "id": "minecraft:enchantment.tsukumogami",
+        "predicate": {
+          "components": {
+            "tensura:tsukumogami_inactive": 0.5
+          }
+        }
+      },
+      {
+        "amount": -0.5,
+        "attribute": "minecraft:generic.armor_toughness",
+        "group": "armor",
+        "id": "minecraft:enchantment.tsukumogami",
+        "predicate": {
+          "components": {
+            "tensura:tsukumogami_inactive": 0.5
+          }
+        }
+      },
+      {
+        "amount": -0.5,
+        "attribute": "minecraft:generic.knockback_resistance",
+        "group": "armor",
+        "id": "minecraft:enchantment.tsukumogami",
+        "predicate": {
+          "components": {
+            "tensura:tsukumogami_inactive": 0.5
+          }
+        }
+      },
+      {
+        "amount": -0.6,
+        "attribute": "minecraft:generic.attack_damage",
+        "group": "mainhand",
+        "id": "minecraft:enchantment.tsukumogami",
+        "predicate": {
+          "components": {
+            "tensura:tsukumogami_inactive": 0.6
+          }
+        }
+      },
+      {
+        "amount": -0.6,
+        "attribute": "minecraft:generic.armor",
+        "group": "armor",
+        "id": "minecraft:enchantment.tsukumogami",
+        "predicate": {
+          "components": {
+            "tensura:tsukumogami_inactive": 0.6
+          }
+        }
+      },
+      {
+        "amount": -0.6,
+        "attribute": "minecraft:generic.armor_toughness",
+        "group": "armor",
+        "id": "minecraft:enchantment.tsukumogami",
+        "predicate": {
+          "components": {
+            "tensura:tsukumogami_inactive": 0.6
+          }
+        }
+      },
+      {
+        "amount": -0.6,
+        "attribute": "minecraft:generic.knockback_resistance",
+        "group": "armor",
+        "id": "minecraft:enchantment.tsukumogami",
+        "predicate": {
+          "components": {
+            "tensura:tsukumogami_inactive": 0.6
+          }
+        }
+      },
+      {
+        "amount": -0.7,
+        "attribute": "minecraft:generic.attack_damage",
+        "group": "mainhand",
+        "id": "minecraft:enchantment.tsukumogami",
+        "predicate": {
+          "components": {
+            "tensura:tsukumogami_inactive": 0.7
+          }
+        }
+      },
+      {
+        "amount": -0.7,
+        "attribute": "minecraft:generic.armor",
+        "group": "armor",
+        "id": "minecraft:enchantment.tsukumogami",
+        "predicate": {
+          "components": {
+            "tensura:tsukumogami_inactive": 0.7
+          }
+        }
+      },
+      {
+        "amount": -0.7,
+        "attribute": "minecraft:generic.armor_toughness",
+        "group": "armor",
+        "id": "minecraft:enchantment.tsukumogami",
+        "predicate": {
+          "components": {
+            "tensura:tsukumogami_inactive": 0.7
+          }
+        }
+      },
+      {
+        "amount": -0.7,
+        "attribute": "minecraft:generic.knockback_resistance",
+        "group": "armor",
+        "id": "minecraft:enchantment.tsukumogami",
+        "predicate": {
+          "components": {
+            "tensura:tsukumogami_inactive": 0.7
+          }
+        }
+      },
+      {
+        "amount": -0.8,
+        "attribute": "minecraft:generic.attack_damage",
+        "group": "mainhand",
+        "id": "minecraft:enchantment.tsukumogami",
+        "predicate": {
+          "components": {
+            "tensura:tsukumogami_inactive": 0.8
+          }
+        }
+      },
+      {
+        "amount": -0.8,
+        "attribute": "minecraft:generic.armor",
+        "group": "armor",
+        "id": "minecraft:enchantment.tsukumogami",
+        "predicate": {
+          "components": {
+            "tensura:tsukumogami_inactive": 0.8
+          }
+        }
+      },
+      {
+        "amount": -0.8,
+        "attribute": "minecraft:generic.armor_toughness",
+        "group": "armor",
+        "id": "minecraft:enchantment.tsukumogami",
+        "predicate": {
+          "components": {
+            "tensura:tsukumogami_inactive": 0.8
+          }
+        }
+      },
+      {
+        "amount": -0.8,
+        "attribute": "minecraft:generic.knockback_resistance",
+        "group": "armor",
+        "id": "minecraft:enchantment.tsukumogami",
+        "predicate": {
+          "components": {
+            "tensura:tsukumogami_inactive": 0.8
+          }
+        }
+      },
+      {
+        "amount": -0.9,
+        "attribute": "minecraft:generic.attack_damage",
+        "group": "mainhand",
+        "id": "minecraft:enchantment.tsukumogami",
+        "predicate": {
+          "components": {
+            "tensura:tsukumogami_inactive": 0.9
+          }
+        }
+      },
+      {
+        "amount": -0.9,
+        "attribute": "minecraft:generic.armor",
+        "group": "armor",
+        "id": "minecraft:enchantment.tsukumogami",
+        "predicate": {
+          "components": {
+            "tensura:tsukumogami_inactive": 0.9
+          }
+        }
+      },
+      {
+        "amount": -0.9,
+        "attribute": "minecraft:generic.armor_toughness",
+        "group": "armor",
+        "id": "minecraft:enchantment.tsukumogami",
+        "predicate": {
+          "components": {
+            "tensura:tsukumogami_inactive": 0.9
+          }
+        }
+      },
+      {
+        "amount": -0.9,
+        "attribute": "minecraft:generic.knockback_resistance",
+        "group": "armor",
+        "id": "minecraft:enchantment.tsukumogami",
+        "predicate": {
+          "components": {
+            "tensura:tsukumogami_inactive": 0.9
+          }
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#tensura:engraving_exclusive",
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 50
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 50,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "any"
+  ],
+  "supported_items": "#minecraft:enchantable/durability",
+  "weight": 1
+}

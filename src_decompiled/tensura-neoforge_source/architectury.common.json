@@ -1,0 +1,23 @@
+{
+  "injected_interfaces": {
+    "net/minecraft/class_1282": [
+      "io/github/manasmods/tensura/damage/TensuraDamageSource"
+    ],
+    "net/minecraft/class_1293": [
+      "io/github/manasmods/tensura/effect/template/TensuraMobEffectInstance"
+    ],
+    "net/minecraft/class_1321": [
+      "io/github/manasmods/tensura/entity/template/subclass/ISubordinate"
+    ],
+    "net/minecraft/class_1937": [
+      "io/github/manasmods/tensura/world/subclass/IMultipartLevel"
+    ],
+    "net/minecraft/class_5131": [
+      "io/github/manasmods/tensura/registry/attribute/TensuraAttributeInstance"
+    ],
+    "net/minecraft/class_1324": [
+      "io/github/manasmods/tensura/registry/attribute/TensuraAttributeInstance"
+    ]
+  },
+  "accessWidener": "tensura.accesswidener"
+}

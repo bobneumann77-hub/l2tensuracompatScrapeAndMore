@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "ability": {
+      "trigger": "tensura:ability_obtained"
+    }
+  },
+  "display": {
+    "background": "tensura:textures/block/labyrinth_stone.png",
+    "description": {
+      "translate": "tensura.advancements.real_adventure.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "tensura:spatial_bag"
+    },
+    "title": {
+      "translate": "tensura.advancements.real_adventure.title"
+    }
+  },
+  "requirements": [
+    [
+      "ability"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

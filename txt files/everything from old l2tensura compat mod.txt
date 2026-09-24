@@ -1,0 +1,129 @@
+Auflistung der Ordnerpfade
+Volumeseriennummer : 4AD6-CDA4
+C:.
+?   l2tensura.mixins.json
+?   pack.mcmeta
+?   
++---com
+?   +---github
+?       +---b4ndithelps
+?           +---l2tensura
+?               ?   l2tensura$ClientModEvents.class
+?               ?   l2tensura.class
+?               ?   
+?               +---config
+?               ?       EPConfig.class
+?               ?       
+?               +---handler
+?                       SimpleEPHandler$EntityState.class
+?                       SimpleEPHandler.class
+?                       
++---META-INF
+        MANIFEST.MF
+        mods.toml
+        
+PS C:\Users\yllis\Downloads\l2tensura-1.0.2> javap -p -cp . com.github.b4ndithelps.l2tensura.l2tensura$ClientModEvents
+Compiled from "l2tensura.java"
+public class com.github.b4ndithelps.l2tensura.l2tensura {
+  public static final java.lang.String MODID;
+  private static final org.slf4j.Logger LOGGER;
+  public com.github.b4ndithelps.l2tensura.l2tensura();
+  private void commonSetup(net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent);
+  public void onServerStarting(net.minecraftforge.event.server.ServerStartingEvent);
+  static {};
+
+PS C:\Users\yllis\Downloads\l2tensura-1.0.2> javap -p -cp . com.github.b4ndithelps.l2tensura.l2tensura
+Compiled from "l2tensura.java"
+public class com.github.b4ndithelps.l2tensura.l2tensura {
+  public static final java.lang.String MODID;
+  private static final org.slf4j.Logger LOGGER;
+  public com.github.b4ndithelps.l2tensura.l2tensura();
+  private void commonSetup(net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent);
+  public void onServerStarting(net.minecraftforge.event.server.ServerStartingEvent);
+  static {};
+}
+
+S C:\Users\yllis\Downloads\l2tensura-1.0.2> javap -p -cp . com.github.b4ndithelps.l2tensura.config.epconfig
+Warnung: Datei .\com\github\b4ndithelps\l2tensura\config\epconfig.class enthält nicht die Klasse com.github.b4ndithelps.l2tensura.config.epconfig
+Compiled from "EPConfig.java"
+public class com.github.b4ndithelps.l2tensura.config.EPConfig {
+  public static final net.minecraftforge.common.ForgeConfigSpec SPEC;
+  public static final net.minecraftforge.common.ForgeConfigSpec$IntValue levelInterval;
+  public static final net.minecraftforge.common.ForgeConfigSpec$DoubleValue epMultiplierPerInterval;
+  public static final net.minecraftforge.common.ForgeConfigSpec$DoubleValue maxEPMultiplier;
+  public static final net.minecraftforge.common.ForgeConfigSpec$DoubleValue baseEPCalculationFactor;
+  public static final net.minecraftforge.common.ForgeConfigSpec$DoubleValue minimumBaseEP;
+  public static final net.minecraftforge.common.ForgeConfigSpec$BooleanValue enableDebugLogging;
+  public com.github.b4ndithelps.l2tensura.config.EPConfig();
+  public static void register();
+  public static double calculateEPMultiplier(int);
+  public static double calculateBaseEP(double);
+  public static boolean isDebugLoggingEnabled();
+  public static java.lang.String getConfigInfo();
+  static {};
+}
+
+PS C:\Users\yllis\Downloads\l2tensura-1.0.2> javap -p -cp . com.github.b4ndithelps.l2tensura.handler.SimpleEPHandler$EntityState
+Compiled from "SimpleEPHandler.java"
+public class com.github.b4ndithelps.l2tensura.handler.SimpleEPHandler {
+  private static final java.util.Map<net.minecraft.world.entity.LivingEntity, java.lang.Double> pendingEPUpdates;
+  private static final java.util.Map<net.minecraft.world.entity.LivingEntity, java.lang.Boolean> processedEntities;
+  private static final java.util.Map<net.minecraft.world.entity.LivingEntity, com.github.b4ndithelps.l2tensura.handler.SimpleEPHandler$EntityState> originalStates;
+  public com.github.b4ndithelps.l2tensura.handler.SimpleEPHandler();
+  public static void onEntityJoinLevel(net.minecraftforge.event.entity.EntityJoinLevelEvent);
+  public static void onLivingTick(net.minecraftforge.event.entity.living.LivingEvent$LivingTickEvent);
+  public static void onServerTick(net.minecraftforge.event.TickEvent$ServerTickEvent);
+  private static boolean isAlreadyProcessedByUs(net.minecraft.world.entity.LivingEntity);
+  private static void markAsProcessedByUs(net.minecraft.world.entity.LivingEntity);
+  private static void cleanupDeadEntities();
+  private static boolean isEntityStateValid(net.minecraft.world.entity.LivingEntity);
+  private static boolean safelyEnhanceEntity(net.minecraft.world.entity.LivingEntity, double);
+  private static void setEPInstantly(net.minecraft.world.entity.LivingEntity, double);
+  private static boolean safelySetEP(net.minecraft.world.entity.LivingEntity, double);
+  private static void restoreEntityState(net.minecraft.world.entity.LivingEntity);
+  private static void setEPDirectly(net.minecraft.world.entity.LivingEntity, double);
+  private static void restoreHealthSafely(net.minecraft.world.entity.LivingEntity);
+  private static float calculateExpectedHealth(net.minecraft.world.entity.LivingEntity, com.github.b4ndithelps.l2tensura.handler.SimpleEPHandler$EntityState);
+  private static void safelyHealToFullHealth(net.minecraft.world.entity.LivingEntity);
+  private static void healToFullHealth(net.minecraft.world.entity.LivingEntity);
+  private static void lambda$setEPDirectly$5(net.minecraft.world.entity.LivingEntity, double, com.github.manasmods.tensura.capability.ep.ITensuraEPCapability);
+  private static java.lang.Boolean lambda$safelySetEP$4(net.minecraft.world.entity.LivingEntity, double, com.github.manasmods.tensura.capability.ep.ITensuraEPCapability);
+  private static void lambda$setEPInstantly$3(net.minecraft.world.entity.LivingEntity, double, com.github.manasmods.tensura.capability.ep.ITensuraEPCapability);
+  private static boolean lambda$cleanupDeadEntities$2(java.util.Map$Entry);
+  private static boolean lambda$cleanupDeadEntities$1(java.util.Map$Entry);
+  private static boolean lambda$onServerTick$0(java.util.Map$Entry);
+  static {};
+}
+
+PS C:\Users\yllis\Downloads\l2tensura-1.0.2> javap -p -cp . com.github.b4ndithelps.l2tensura.handler.SimpleEPHandler
+Compiled from "SimpleEPHandler.java"
+public class com.github.b4ndithelps.l2tensura.handler.SimpleEPHandler {
+  private static final java.util.Map<net.minecraft.world.entity.LivingEntity, java.lang.Double> pendingEPUpdates;
+  private static final java.util.Map<net.minecraft.world.entity.LivingEntity, java.lang.Boolean> processedEntities;
+  private static final java.util.Map<net.minecraft.world.entity.LivingEntity, com.github.b4ndithelps.l2tensura.handler.SimpleEPHandler$EntityState> originalStates;
+  public com.github.b4ndithelps.l2tensura.handler.SimpleEPHandler();
+  public static void onEntityJoinLevel(net.minecraftforge.event.entity.EntityJoinLevelEvent);
+  public static void onLivingTick(net.minecraftforge.event.entity.living.LivingEvent$LivingTickEvent);
+  public static void onServerTick(net.minecraftforge.event.TickEvent$ServerTickEvent);
+  private static boolean isAlreadyProcessedByUs(net.minecraft.world.entity.LivingEntity);
+  private static void markAsProcessedByUs(net.minecraft.world.entity.LivingEntity);
+  private static void cleanupDeadEntities();
+  private static boolean isEntityStateValid(net.minecraft.world.entity.LivingEntity);
+  private static boolean safelyEnhanceEntity(net.minecraft.world.entity.LivingEntity, double);
+  private static void setEPInstantly(net.minecraft.world.entity.LivingEntity, double);
+  private static boolean safelySetEP(net.minecraft.world.entity.LivingEntity, double);
+  private static void restoreEntityState(net.minecraft.world.entity.LivingEntity);
+  private static void setEPDirectly(net.minecraft.world.entity.LivingEntity, double);
+  private static void restoreHealthSafely(net.minecraft.world.entity.LivingEntity);
+  private static float calculateExpectedHealth(net.minecraft.world.entity.LivingEntity, com.github.b4ndithelps.l2tensura.handler.SimpleEPHandler$EntityState);
+  private static void safelyHealToFullHealth(net.minecraft.world.entity.LivingEntity);
+  private static void healToFullHealth(net.minecraft.world.entity.LivingEntity);
+  private static void lambda$setEPDirectly$5(net.minecraft.world.entity.LivingEntity, double, com.github.manasmods.tensura.capability.ep.ITensuraEPCapability);
+  private static java.lang.Boolean lambda$safelySetEP$4(net.minecraft.world.entity.LivingEntity, double, com.github.manasmods.tensura.capability.ep.ITensuraEPCapability);
+  private static void lambda$setEPInstantly$3(net.minecraft.world.entity.LivingEntity, double, com.github.manasmods.tensura.capability.ep.ITensuraEPCapability);
+  private static boolean lambda$cleanupDeadEntities$2(java.util.Map$Entry);
+  private static boolean lambda$cleanupDeadEntities$1(java.util.Map$Entry);
+  private static boolean lambda$onServerTick$0(java.util.Map$Entry);
+  static {};
+}
+

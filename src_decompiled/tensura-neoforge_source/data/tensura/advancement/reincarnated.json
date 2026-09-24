@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "reincarnation": {
+      "trigger": "tensura:reincarnated"
+    }
+  },
+  "display": {
+    "background": "tensura:textures/block/dark_labyrinth_stone.png",
+    "description": {
+      "translate": "tensura.advancements.reincarnated.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "tensura:race_reset_scroll"
+    },
+    "title": {
+      "translate": "tensura.advancements.reincarnated.title"
+    }
+  },
+  "requirements": [
+    [
+      "reincarnation"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:story/iron_tools",
+  "criteria": {
+    "gold": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gold_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.gold_rush.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:gold_ingot"
+    },
+    "title": {
+      "translate": "tensura.advancements.gold_rush.title"
+    }
+  },
+  "requirements": [
+    [
+      "gold"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "tensura:advancement_reward/gold_rush"
+    ]
+  },
+  "sends_telemetry_event": true
+}

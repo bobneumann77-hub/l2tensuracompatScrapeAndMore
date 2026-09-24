@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#tensura:lesser_daemon_spawn",
+  "spawners": {
+    "type": "tensura:lesser_daemon",
+    "maxCount": 1,
+    "minCount": 1,
+    "weight": 60
+  }
+}

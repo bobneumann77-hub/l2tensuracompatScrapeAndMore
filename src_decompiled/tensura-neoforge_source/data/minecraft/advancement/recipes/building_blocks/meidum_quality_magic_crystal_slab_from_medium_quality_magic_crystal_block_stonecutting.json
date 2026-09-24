@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_medium_quality_magic_crystal_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tensura:medium_quality_magic_crystal_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:meidum_quality_magic_crystal_slab_from_medium_quality_magic_crystal_block_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_medium_quality_magic_crystal_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:meidum_quality_magic_crystal_slab_from_medium_quality_magic_crystal_block_stonecutting"
+    ]
+  }
+}

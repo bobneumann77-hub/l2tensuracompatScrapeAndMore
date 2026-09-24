@@ -1,0 +1,47 @@
+package dev.xkmc.l2hostility.init.advancements;
+
+import dev.xkmc.l2core.serial.advancements.BaseCriterion;
+import dev.xkmc.l2core.serial.advancements.BaseCriterionInstance;
+import dev.xkmc.l2hostility.content.capability.mob.MobTraitCap;
+import dev.xkmc.l2hostility.content.traits.base.MobTrait;
+import dev.xkmc.l2serial.serialization.marker.SerialClass;
+import dev.xkmc.l2serial.serialization.marker.SerialField;
+import net.minecraft.advancements.Criterion;
+import net.minecraft.core.Holder;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.world.effect.MobEffect;
+import net.minecraft.world.entity.LivingEntity;
+
+public class KillTraitEffectTrigger extends BaseCriterion<KillTraitEffectTrigger.Ins, KillTraitEffectTrigger> {
+   public static Criterion<KillTraitEffectTrigger.Ins> ins(MobTrait traits, Holder<MobEffect> effect) {
+      KillTraitEffectTrigger.Ins ans = new KillTraitEffectTrigger.Ins();
+      ans.trait = traits;
+      ans.effect = effect;
+      return ans.build();
+   }
+
+   public KillTraitEffectTrigger(ResourceLocation id) {
+      super(KillTraitEffectTrigger.Ins.class);
+   }
+
+   public void trigger(ServerPlayer player, LivingEntity le, MobTraitCap cap) {
+      this.trigger(player, e -> e.matchAll(le, cap));
+   }
+
+   @SerialClass
+   public static class Ins extends BaseCriterionInstance<KillTraitEffectTrigger.Ins, KillTraitEffectTrigger> {
+      @SerialField
+      public MobTrait trait;
+      @SerialField
+      public Holder<MobEffect> effect;
+
+      public Ins() {
+         super((KillTraitEffectTrigger)HostilityTriggers.TRAIT_EFFECT.get());
+      }
+
+      public boolean matchAll(LivingEntity le, MobTraitCap cap) {
+         return cap.hasTrait(this.trait) && le.hasEffect(this.effect);
+      }
+   }
+}

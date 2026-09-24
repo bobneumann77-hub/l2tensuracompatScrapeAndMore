@@ -1,0 +1,34 @@
+{
+  "parent": "tensura:reincarnated",
+  "criteria": {
+    "seed": {
+      "conditions": {
+        "location": [
+          {
+            "block": "tensura:hipokute_grass",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.magic_seedy_place.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "tensura:hipokute_seeds"
+    },
+    "title": {
+      "translate": "tensura.advancements.magic_seedy_place.title"
+    }
+  },
+  "requirements": [
+    [
+      "seed"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

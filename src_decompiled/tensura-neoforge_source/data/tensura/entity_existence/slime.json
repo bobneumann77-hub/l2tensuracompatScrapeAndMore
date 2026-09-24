@@ -1,0 +1,12 @@
+{
+  "type": "tensura:slime",
+  "abilities": [
+    "tensura:self_regeneration",
+    "tensura:absorb_and_dissolve"
+  ],
+  "max_aura": 10,
+  "max_magicule": 980,
+  "min_aura": 10,
+  "min_magicule": 180,
+  "spiritualHealth": 100
+}

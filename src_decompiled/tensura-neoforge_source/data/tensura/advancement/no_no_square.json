@@ -1,0 +1,43 @@
+{
+  "parent": "tensura:start_smithing",
+  "criteria": {
+    "block": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "#tensura:magic_engines"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {}
+          }
+        ]
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.no_no_square.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "tensura:stone_bricks_magic_engine"
+    },
+    "title": {
+      "translate": "tensura.advancements.no_no_square.title"
+    }
+  },
+  "requirements": [
+    [
+      "block"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

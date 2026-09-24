@@ -1,0 +1,15 @@
+{
+  "combinationID": 28,
+  "durability": 3,
+  "earthCores": 1,
+  "earthMultiplier": 3.0,
+  "fireCores": 1,
+  "projectileCost": 7,
+  "slottingProjectile": {
+    "damage": 2.25,
+    "entity": "tensura:obsidian_shot",
+    "knockbackForce": 1.5,
+    "speed": 2.5
+  },
+  "waterCores": 1
+}

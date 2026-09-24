@@ -1,0 +1,36 @@
+{
+  "type": "tensura:refining",
+  "input": {
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:awkward"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:potion"
+  },
+  "input1": {
+    "item": "minecraft:glistering_melon_slice"
+  },
+  "input2": {
+    "item": "minecraft:glowstone_dust"
+  },
+  "input3": {
+    "item": "minecraft:gunpowder"
+  },
+  "input4": {
+    "item": "minecraft:dragon_breath"
+  },
+  "input5": {
+    "item": "minecraft:fermented_spider_eye"
+  },
+  "output": {
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:strong_harming"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:lingering_potion"
+  }
+}

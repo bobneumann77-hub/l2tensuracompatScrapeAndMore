@@ -1,0 +1,11 @@
+// 1.21.1	2026-04-28T23:44:33.9795571	Tags for minecraft:mob_effect mod id tensura
+2bb463f98557f12a094cc093568084fcdebf6f23 data/tensura/tags/mob_effect/affected_by_anti_skill.json
+d66544def7514de29c61b6636a97be4f09dfe87c data/tensura/tags/mob_effect/affected_by_law_manipulation.json
+61e7ab3c07601e4e76f58e99e4bc5eecb2324097 data/tensura/tags/mob_effect/hidden_icon.json
+4a84a584622932baca627d046372bf12aee7b598 data/tensura/tags/mob_effect/ignore_anti_magicule.json
+3937189f802339d1e72ddf849d083a92974836d5 data/tensura/tags/mob_effect/incurable_by_milk.json
+3373374024382cdfd596227a8346a6aef1025b21 data/tensura/tags/mob_effect/skill_buff.json
+1fc5f86f0764c5828b693a3e39e6e64bea185581 data/tensura/tags/mob_effect/skill_debuff.json
+7aa37264d364081986c9615d29e08ddfb57a6096 data/tensura/tags/mob_effect/skill_effect.json
+c479036c2b2355194985c5f2a41a278235471ecc data/tensura/tags/mob_effect/spiritual_affected.json
+579a2d614779cb272de23dee84ca900a8adf44a8 data/tensura/tags/mob_effect/transformation.json

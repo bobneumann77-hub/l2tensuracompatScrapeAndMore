@@ -1,0 +1,9 @@
+{
+  "asset_name": "high_magisteel",
+  "description": {
+    "color": "#55FFFF",
+    "translate": "trim_material.tensura.high_magisteel"
+  },
+  "ingredient": "tensura:high_magisteel_ingot",
+  "item_model_index": 0.8
+}

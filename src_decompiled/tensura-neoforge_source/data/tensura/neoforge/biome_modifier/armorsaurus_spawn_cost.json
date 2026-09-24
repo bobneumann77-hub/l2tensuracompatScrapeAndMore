@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_spawn_costs",
+  "biomes": "#tensura:armorsaurus_spawn",
+  "entity_types": "tensura:armorsaurus",
+  "spawn_cost": {
+    "charge": 1.32,
+    "energy_budget": 4.0
+  }
+}

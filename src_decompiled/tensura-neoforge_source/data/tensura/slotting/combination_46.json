@@ -1,0 +1,13 @@
+{
+  "combinationID": 46,
+  "durability": 3,
+  "projectileCost": 7,
+  "slottingProjectile": {
+    "damage": 3.0,
+    "entity": "tensura:dimension_cut_projectile",
+    "noGravity": true,
+    "speed": 2.0
+  },
+  "spaceCores": 3,
+  "spaceMultiplier": 3.0
+}

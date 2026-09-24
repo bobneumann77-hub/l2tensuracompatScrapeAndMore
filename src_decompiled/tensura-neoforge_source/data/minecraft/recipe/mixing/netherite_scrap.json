@@ -1,0 +1,9 @@
+{
+  "type": "tensura:kiln_mixing",
+  "output": {
+    "count": 1,
+    "id": "minecraft:netherite_scrap"
+  },
+  "right": "tensura:netherite",
+  "right_count": 4
+}

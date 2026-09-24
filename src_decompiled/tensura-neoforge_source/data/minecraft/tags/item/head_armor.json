@@ -1,0 +1,28 @@
+{
+  "values": [
+    "tensura:monster_leather_helmet_d",
+    "tensura:monster_leather_helmet_c",
+    "tensura:monster_leather_helmet_b",
+    "tensura:monster_leather_helmet_a",
+    "tensura:monster_leather_helmet_special_a",
+    "tensura:silver_helmet",
+    "tensura:low_magisteel_helmet",
+    "tensura:high_magisteel_helmet",
+    "tensura:mithril_helmet",
+    "tensura:orichalcum_helmet",
+    "tensura:pure_magisteel_helmet",
+    "tensura:adamantite_helmet",
+    "tensura:hihiirokane_helmet",
+    "tensura:ant_carapace_helmet",
+    "tensura:serpent_scalemail_helmet",
+    "tensura:knight_spider_carapace_helmet",
+    "tensura:armorsaurus_helmet",
+    "tensura:armorsaurus_scalemail_helmet",
+    "tensura:charybdis_scalemail_helmet",
+    "tensura:anti_magic_mask",
+    "tensura:angry_pierrot_mask",
+    "tensura:crazy_pierrot_mask",
+    "tensura:teary_pierrot_mask",
+    "tensura:wonder_pierrot_mask"
+  ]
+}

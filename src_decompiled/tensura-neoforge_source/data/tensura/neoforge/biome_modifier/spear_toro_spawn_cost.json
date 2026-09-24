@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_spawn_costs",
+  "biomes": "#tensura:spear_toro_spawn",
+  "entity_types": "tensura:spear_toro",
+  "spawn_cost": {
+    "charge": 4.0,
+    "energy_budget": 4.0
+  }
+}

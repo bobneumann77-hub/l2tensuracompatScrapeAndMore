@@ -1,0 +1,43 @@
+package dev.xkmc.l2hostility.init.loot;
+
+import dev.xkmc.l2hostility.compat.curios.CurioCompat;
+import dev.xkmc.l2hostility.init.data.LHConfig;
+import dev.xkmc.l2serial.serialization.marker.SerialClass;
+import dev.xkmc.l2serial.serialization.marker.SerialField;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.level.storage.loot.LootContext;
+import net.minecraft.world.level.storage.loot.parameters.LootContextParams;
+import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
+import net.minecraft.world.level.storage.loot.predicates.LootItemConditionType;
+
+@SerialClass
+public class PlayerHasItemCondition implements LootItemCondition {
+   @SerialField
+   public Item item;
+
+   @Deprecated
+   public PlayerHasItemCondition() {
+   }
+
+   public PlayerHasItemCondition(Item item) {
+      this.item = item;
+   }
+
+   public LootItemConditionType getType() {
+      return (LootItemConditionType)TraitGLMProvider.HAS_ITEM.get();
+   }
+
+   public boolean test(LootContext lootContext) {
+      if ((Boolean)LHConfig.SERVER.disableHostilityLootCurioRequirement.get()) {
+         return true;
+      }
+
+      if (!lootContext.hasParam(LootContextParams.LAST_DAMAGE_PLAYER)) {
+         return false;
+      }
+
+      Player player = (Player)lootContext.getParam(LootContextParams.LAST_DAMAGE_PLAYER);
+      return CurioCompat.hasItemInCurio(player, this.item);
+   }
+}

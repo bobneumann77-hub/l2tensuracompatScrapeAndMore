@@ -1,0 +1,11 @@
+{
+  "type": "tensura:sissie",
+  "abilities": [
+    "tensura:water_breathing"
+  ],
+  "max_aura": 15000,
+  "max_magicule": 35000,
+  "min_aura": 10000,
+  "min_magicule": 20000,
+  "spiritualHealth": 300
+}

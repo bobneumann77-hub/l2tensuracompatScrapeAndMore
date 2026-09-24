@@ -1,0 +1,52 @@
+{
+  "parent": "tensura:grow_a_slime",
+  "criteria": {
+    "slime_core": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "#tensura:slimes",
+              "type_specific": {
+                "type": "tensura:slime_predicate",
+                "massive": true
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "tensura:slime_core"
+            }
+          }
+        ]
+      },
+      "trigger": "tensura:item_used_on_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.king_slime.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "tensura:slime_chunk_block"
+    },
+    "title": {
+      "translate": "tensura.advancements.king_slime.title"
+    }
+  },
+  "requirements": [
+    [
+      "slime_core"
+    ]
+  ],
+  "rewards": {
+    "experience": 20
+  },
+  "sends_telemetry_event": true
+}

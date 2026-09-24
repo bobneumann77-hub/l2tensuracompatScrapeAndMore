@@ -1,0 +1,10 @@
+PS C:\Users\yllis\OneDrive\Desktop\l2hostility-3.0.18\dev\xkmc\l2hostility\compat\kubejs> javap -cp . l2hhelper
+Warnung: Datei .\l2hhelper.class enthält nicht die Klasse l2hhelper
+Compiled from "L2HHelper.java"
+public class dev.xkmc.l2hostility.compat.kubejs.L2HHelper {
+  public dev.xkmc.l2hostility.compat.kubejs.L2HHelper();
+  public static dev.xkmc.l2hostility.content.capability.mob.MobTraitCap of(net.minecraft.world.entity.Entity);
+  public static dev.xkmc.l2damagetracker.compat.CustomAttackListener newAttackListener();
+  public static boolean entityIs(net.minecraft.world.entity.Entity, java.lang.String);
+  public static boolean sourceIs(net.minecraft.world.damagesource.DamageSource, java.lang.String);
+}

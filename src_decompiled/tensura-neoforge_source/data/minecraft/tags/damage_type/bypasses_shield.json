@@ -1,0 +1,25 @@
+{
+  "values": [
+    "#tensura:bypass_barrier",
+    "tensura:black_flame",
+    "tensura:black_lightning",
+    "tensura:blood_drain",
+    "tensura:burn",
+    "tensura:corrosion",
+    "tensura:tornado",
+    "tensura:dimension_ray",
+    "tensura:fatal_poison",
+    "tensura:gravity_explode",
+    "tensura:hazy_blossom_thrust",
+    "tensura:heart_eat",
+    "tensura:holy_damage",
+    "tensura:lightning",
+    "tensura:megiddo",
+    "tensura:mind_requiem",
+    "tensura:paralyzing",
+    "tensura:poisonous_breath",
+    "tensura:sound_blast",
+    "tensura:suffocate",
+    "tensura:wicked_light_ray"
+  ]
+}

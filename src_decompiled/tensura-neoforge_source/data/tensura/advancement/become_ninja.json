@@ -1,0 +1,34 @@
+{
+  "parent": "tensura:start_smithing",
+  "criteria": {
+    "kunai": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tensura:kunai"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.become_ninja.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "tensura:kunai"
+    },
+    "title": {
+      "translate": "tensura.advancements.become_ninja.title"
+    }
+  },
+  "requirements": [
+    [
+      "kunai"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

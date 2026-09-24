@@ -1,0 +1,16 @@
+{
+  "biome": "minecraft:nether_wastes",
+  "modifiers": [
+    {
+      "mode": "ADD",
+      "value": 1500.0
+    }
+  ],
+  "priority": 1,
+  "regen_modifiers": [
+    {
+      "mode": "ADD",
+      "value": 20.0
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:witch",
+  "max_aura": 1050,
+  "max_magicule": 2750,
+  "min_aura": 1050,
+  "min_magicule": 2750,
+  "spiritualHealth": 60
+}

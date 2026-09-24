@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_slime_chunk": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tensura:slime_chunk"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tensura:slime_chunk_blockfrom_slime_chunk"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_slime_chunk"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tensura:slime_chunk_blockfrom_slime_chunk"
+    ]
+  }
+}

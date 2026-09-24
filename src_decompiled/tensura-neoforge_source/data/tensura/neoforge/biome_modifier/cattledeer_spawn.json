@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#tensura:cattledeer_spawn",
+  "spawners": {
+    "type": "tensura:cattledeer",
+    "maxCount": 4,
+    "minCount": 1,
+    "weight": 82
+  }
+}

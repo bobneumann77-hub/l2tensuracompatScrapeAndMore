@@ -1,0 +1,13 @@
+{
+  "type": "tensura:kyoya_tachibana",
+  "abilities": [
+    "tensura:severer",
+    "tensura:all_seeing_eye",
+    "tensura:thought_acceleration"
+  ],
+  "max_aura": 55000,
+  "max_magicule": 35000,
+  "min_aura": 50000,
+  "min_magicule": 30000,
+  "spiritualHealth": 1000
+}

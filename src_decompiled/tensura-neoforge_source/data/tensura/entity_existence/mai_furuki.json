@@ -1,0 +1,13 @@
+{
+  "type": "tensura:mai_furuki",
+  "abilities": [
+    "tensura:traveler",
+    "tensura:spatial_motion",
+    "tensura:magic_sense"
+  ],
+  "max_aura": 80000,
+  "max_magicule": 90000,
+  "min_aura": 70000,
+  "min_magicule": 80000,
+  "spiritualHealth": 1000
+}

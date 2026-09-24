@@ -1,0 +1,7 @@
+{
+  "type": "tensura:low_magisteel_helmet",
+  "epGain": 0.01,
+  "evolution": "tensura:high_magisteel_helmet",
+  "maxEP": 18000,
+  "minEP": 6000
+}

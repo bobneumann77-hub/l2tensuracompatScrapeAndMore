@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#tensura:dragon_peacock_spawn",
+  "spawners": {
+    "type": "tensura:dragon_peacock",
+    "maxCount": 3,
+    "minCount": 1,
+    "weight": 80
+  }
+}

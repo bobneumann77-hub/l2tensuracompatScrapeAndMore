@@ -1,0 +1,10 @@
+{
+  "type": "tensura:woodcutting",
+  "ingredient": {
+    "item": "tensura:palm_log"
+  },
+  "result": {
+    "count": 1,
+    "id": "tensura:stripped_palm_log"
+  }
+}

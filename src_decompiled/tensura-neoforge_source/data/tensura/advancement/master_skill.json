@@ -1,0 +1,35 @@
+{
+  "parent": "tensura:fast_learner",
+  "criteria": {
+    "battlewill": {
+      "trigger": "tensura:battlewill_mastered"
+    },
+    "magic": {
+      "trigger": "tensura:magic_mastered"
+    },
+    "skill": {
+      "trigger": "tensura:skill_mastered"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.master_skill.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "tensura:medium_quality_magic_crystal"
+    },
+    "title": {
+      "translate": "tensura.advancements.master_skill.title"
+    }
+  },
+  "requirements": [
+    [
+      "battlewill",
+      "magic",
+      "skill"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

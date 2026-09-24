@@ -1,0 +1,112 @@
+{
+  "parent": "tensura:name_a_mob",
+  "criteria": {
+    "direwolf": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "tensura:direwolf"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tame_animal"
+    },
+    "goblin": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "tensura:goblin"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tame_animal"
+    },
+    "lizardman": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "tensura:lizardman"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tame_animal"
+    },
+    "orc": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "tensura:orc"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tame_animal"
+    },
+    "slime": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "tensura:slime"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tame_animal"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.ruler_of_monster.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "tensura:dark_jacket"
+    },
+    "title": {
+      "translate": "tensura.advancements.ruler_of_monster.title"
+    }
+  },
+  "requirements": [
+    [
+      "direwolf"
+    ],
+    [
+      "goblin"
+    ],
+    [
+      "lizardman"
+    ],
+    [
+      "orc"
+    ],
+    [
+      "slime"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "tensura:advancement_reward/ruler_of_monster"
+    ]
+  },
+  "sends_telemetry_event": true
+}

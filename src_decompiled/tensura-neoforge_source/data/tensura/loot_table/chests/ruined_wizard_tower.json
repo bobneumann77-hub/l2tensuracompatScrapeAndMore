@@ -1,0 +1,181 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tensura:magic_stone",
+          "weight": 35
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 35
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 35
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:writable_book",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30.0,
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 30
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 8.0,
+        "min": 4.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "tensura:apply_skill_data",
+              "tag": "tensura:common_tome_ruined_wizard_tower"
+            }
+          ],
+          "name": "tensura:magic_tome",
+          "weight": 70
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "tensura:apply_skill_data",
+              "tag": "tensura:uncommon_tome_ruined_wizard_tower"
+            }
+          ],
+          "name": "tensura:magic_tome",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "tensura:apply_skill_data",
+              "tag": "tensura:rare_tome_ruined_wizard_tower"
+            }
+          ],
+          "name": "tensura:magic_tome",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "tensura:apply_skill_data",
+              "tag": "tensura:epic_tome_wizard_tower"
+            }
+          ],
+          "name": "tensura:magic_tome",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tensura:unbound_tome",
+          "weight": 5
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 3.0,
+        "min": 1.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tensura:unbound_tome",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tensura:grimoire_d",
+          "weight": 70
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tensura:grimoire_c",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tensura:grimoire_b",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tensura:grimoire_a"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 1.0,
+        "min": 0.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:amethyst_shard",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:green_candle",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:white_candle",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lapis_lazuli",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glowstone",
+          "weight": 50
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 7.0,
+        "min": 3.0
+      }
+    }
+  ],
+  "random_sequence": "tensura:chests/ruined_wizard_tower"
+}

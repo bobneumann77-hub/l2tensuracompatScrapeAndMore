@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:magma_cube",
+  "abilities": [
+    "tensura:heat_nullification"
+  ],
+  "max_magicule": 1000,
+  "min_magicule": 1000,
+  "spiritualHealth": 40
+}

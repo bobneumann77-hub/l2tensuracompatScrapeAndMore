@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_magic_bottle_of_water": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tensura:magic_bottle_of_water"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tensura:vacuumed_magic_bottle_of_water_from_campfire_cooking"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_magic_bottle_of_water"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tensura:vacuumed_magic_bottle_of_water_from_campfire_cooking"
+    ]
+  }
+}

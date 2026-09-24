@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "tensura:block/labyrinth_lit_lamp_bl",
+    "side": "tensura:block/labyrinth_lamp_br",
+    "top": "tensura:block/labyrinth_stone_bl"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:cave_spider",
+  "abilities": [
+    "tensura:poison"
+  ],
+  "max_aura": 800,
+  "max_magicule": 250,
+  "min_aura": 800,
+  "min_magicule": 250,
+  "spiritualHealth": 30
+}

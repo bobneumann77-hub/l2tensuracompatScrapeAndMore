@@ -1,0 +1,38 @@
+{
+  "parent": "tensura:real_adventure",
+  "criteria": {
+    "monster_leathers": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#tensura:monster_leathers"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.getcha_better_leathers.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "tensura:monster_leather_d"
+    },
+    "title": {
+      "translate": "tensura.advancements.getcha_better_leathers.title"
+    }
+  },
+  "requirements": [
+    [
+      "monster_leathers"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "tensura:advancement_reward/getcha_better_leathers"
+    ]
+  },
+  "sends_telemetry_event": true
+}

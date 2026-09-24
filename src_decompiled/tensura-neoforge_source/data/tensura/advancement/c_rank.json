@@ -1,0 +1,29 @@
+{
+  "parent": "tensura:d_rank",
+  "criteria": {
+    "ep": {
+      "conditions": {
+        "ep": 3000.0
+      },
+      "trigger": "tensura:existence_gain"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.c_rank.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "tensura:high_magisteel_nugget"
+    },
+    "title": {
+      "translate": "tensura.advancements.c_rank.title"
+    }
+  },
+  "requirements": [
+    [
+      "ep"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

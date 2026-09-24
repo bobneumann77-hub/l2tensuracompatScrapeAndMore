@@ -1,0 +1,16 @@
+{
+  "biome": "minecraft:basalt_deltas",
+  "modifiers": [
+    {
+      "mode": "ADD",
+      "value": 2500.0
+    }
+  ],
+  "priority": 1,
+  "regen_modifiers": [
+    {
+      "mode": "ADD",
+      "value": 30.0
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "variants": {
+    "facing=north,waterlogged=false": {
+      "model": "tensura:block/smithing_bench",
+      "y": 0
+    },
+    "facing=east,waterlogged=false": {
+      "model": "tensura:block/smithing_bench",
+      "y": 90
+    },
+    "facing=south,waterlogged=false": {
+      "model": "tensura:block/smithing_bench",
+      "y": 180
+    },
+    "facing=west,waterlogged=false": {
+      "model": "tensura:block/smithing_bench",
+      "y": 270
+    },
+    "facing=north,waterlogged=true": {
+      "model": "tensura:block/smithing_bench",
+      "y": 0
+    },
+    "facing=east,waterlogged=true": {
+      "model": "tensura:block/smithing_bench",
+      "y": 90
+    },
+    "facing=south,waterlogged=true": {
+      "model": "tensura:block/smithing_bench",
+      "y": 180
+    },
+    "facing=west,waterlogged=true": {
+      "model": "tensura:block/smithing_bench",
+      "y": 270
+    }
+  }
+}
+

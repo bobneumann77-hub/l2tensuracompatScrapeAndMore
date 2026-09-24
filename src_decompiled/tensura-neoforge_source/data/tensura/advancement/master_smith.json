@@ -1,0 +1,31 @@
+{
+  "parent": "tensura:a_bit_cold",
+  "criteria": {
+    "schematics": {
+      "trigger": "tensura:all_schematics"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.master_smith.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "tensura:dark_set_schematic"
+    },
+    "title": {
+      "translate": "tensura.advancements.master_smith.title"
+    }
+  },
+  "requirements": [
+    [
+      "schematics"
+    ]
+  ],
+  "rewards": {
+    "experience": 20
+  },
+  "sends_telemetry_event": true
+}

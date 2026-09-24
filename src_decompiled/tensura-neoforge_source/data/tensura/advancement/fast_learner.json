@@ -1,0 +1,34 @@
+{
+  "parent": "tensura:real_adventure",
+  "criteria": {
+    "battlewill": {
+      "trigger": "tensura:battlewill_learnt"
+    },
+    "magic": {
+      "trigger": "tensura:magic_learnt"
+    },
+    "skill": {
+      "trigger": "tensura:skill_learnt"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.fast_learner.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "tensura:low_quality_magic_crystal"
+    },
+    "title": {
+      "translate": "tensura.advancements.fast_learner.title"
+    }
+  },
+  "requirements": [
+    [
+      "battlewill",
+      "magic",
+      "skill"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

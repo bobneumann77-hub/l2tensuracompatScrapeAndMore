@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_spawn_costs",
+  "biomes": "#tensura:leech_lizard_spawn",
+  "entity_types": "tensura:leech_lizard",
+  "spawn_cost": {
+    "charge": 0.8,
+    "energy_budget": 4.0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "tensura:woodcutting",
+  "ingredient": {
+    "item": "minecraft:stripped_acacia_wood"
+  },
+  "result": {
+    "count": 16,
+    "id": "minecraft:acacia_button"
+  }
+}

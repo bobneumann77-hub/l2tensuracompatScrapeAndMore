@@ -1,0 +1,34 @@
+{
+  "parent": "tensura:getcha_better_leathers",
+  "criteria": {
+    "shoes": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tensura:winged_shoes"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.believe_to_fly.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "tensura:dragon_peacock_feather"
+    },
+    "title": {
+      "translate": "tensura.advancements.believe_to_fly.title"
+    }
+  },
+  "requirements": [
+    [
+      "shoes"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_spawn_costs",
+  "biomes": "#tensura:hover_lizard_spawn",
+  "entity_types": "tensura:hover_lizard",
+  "spawn_cost": {
+    "charge": 1.75,
+    "energy_budget": 4.0
+  }
+}

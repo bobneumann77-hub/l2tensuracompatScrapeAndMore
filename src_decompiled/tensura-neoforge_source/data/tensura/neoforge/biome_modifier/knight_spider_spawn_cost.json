@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_spawn_costs",
+  "biomes": "#tensura:knight_spider_spawn",
+  "entity_types": "tensura:knight_spider",
+  "spawn_cost": {
+    "charge": 1.0,
+    "energy_budget": 4.0
+  }
+}

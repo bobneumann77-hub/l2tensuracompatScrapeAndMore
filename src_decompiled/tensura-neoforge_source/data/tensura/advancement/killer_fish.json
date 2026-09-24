@@ -1,0 +1,41 @@
+{
+  "parent": "tensura:monster_rider",
+  "criteria": {
+    "sissie": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "tensura:sissie"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:started_riding"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.killer_fish.description"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "tensura:sissie_tooth"
+    },
+    "title": {
+      "translate": "tensura.advancements.killer_fish.title"
+    }
+  },
+  "requirements": [
+    [
+      "sissie"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

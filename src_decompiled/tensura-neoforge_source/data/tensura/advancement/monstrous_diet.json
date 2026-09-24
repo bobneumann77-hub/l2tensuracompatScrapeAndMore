@@ -1,0 +1,421 @@
+{
+  "parent": "minecraft:husbandry/balanced_diet",
+  "criteria": {
+    "blade_tiger_steak": {
+      "conditions": {
+        "item": {
+          "items": "tensura:blade_tiger_steak"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "bucket_of_cattledeer_milk": {
+      "conditions": {
+        "item": {
+          "items": "tensura:bucket_of_cattledeer_milk"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "cattledeer_beef": {
+      "conditions": {
+        "item": {
+          "items": "tensura:cattledeer_beef"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "cattledeer_steak": {
+      "conditions": {
+        "item": {
+          "items": "tensura:cattledeer_steak"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "chilled_slime": {
+      "conditions": {
+        "item": {
+          "items": "tensura:chilled_slime"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "cooked_armorsaurus_meat": {
+      "conditions": {
+        "item": {
+          "items": "tensura:cooked_armorsaurus_meat"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "cooked_charybdis_meat": {
+      "conditions": {
+        "item": {
+          "items": "tensura:cooked_charybdis_meat"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "cooked_giant_ant_leg": {
+      "conditions": {
+        "item": {
+          "items": "tensura:cooked_giant_ant_leg"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "cooked_giant_bat_meat": {
+      "conditions": {
+        "item": {
+          "items": "tensura:cooked_giant_bat_meat"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "cooked_knight_spider_leg": {
+      "conditions": {
+        "item": {
+          "items": "tensura:cooked_knight_spider_leg"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "cooked_megalodon_meat": {
+      "conditions": {
+        "item": {
+          "items": "tensura:cooked_megalodon_meat"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "cooked_serpent_meat": {
+      "conditions": {
+        "item": {
+          "items": "tensura:cooked_serpent_meat"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "cooked_sissie_fin": {
+      "conditions": {
+        "item": {
+          "items": "tensura:cooked_sissie_fin"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "cooked_sissie_meat": {
+      "conditions": {
+        "item": {
+          "items": "tensura:cooked_sissie_meat"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "cooked_spear_toro_fin": {
+      "conditions": {
+        "item": {
+          "items": "tensura:cooked_spear_toro_fin"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "cooked_spear_toro_meat": {
+      "conditions": {
+        "item": {
+          "items": "tensura:cooked_spear_toro_meat"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "daemon_essence": {
+      "conditions": {
+        "item": {
+          "items": "tensura:daemon_essence"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "dragon_essence": {
+      "conditions": {
+        "item": {
+          "items": "tensura:dragon_essence"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "dubious_food": {
+      "conditions": {
+        "item": {
+          "items": "tensura:dubious_food"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "elemental_essence": {
+      "conditions": {
+        "item": {
+          "items": "tensura:elemental_essence"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "enchanted_silver_apple": {
+      "conditions": {
+        "item": {
+          "items": "tensura:enchanted_silver_apple"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "giant_ant_leg": {
+      "conditions": {
+        "item": {
+          "items": "tensura:giant_ant_leg"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "knight_spider_leg": {
+      "conditions": {
+        "item": {
+          "items": "tensura:knight_spider_leg"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "raw_armorsaurus_meat": {
+      "conditions": {
+        "item": {
+          "items": "tensura:raw_armorsaurus_meat"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "raw_blade_tiger_meat": {
+      "conditions": {
+        "item": {
+          "items": "tensura:raw_blade_tiger_meat"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "raw_charybdis_meat": {
+      "conditions": {
+        "item": {
+          "items": "tensura:raw_charybdis_meat"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "raw_giant_bat_meat": {
+      "conditions": {
+        "item": {
+          "items": "tensura:raw_giant_bat_meat"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "raw_megalodon_meat": {
+      "conditions": {
+        "item": {
+          "items": "tensura:raw_megalodon_meat"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "raw_serpent_meat": {
+      "conditions": {
+        "item": {
+          "items": "tensura:raw_serpent_meat"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "raw_sissie_meat": {
+      "conditions": {
+        "item": {
+          "items": "tensura:raw_sissie_meat"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "raw_spear_toro_meat": {
+      "conditions": {
+        "item": {
+          "items": "tensura:raw_spear_toro_meat"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "royal_blood": {
+      "conditions": {
+        "item": {
+          "items": "tensura:royal_blood"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "silver_apple": {
+      "conditions": {
+        "item": {
+          "items": "tensura:silver_apple"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "sissie_fin": {
+      "conditions": {
+        "item": {
+          "items": "tensura:sissie_fin"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "spear_toro_fin": {
+      "conditions": {
+        "item": {
+          "items": "tensura:spear_toro_fin"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "zane_blood": {
+      "conditions": {
+        "item": {
+          "items": "tensura:zane_blood"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.monstrous_diet.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "tensura:dubious_food"
+    },
+    "title": {
+      "translate": "tensura.advancements.monstrous_diet.title"
+    }
+  },
+  "requirements": [
+    [
+      "dubious_food"
+    ],
+    [
+      "raw_blade_tiger_meat"
+    ],
+    [
+      "blade_tiger_steak"
+    ],
+    [
+      "raw_armorsaurus_meat"
+    ],
+    [
+      "cooked_armorsaurus_meat"
+    ],
+    [
+      "chilled_slime"
+    ],
+    [
+      "bucket_of_cattledeer_milk"
+    ],
+    [
+      "cattledeer_beef"
+    ],
+    [
+      "cattledeer_steak"
+    ],
+    [
+      "raw_charybdis_meat"
+    ],
+    [
+      "cooked_charybdis_meat"
+    ],
+    [
+      "giant_ant_leg"
+    ],
+    [
+      "cooked_giant_ant_leg"
+    ],
+    [
+      "raw_giant_bat_meat"
+    ],
+    [
+      "cooked_giant_bat_meat"
+    ],
+    [
+      "knight_spider_leg"
+    ],
+    [
+      "cooked_knight_spider_leg"
+    ],
+    [
+      "raw_megalodon_meat"
+    ],
+    [
+      "cooked_megalodon_meat"
+    ],
+    [
+      "raw_serpent_meat"
+    ],
+    [
+      "cooked_serpent_meat"
+    ],
+    [
+      "raw_spear_toro_meat"
+    ],
+    [
+      "cooked_spear_toro_meat"
+    ],
+    [
+      "spear_toro_fin"
+    ],
+    [
+      "cooked_spear_toro_fin"
+    ],
+    [
+      "raw_sissie_meat"
+    ],
+    [
+      "cooked_sissie_meat"
+    ],
+    [
+      "sissie_fin"
+    ],
+    [
+      "cooked_sissie_fin"
+    ],
+    [
+      "silver_apple"
+    ],
+    [
+      "enchanted_silver_apple"
+    ],
+    [
+      "daemon_essence"
+    ],
+    [
+      "dragon_essence"
+    ],
+    [
+      "elemental_essence"
+    ],
+    [
+      "royal_blood"
+    ],
+    [
+      "zane_blood"
+    ]
+  ],
+  "rewards": {
+    "experience": 200
+  },
+  "sends_telemetry_event": true
+}

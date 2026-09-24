@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dubious_ingredient": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#tensura:dubious/ingredient_effect"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tensura:dubious_food"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_dubious_ingredient"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tensura:dubious_food"
+    ]
+  }
+}

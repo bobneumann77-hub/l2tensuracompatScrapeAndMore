@@ -1,0 +1,10 @@
+{
+  "combinationID": 3,
+  "slottingProjectile": {
+    "damage": 1.0,
+    "entity": "tensura:space_cut_projectile",
+    "speed": 1.75
+  },
+  "spaceCores": 1,
+  "spaceMultiplier": 1.0
+}

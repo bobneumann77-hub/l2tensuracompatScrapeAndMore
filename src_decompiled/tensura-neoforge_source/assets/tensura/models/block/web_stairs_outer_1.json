@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "top": "tensura:block/web_block_1",
+    "side": "tensura:block/web_block_1",
+    "bottom": "tensura:block/web_block_1"
+  }
+}

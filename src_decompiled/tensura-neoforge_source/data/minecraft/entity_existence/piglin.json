@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:piglin",
+  "max_aura": 1500,
+  "max_magicule": 500,
+  "min_aura": 1500,
+  "min_magicule": 500,
+  "spiritualHealth": 40
+}

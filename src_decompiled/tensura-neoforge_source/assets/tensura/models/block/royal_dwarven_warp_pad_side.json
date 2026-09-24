@@ -1,0 +1,7 @@
+{
+  "parent": "tensura:block/warp_pad_side",
+  "textures": {
+    "1": "tensura:block/royal_dwarven_warp_pad",
+    "particle": "tensura:block/royal_dwarven_warp_pad"
+  }
+}

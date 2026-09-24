@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#tensura:has_palm",
+  "features": "tensura:palm_tree",
+  "step": "vegetal_decoration"
+}

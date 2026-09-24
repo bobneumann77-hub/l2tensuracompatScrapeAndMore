@@ -1,0 +1,32 @@
+{
+  "parent": "tensura:fast_learner",
+  "criteria": {
+    "manual": {
+      "conditions": {
+        "item": {
+          "items": "tensura:battlewill_manual"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.forbidden_manual.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "tensura:battlewill_manual"
+    },
+    "title": {
+      "translate": "tensura.advancements.forbidden_manual.title"
+    }
+  },
+  "requirements": [
+    [
+      "manual"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

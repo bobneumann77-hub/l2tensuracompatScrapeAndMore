@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:creeper",
+  "max_magicule": 2200,
+  "min_magicule": 2200,
+  "spiritualHealth": 40
+}

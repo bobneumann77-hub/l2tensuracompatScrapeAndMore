@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cut_sarasa_sandstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tensura:cut_sarasa_sandstone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tensura:sarasa_sandstone"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cut_sarasa_sandstone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tensura:sarasa_sandstone"
+    ]
+  }
+}

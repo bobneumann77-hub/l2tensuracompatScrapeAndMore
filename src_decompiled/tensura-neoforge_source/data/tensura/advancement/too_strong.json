@@ -1,0 +1,35 @@
+{
+  "parent": "tensura:pierrot_mask",
+  "criteria": {
+    "knuckle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tensura:dragon_knuckle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.too_strong.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "tensura:dragon_knuckle"
+    },
+    "title": {
+      "translate": "tensura.advancements.too_strong.title"
+    }
+  },
+  "requirements": [
+    [
+      "knuckle"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

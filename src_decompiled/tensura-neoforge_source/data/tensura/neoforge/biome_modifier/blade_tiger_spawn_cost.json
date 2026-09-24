@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_spawn_costs",
+  "biomes": "#tensura:blade_tiger_spawn",
+  "entity_types": "tensura:blade_tiger",
+  "spawn_cost": {
+    "charge": 1.5,
+    "energy_budget": 4.0
+  }
+}

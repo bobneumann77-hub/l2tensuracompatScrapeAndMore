@@ -1,0 +1,7 @@
+{
+  "type": "tensura:monster_leather_helmet_b",
+  "epGain": 0.01,
+  "evolution": "tensura:monster_leather_helmet_a",
+  "maxEP": 8000,
+  "minEP": 5000
+}

@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#tensura:salamander_spawn",
+  "spawners": {
+    "type": "tensura:salamander",
+    "maxCount": 1,
+    "minCount": 1,
+    "weight": 5
+  }
+}

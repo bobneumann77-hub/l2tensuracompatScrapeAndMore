@@ -1,0 +1,10 @@
+{
+  "type": "tensura:direwolf",
+  "abilities": [
+    "tensura:coercion",
+    "tensura:thought_communication"
+  ],
+  "max_magicule": 4300,
+  "min_magicule": 3600,
+  "spiritualHealth": 100
+}

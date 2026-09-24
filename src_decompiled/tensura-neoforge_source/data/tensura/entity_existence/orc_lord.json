@@ -1,0 +1,13 @@
+{
+  "type": "tensura:orc_lord",
+  "abilities": [
+    "tensura:starved",
+    "tensura:corrosion",
+    "tensura:self_regeneration",
+    "tensura:strength",
+    "tensura:scale_armor"
+  ],
+  "max_magicule": 90000,
+  "min_magicule": 80000,
+  "spiritualHealth": 1000
+}

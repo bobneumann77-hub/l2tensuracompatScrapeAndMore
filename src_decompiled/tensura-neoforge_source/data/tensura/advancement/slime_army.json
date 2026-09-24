@@ -1,0 +1,42 @@
+{
+  "parent": "tensura:grow_a_slime",
+  "criteria": {
+    "staff": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {}
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "tensura:slime_staff"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.slime_army.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "tensura:slime_staff"
+    },
+    "title": {
+      "translate": "tensura.advancements.slime_army.title"
+    }
+  },
+  "requirements": [
+    [
+      "staff"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

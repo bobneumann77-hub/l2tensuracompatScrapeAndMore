@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_spawn_costs",
+  "biomes": "#tensura:sissie_spawn",
+  "entity_types": "tensura:sissie",
+  "spawn_cost": {
+    "charge": 4.0,
+    "energy_budget": 4.0
+  }
+}

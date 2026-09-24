@@ -1,0 +1,21 @@
+{
+  "combinationID": 53,
+  "durability": 3,
+  "projectileCost": 7,
+  "slottingProjectile": {
+    "burnTicks": -1,
+    "damage": 2.5,
+    "effect": {
+      "effectID": "tensura:fatal_poison",
+      "range": 1.0,
+      "ticks": 200
+    },
+    "entity": "tensura:poison_cutter",
+    "knockbackForce": 1.0,
+    "speed": 1.5
+  },
+  "waterCores": 2,
+  "waterMultiplier": 2.0,
+  "windCores": 1,
+  "windMultiplier": 1.0
+}

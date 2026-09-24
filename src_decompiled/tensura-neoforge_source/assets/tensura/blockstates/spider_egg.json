@@ -1,0 +1,82 @@
+{
+  "variants": {
+    "facing=down,hatch=0": {
+      "model": "tensura:block/spider_egg",
+      "x": 180
+    },
+    "facing=east,hatch=0": {
+      "model": "tensura:block/spider_egg",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north,hatch=0": {
+      "model": "tensura:block/spider_egg",
+      "x": 90
+    },
+    "facing=south,hatch=0": {
+      "model": "tensura:block/spider_egg",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up,hatch=0": {
+      "model": "tensura:block/spider_egg"
+    },
+    "facing=west,hatch=0": {
+      "model": "tensura:block/spider_egg",
+      "x": 90,
+      "y": 270
+    },
+    "facing=down,hatch=1": {
+      "model": "tensura:block/spider_egg_slightly_cracked",
+      "x": 180
+    },
+    "facing=east,hatch=1": {
+      "model": "tensura:block/spider_egg_slightly_cracked",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north,hatch=1": {
+      "model": "tensura:block/spider_egg_slightly_cracked",
+      "x": 90
+    },
+    "facing=south,hatch=1": {
+      "model": "tensura:block/spider_egg_slightly_cracked",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up,hatch=1": {
+      "model": "tensura:block/spider_egg_slightly_cracked"
+    },
+    "facing=west,hatch=1": {
+      "model": "tensura:block/spider_egg_slightly_cracked",
+      "x": 90,
+      "y": 270
+    },
+    "facing=down,hatch=2": {
+      "model": "tensura:block/spider_egg_very_cracked",
+      "x": 180
+    },
+    "facing=east,hatch=2": {
+      "model": "tensura:block/spider_egg_very_cracked",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north,hatch=2": {
+      "model": "tensura:block/spider_egg_very_cracked",
+      "x": 90
+    },
+    "facing=south,hatch=2": {
+      "model": "tensura:block/spider_egg_very_cracked",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up,hatch=2": {
+      "model": "tensura:block/spider_egg_very_cracked"
+    },
+    "facing=west,hatch=2": {
+      "model": "tensura:block/spider_egg_very_cracked",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

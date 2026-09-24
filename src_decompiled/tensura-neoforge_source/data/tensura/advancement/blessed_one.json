@@ -1,0 +1,31 @@
+{
+  "parent": "tensura:elementalist",
+  "criteria": {
+    "bless": {
+      "trigger": "tensura:spirit_blessed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.blessed_one.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "tensura:elemental_essence"
+    },
+    "title": {
+      "translate": "tensura.advancements.blessed_one.title"
+    }
+  },
+  "requirements": [
+    [
+      "bless"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": true
+}

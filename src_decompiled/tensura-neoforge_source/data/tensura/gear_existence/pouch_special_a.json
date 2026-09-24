@@ -1,0 +1,5 @@
+{
+  "type": "tensura:pouch_special_a",
+  "epGain": 0.01,
+  "minEP": 80000
+}

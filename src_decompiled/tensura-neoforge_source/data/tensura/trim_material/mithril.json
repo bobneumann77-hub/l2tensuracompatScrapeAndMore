@@ -1,0 +1,9 @@
+{
+  "asset_name": "mithril",
+  "description": {
+    "color": "#FF55FF",
+    "translate": "trim_material.tensura.mithril"
+  },
+  "ingredient": "tensura:mithril_ingot",
+  "item_model_index": 1.0
+}

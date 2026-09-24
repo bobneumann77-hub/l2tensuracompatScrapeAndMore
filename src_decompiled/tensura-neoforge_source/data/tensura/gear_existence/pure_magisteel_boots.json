@@ -1,0 +1,7 @@
+{
+  "type": "tensura:pure_magisteel_boots",
+  "epGain": 0.025,
+  "evolution": "tensura:adamantite_boots",
+  "maxEP": 225000,
+  "minEP": 52000
+}

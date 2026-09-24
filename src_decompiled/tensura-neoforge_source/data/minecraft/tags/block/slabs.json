@@ -1,0 +1,15 @@
+{
+  "values": [
+    "tensura:webbed_cobblestone_slab",
+    "tensura:webbed_stone_brick_slab",
+    "tensura:low_quality_magic_crystal_slab",
+    "tensura:meidum_quality_magic_crystal_slab",
+    "tensura:high_quality_magic_crystal_slab",
+    "tensura:low_quality_magic_crystal_brick_slab",
+    "tensura:medium_quality_magic_crystal_brick_slab",
+    "tensura:high_quality_magic_crystal_brick_slab",
+    "tensura:sarasa_sandstone_slab",
+    "tensura:cut_sarasa_sandstone_slab",
+    "tensura:smooth_sarasa_sandstone_slab"
+  ]
+}

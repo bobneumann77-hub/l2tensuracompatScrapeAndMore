@@ -1,0 +1,38 @@
+{
+  "parent": "tensura:monster_tamer",
+  "criteria": {
+    "direwolf": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "tensura:direwolf"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tame_animal"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.hear_me_direwolves.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "tensura:monster_leather_a"
+    },
+    "title": {
+      "translate": "tensura.advancements.hear_me_direwolves.title"
+    }
+  },
+  "requirements": [
+    [
+      "direwolf"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

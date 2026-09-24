@@ -1,0 +1,16 @@
+{
+  "type": "tensura:ifrit",
+  "abilities": [
+    "tensura:flame_transform",
+    "tensura:flame_manipulation",
+    "tensura:body_double",
+    "tensura:ranged_barrier",
+    "tensura:fire_bolt",
+    "tensura:flare_circle",
+    "tensura:hellfire",
+    "tensura:flame_attack_nullification"
+  ],
+  "max_magicule": 150000,
+  "min_magicule": 120000,
+  "spiritualHealth": 2000
+}

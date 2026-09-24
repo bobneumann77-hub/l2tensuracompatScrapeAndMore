@@ -1,0 +1,31 @@
+{
+  "parent": "tensura:real_adventure",
+  "criteria": {
+    "schematic": {
+      "conditions": {
+        "item": {
+          "items": "#tensura:schematics"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.start_smithing.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "tensura:spider_bows_schematic"
+    },
+    "title": {
+      "translate": "tensura.advancements.start_smithing.title"
+    }
+  },
+  "requirements": [
+    [
+      "schematic"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

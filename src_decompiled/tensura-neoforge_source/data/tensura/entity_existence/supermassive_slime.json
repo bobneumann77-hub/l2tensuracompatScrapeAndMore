@@ -1,0 +1,12 @@
+{
+  "type": "tensura:supermassive_slime",
+  "abilities": [
+    "tensura:ultraspeed_regeneration",
+    "tensura:absorb_and_dissolve"
+  ],
+  "max_aura": 10,
+  "max_magicule": 100000,
+  "min_aura": 10,
+  "min_magicule": 50000,
+  "spiritualHealth": 1000
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "tensura:s_rank",
+  "criteria": {
+    "awaken": {
+      "trigger": "tensura:awaken_race"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.higher_form.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "tensura:dragon_essence"
+    },
+    "title": {
+      "translate": "tensura.advancements.higher_form.title"
+    }
+  },
+  "requirements": [
+    [
+      "awaken"
+    ]
+  ],
+  "rewards": {
+    "experience": 30
+  },
+  "sends_telemetry_event": true
+}

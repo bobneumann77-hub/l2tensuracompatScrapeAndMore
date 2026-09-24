@@ -1,0 +1,27 @@
+{
+  "parent": "tensura:just_a_test",
+  "criteria": {
+    "spirit": {
+      "trigger": "tensura:spirit_contracted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "tensura.advancements.elementalist.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "tensura:labyrinth_praying_path"
+    },
+    "title": {
+      "translate": "tensura.advancements.elementalist.title"
+    }
+  },
+  "requirements": [
+    [
+      "spirit"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

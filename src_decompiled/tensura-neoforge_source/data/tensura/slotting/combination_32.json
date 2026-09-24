@@ -1,0 +1,18 @@
+{
+  "combinationID": 32,
+  "durability": 4,
+  "earthCores": 1,
+  "earthMultiplier": 0.5,
+  "projectileCost": 8,
+  "slottingProjectile": {
+    "damage": 2.0,
+    "entity": "tensura:space_cut_projectile",
+    "knockbackForce": 3.0,
+    "noGravity": true,
+    "speed": 1.75
+  },
+  "spaceCores": 1,
+  "spaceMultiplier": 0.5,
+  "windCores": 1,
+  "windMultiplier": 1.0
+}
